@@ -1,0 +1,22 @@
+Data license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 era labs (ora.ai)
+
+The dataset in this repository (the files under data/, including data/training-knowledge-probe/,
+and experiment/) is licensed under the Creative Commons Attribution 4.0 International License.
+You are free to share and adapt the material for any purpose, including commercially, provided
+you give appropriate credit, link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+  era labs (ora.ai). (2026). AX Beats AEO dataset: a reproduction sample of agent-journey
+  traces, judged accuracy, endorsement, and hedge annotations from the ax-beats-aeo research
+  program. era labs. Data released under CC BY 4.0.
+
+The dataset contains machine-recorded observations from agent runs against public product
+websites (grounding, cost, and outcome metrics; LLM-judged fact verdicts and recommendation
+grades), per-domain accessibility scores and taxonomy labels, and aggregated per-model-generation
+results from a separate training-knowledge probe. Raw page content, raw agent traces, and
+per-question judge output are not redistributed. Domains are public identifiers.

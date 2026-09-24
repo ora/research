@@ -1,0 +1,116 @@
+[
+  {
+    "id": "intent-order-01",
+    "surfaces": [
+      "pages",
+      "tools"
+    ],
+    "app": "warehouse",
+    "intent": "Place a new order for customer Vidorfal Industrial (C-108) for 40 units of the Marmar Marka kit (SKU ADH-1038).",
+    "oracle": "state",
+    "summary": "C-108 ends up with one more open order than the seed already gave it, and that order's line items actually contain 40 units of ADH-1038 (checked by customer, not a predicted order number, then verified on the fetched detail row)."
+  },
+  {
+    "id": "intent-transfer-01",
+    "surfaces": [
+      "pages",
+      "tools"
+    ],
+    "app": "warehouse",
+    "intent": "Transfer 12 units of the Kalo Quendor kit (SKU FAS-1096) from depot VLM to depot OST, and complete the transfer.",
+    "oracle": "state",
+    "summary": "A completed transfer of 12 units of FAS-1096 from VLM to OST."
+  },
+  {
+    "id": "intent-stock-01",
+    "surfaces": [
+      "pages",
+      "tools"
+    ],
+    "app": "warehouse",
+    "intent": "How many units of the Quentho Dordor pack (SKU ENC-1027) are currently in stock across all depots? Answer as JSON: {\"qty\": <number>}.",
+    "oracle": "json",
+    "summary": "Total stock of ENC-1027 across every depot, derived by stockOf()."
+  },
+  {
+    "id": "intent-lowstock-01",
+    "surfaces": [
+      "tools"
+    ],
+    "app": "warehouse",
+    "intent": "Which SKUs currently have fewer than 10 total units in stock across all depots? Answer as JSON: {\"skus\": \"<comma-separated SKUs, ascending>\"}.",
+    "oracle": "json",
+    "summary": "The low-stock SKU set at threshold 10, derived by lowStock()."
+  },
+  {
+    "id": "intent-ticket-01",
+    "surfaces": [
+      "pages",
+      "tools"
+    ],
+    "app": "helpdesk",
+    "intent": "Assign helpdesk ticket HD-5001 to agent Teodor Voss (AG-13) and mark it resolved.",
+    "oracle": "state",
+    "summary": "Ticket HD-5001 assigned to AG-13 with status resolved."
+  },
+  {
+    "id": "intent-doc-01",
+    "surfaces": [
+      "pages",
+      "tools",
+      "nlweb"
+    ],
+    "app": "vaultdocs",
+    "intent": "Search the document vault for the document about returns and warranty policy and report its document id as JSON: {\"documentId\": \"<id>\"}.",
+    "oracle": "json",
+    "summary": "The id of the single vault document matching \"returns and warranty policy\", derived by documentsMatching()."
+  },
+  {
+    "id": "intent-price-01",
+    "surfaces": [
+      "pages",
+      "tools",
+      "nlweb"
+    ],
+    "app": "warehouse",
+    "intent": "What is the unit price of the Quenquen Renmar kit? Answer as JSON: {\"price\": <number, USD>}.",
+    "oracle": "json",
+    "summary": "The unit price of ENC-1035 (the only product named \"Quenquen Renmar kit\")."
+  },
+  {
+    "id": "intent-customer-01",
+    "surfaces": [
+      "pages",
+      "tools",
+      "nlweb"
+    ],
+    "app": "warehouse",
+    "intent": "Which of our gold-tier customers is based in Quillhaven? Answer as JSON: {\"customerCode\": \"<code>\"}.",
+    "oracle": "json",
+    "summary": "C-114, the only gold-tier customer in Quillhaven."
+  },
+  {
+    "id": "intent-reporter-01",
+    "surfaces": [
+      "pages",
+      "tools",
+      "nlweb"
+    ],
+    "app": "helpdesk",
+    "intent": "Which customer reported helpdesk ticket HD-5090? Answer as JSON: {\"requester\": \"<customer code>\"}.",
+    "oracle": "json",
+    "summary": "The requester of HD-5090."
+  },
+  {
+    "id": "intent-doc-02",
+    "surfaces": [
+      "pages",
+      "tools",
+      "nlweb"
+    ],
+    "app": "vaultdocs",
+    "intent": "Find the vault document about helpdesk faq and report its document id as JSON: {\"documentId\": \"<id>\"}.",
+    "oracle": "json",
+    "summary": "The id of the single vault document matching \"helpdesk faq\", derived by documentsMatching()."
+  }
+]
