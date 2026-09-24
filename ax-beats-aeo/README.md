@@ -1,6 +1,6 @@
-# AX beats AEO — dataset
+# AX beats AEO: dataset
 
-This repo is a data release, not the paper. It publishes a reproduction sample of the data
+This directory is a data release, not the paper. It publishes a reproduction sample of the data
 behind the "AX beats AEO" study (whether AI agents ground their answers on a business's own
 site vs. third-party sources, and whether that's driven by agent accessibility rather than
 answer-engine optimization) plus the scripts to recompute the study's aggregate numbers from it.
@@ -10,16 +10,16 @@ will be updated with a link on publication; until then, `data/aggregates.json` a
 `scripts/build_aggregates.py --check` are the closest thing to the published numbers available
 here (see [Reproducing the numbers](#reproducing-the-numbers)).
 
-This repo also includes a second, separate experiment in
+This directory also includes a second, separate experiment in
 [`data/training-knowledge-probe/`](data/training-knowledge-probe/): the data behind a related but
 distinct figure ("how much of the answer comes from the model's training knowledge"), published
 as final aggregated verdicts only. See its own README.
 
-## What's in this repo, and what isn't
+## What's in this directory, and what isn't
 
 The full study ran **37,927 agent journeys against 1,056 domains** (4 harnesses x 3 intents x
 repeats), producing about 3.25 GB of raw per-run traces. Neither the raw corpus nor the paper
-itself is in this repo.
+itself is in this directory.
 
 What is published in [`data/`](data/) is a **stratified ~10% domain sample** (106 domains,
 3,816 journeys) of the normalized, per-journey data, consolidated into 4 flat CSVs, plus the
