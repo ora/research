@@ -1,0 +1,560 @@
+{
+ "total_journeys": 3816,
+ "total_journeys_round": 4000,
+ "n_domains": 106,
+ "n_arms": 4,
+ "comp_pages_hi": 85,
+ "comp_external_hi": 0,
+ "comp_search_hi": 8,
+ "comp_memory_hi": 7,
+ "comp_pages_lo": 46,
+ "comp_external_lo": 12,
+ "comp_search_lo": 34,
+ "comp_memory_lo": 8,
+ "turns_hi": 5.9,
+ "turns_lo": 6.8,
+ "turns_lift_pct": 16,
+ "dur_hi": 57,
+ "dur_lo": 61,
+ "dur_lift_pct": 7,
+ "block_ratio": 2.3,
+ "grounded_hi_pct": 78,
+ "grounded_lo_pct": 51,
+ "cost_grounded_hi_vanilla-claude-agent": 0.128,
+ "cost_grounded_lo_vanilla-claude-agent": 0.222,
+ "cost_premium_pct_vanilla-claude-agent": 73,
+ "cost_grounded_hi_vanilla-claude-code": 0.023,
+ "cost_grounded_lo_vanilla-claude-code": 0.039,
+ "cost_premium_pct_vanilla-claude-code": 75,
+ "cost_grounded_hi_vanilla-openclaw": 0.119,
+ "cost_grounded_lo_vanilla-openclaw": 0.231,
+ "cost_premium_pct_vanilla-openclaw": 95,
+ "cost_grounded_hi_deep-eve-gpt5.4": 0.101,
+ "cost_grounded_lo_deep-eve-gpt5.4": 0.105,
+ "cost_premium_pct_deep-eve-gpt5.4": 4,
+ "cost_mean_premium_pct": 62,
+ "searches_hi_vanilla-claude-agent": 0.4,
+ "searches_lo_vanilla-claude-agent": 0.8,
+ "searches_ratio_vanilla-claude-agent": 2.3,
+ "searches_hi_vanilla-claude-code": 0.1,
+ "searches_lo_vanilla-claude-code": 0.4,
+ "searches_ratio_vanilla-claude-code": 2.9,
+ "searches_hi_vanilla-openclaw": 7.0,
+ "searches_lo_vanilla-openclaw": 11.4,
+ "searches_ratio_vanilla-openclaw": 1.6,
+ "searches_hi_deep-eve-gpt5.4": 1.5,
+ "searches_lo_deep-eve-gpt5.4": 1.9,
+ "searches_ratio_deep-eve-gpt5.4": 1.3,
+ "searches_by_industry": [
+  {
+   "industry": "Analytics",
+   "n_domains": 8,
+   "searches_hi": 2.2,
+   "searches_lo": 3.0,
+   "ratio": 1.35
+  },
+  {
+   "industry": "Artificial Intelligence",
+   "n_domains": 12,
+   "searches_hi": 1.6,
+   "searches_lo": 3.8,
+   "ratio": 2.37
+  },
+  {
+   "industry": "Collaboration & Productivity",
+   "n_domains": 14,
+   "searches_hi": 2.7,
+   "searches_lo": 2.8,
+   "ratio": 1.07
+  },
+  {
+   "industry": "Consumer",
+   "n_domains": 7,
+   "searches_hi": 2.1,
+   "searches_lo": 3.5,
+   "ratio": 1.64
+  },
+  {
+   "industry": "Customer Service",
+   "n_domains": 8,
+   "searches_hi": 2.3,
+   "searches_lo": 2.3,
+   "ratio": 1.01
+  },
+  {
+   "industry": "Development",
+   "n_domains": 8,
+   "searches_hi": 1.3,
+   "searches_lo": 4.3,
+   "ratio": 3.43
+  },
+  {
+   "industry": "Fintech & Payments",
+   "n_domains": 17,
+   "searches_hi": 2.5,
+   "searches_lo": 4.4,
+   "ratio": 1.75
+  },
+  {
+   "industry": "HR & Legal",
+   "n_domains": 3,
+   "searches_hi": 2.6,
+   "searches_lo": 3.0,
+   "ratio": 1.17
+  },
+  {
+   "industry": "IT Infrastructure",
+   "n_domains": 10,
+   "searches_hi": 1.8,
+   "searches_lo": 3.4,
+   "ratio": 1.96
+  },
+  {
+   "industry": "Sales & Marketing",
+   "n_domains": 13,
+   "searches_hi": 2.5,
+   "searches_lo": 4.3,
+   "ratio": 1.74
+  },
+  {
+   "industry": "Security",
+   "n_domains": 6,
+   "searches_hi": 2.7,
+   "searches_lo": 4.7,
+   "ratio": 1.71
+  }
+ ],
+ "grounding_bins": [
+  {
+   "lo": 0.0,
+   "hi": 0.15,
+   "n_domains": 8,
+   "n_runs": 288,
+   "mean_searches": 5.7
+  },
+  {
+   "lo": 0.15,
+   "hi": 0.28,
+   "n_domains": 7,
+   "n_runs": 252,
+   "mean_searches": 3.9
+  },
+  {
+   "lo": 0.28,
+   "hi": 0.38,
+   "n_domains": 12,
+   "n_runs": 432,
+   "mean_searches": 3.6
+  },
+  {
+   "lo": 0.38,
+   "hi": 0.45,
+   "n_domains": 13,
+   "n_runs": 468,
+   "mean_searches": 3.3
+  },
+  {
+   "lo": 0.45,
+   "hi": 0.5,
+   "n_domains": 13,
+   "n_runs": 468,
+   "mean_searches": 2.6
+  },
+  {
+   "lo": 0.65,
+   "hi": 0.73,
+   "n_domains": 30,
+   "n_runs": 1080,
+   "mean_searches": 2.4
+  },
+  {
+   "lo": 0.73,
+   "hi": 0.8,
+   "n_domains": 9,
+   "n_runs": 324,
+   "mean_searches": 1.9
+  },
+  {
+   "lo": 0.8,
+   "hi": 0.87,
+   "n_domains": 9,
+   "n_runs": 324,
+   "mean_searches": 1.7
+  },
+  {
+   "lo": 0.87,
+   "hi": 1.01,
+   "n_domains": 5,
+   "n_runs": 180,
+   "mean_searches": 2.7
+  }
+ ],
+ "searches_bin_ratio": 3.4,
+ "endorse_hi_pct": 22,
+ "endorse_lo_pct": 14,
+ "endorse_ratio": 1.5,
+ "endorse_weak_ratio": 2.3,
+ "endorse_ratio_pricing": 1.6,
+ "endorse_ratio_features": 1.5,
+ "endorse_ratio_setup": 1.9,
+ "endorse_hi_vanilla-claude-agent": 17,
+ "endorse_lo_vanilla-claude-agent": 9,
+ "endorse_ratio_arm_vanilla-claude-agent": 1.9,
+ "endorse_hi_vanilla-claude-code": 5,
+ "endorse_lo_vanilla-claude-code": 5,
+ "endorse_ratio_arm_vanilla-claude-code": 1.1,
+ "endorse_hi_vanilla-openclaw": 29,
+ "endorse_lo_vanilla-openclaw": 19,
+ "endorse_ratio_arm_vanilla-openclaw": 1.6,
+ "endorse_hi_deep-eve-gpt5.4": 37,
+ "endorse_lo_deep-eve-gpt5.4": 25,
+ "endorse_ratio_arm_deep-eve-gpt5.4": 1.5,
+ "endorsement_by_industry": [
+  {
+   "industry": "Analytics",
+   "hi_pct": 28,
+   "lo_pct": 15,
+   "ratio": 1.9
+  },
+  {
+   "industry": "Artificial Intelligence",
+   "hi_pct": 35,
+   "lo_pct": 8,
+   "ratio": 4.17
+  },
+  {
+   "industry": "Collaboration & Productivity",
+   "hi_pct": 26,
+   "lo_pct": 23,
+   "ratio": 1.13
+  },
+  {
+   "industry": "Consumer",
+   "hi_pct": 25,
+   "lo_pct": 17,
+   "ratio": 1.5
+  },
+  {
+   "industry": "Customer Service",
+   "hi_pct": 23,
+   "lo_pct": 37,
+   "ratio": 0.63
+  },
+  {
+   "industry": "Development",
+   "hi_pct": 30,
+   "lo_pct": 15,
+   "ratio": 2.05
+  },
+  {
+   "industry": "Fintech & Payments",
+   "hi_pct": 10,
+   "lo_pct": 6,
+   "ratio": 1.83
+  },
+  {
+   "industry": "HR & Legal",
+   "hi_pct": 17,
+   "lo_pct": 19,
+   "ratio": 0.86
+  },
+  {
+   "industry": "IT Infrastructure",
+   "hi_pct": 24,
+   "lo_pct": 9,
+   "ratio": 2.76
+  },
+  {
+   "industry": "Sales & Marketing",
+   "hi_pct": 20,
+   "lo_pct": 13,
+   "ratio": 1.51
+  },
+  {
+   "industry": "Security",
+   "hi_pct": 14,
+   "lo_pct": 6,
+   "ratio": 2.6
+  }
+ ],
+ "hedge_hi_access_disclaimer": 3,
+ "hedge_lo_access_disclaimer": 17,
+ "hedge_lift_access_disclaimer": 5.0,
+ "hedge_hi_outside_sourced": 7,
+ "hedge_lo_outside_sourced": 19,
+ "hedge_lift_outside_sourced": 2.8,
+ "hedge_hi_vague_noncommittal": 4,
+ "hedge_lo_vague_noncommittal": 7,
+ "hedge_lift_vague_noncommittal": 1.7,
+ "hedge_hi_punts_to_source": 12,
+ "hedge_lo_punts_to_source": 14,
+ "hedge_lift_punts_to_source": 1.2,
+ "hedge_hi_staleness_memory": 1,
+ "hedge_lo_staleness_memory": 4,
+ "hedge_lift_staleness_memory": 3.1,
+ "answered_anyway_pct": 100,
+ "acc_answers": 1522,
+ "acc_facts": 19422,
+ "acc_domains": 59,
+ "acc_site_pct": 53,
+ "acc_web_pct": 34,
+ "acc_source_lift_pct": 54,
+ "acc_empty_site_pct": 6,
+ "acc_empty_web_pct": 32,
+ "acc_empty_ratio": 5.4,
+ "verdict_site_correct": 35,
+ "verdict_site_partial": 29,
+ "verdict_site_incorrect": 2,
+ "verdict_site_not_addressed": 34,
+ "verdict_web_correct": 22,
+ "verdict_web_partial": 22,
+ "verdict_web_incorrect": 3,
+ "verdict_web_not_addressed": 53,
+ "acc_site_pricing": 68,
+ "acc_web_pricing": 42,
+ "acc_lift_pricing": 61,
+ "acc_site_features": 47,
+ "acc_web_features": 37,
+ "acc_lift_features": 30,
+ "acc_site_setup": 21,
+ "acc_web_setup": 18,
+ "acc_lift_setup": 20,
+ "dose_rows": [
+  {
+   "lo": 0.0,
+   "hi": 0.2,
+   "n_answers": 280,
+   "acc_pct": 43
+  },
+  {
+   "lo": 0.2,
+   "hi": 0.4,
+   "n_answers": 113,
+   "acc_pct": 40
+  },
+  {
+   "lo": 0.4,
+   "hi": 0.6,
+   "n_answers": 120,
+   "acc_pct": 45
+  },
+  {
+   "lo": 0.6,
+   "hi": 0.8,
+   "n_answers": 142,
+   "acc_pct": 48
+  },
+  {
+   "lo": 0.8,
+   "hi": 1.01,
+   "n_answers": 816,
+   "acc_pct": 56
+  }
+ ],
+ "accuracy_empty_by_arm": [
+  {
+   "arm": "vanilla-claude-agent",
+   "site_pct": 2,
+   "web_pct": 22,
+   "ratio": 8.9
+  },
+  {
+   "arm": "vanilla-claude-code",
+   "site_pct": 7,
+   "web_pct": 55,
+   "ratio": 7.8
+  },
+  {
+   "arm": "vanilla-openclaw",
+   "site_pct": 7,
+   "web_pct": 16,
+   "ratio": 2.3
+  },
+  {
+   "arm": "deep-eve-gpt5.4",
+   "site_pct": 4,
+   "web_pct": 14,
+   "ratio": 3.6
+  }
+ ],
+ "grounding_composition": [
+  {
+   "group": "ax-high",
+   "pages_pct": 85,
+   "external_pct": 0,
+   "search_pct": 8,
+   "memory_pct": 7
+  },
+  {
+   "group": "ax-low",
+   "pages_pct": 46,
+   "external_pct": 12,
+   "search_pct": 34,
+   "memory_pct": 8
+  }
+ ],
+ "cost_by_arm": [
+  {
+   "arm": "vanilla-claude-agent",
+   "cost_grounded_hi": 0.128,
+   "cost_grounded_lo": 0.222,
+   "premium_pct": 73
+  },
+  {
+   "arm": "vanilla-claude-code",
+   "cost_grounded_hi": 0.023,
+   "cost_grounded_lo": 0.039,
+   "premium_pct": 75
+  },
+  {
+   "arm": "vanilla-openclaw",
+   "cost_grounded_hi": 0.119,
+   "cost_grounded_lo": 0.231,
+   "premium_pct": 95
+  },
+  {
+   "arm": "deep-eve-gpt5.4",
+   "cost_grounded_hi": 0.101,
+   "cost_grounded_lo": 0.105,
+   "premium_pct": 4
+  }
+ ],
+ "searches_by_arm": [
+  {
+   "arm": "vanilla-claude-agent",
+   "searches_hi": 0.4,
+   "searches_lo": 0.8,
+   "ratio": 2.3
+  },
+  {
+   "arm": "vanilla-claude-code",
+   "searches_hi": 0.1,
+   "searches_lo": 0.4,
+   "ratio": 2.9
+  },
+  {
+   "arm": "vanilla-openclaw",
+   "searches_hi": 7.0,
+   "searches_lo": 11.4,
+   "ratio": 1.6
+  },
+  {
+   "arm": "deep-eve-gpt5.4",
+   "searches_hi": 1.5,
+   "searches_lo": 1.9,
+   "ratio": 1.3
+  }
+ ],
+ "endorsement_by_category": [
+  {
+   "category": "pricing",
+   "hi_pct": 33,
+   "lo_pct": 21,
+   "ratio": 1.6
+  },
+  {
+   "category": "features",
+   "hi_pct": 29,
+   "lo_pct": 20,
+   "ratio": 1.5
+  },
+  {
+   "category": "setup",
+   "hi_pct": 4,
+   "lo_pct": 2,
+   "ratio": 1.9
+  }
+ ],
+ "endorsement_by_arm": [
+  {
+   "arm": "vanilla-claude-agent",
+   "hi_pct": 17,
+   "lo_pct": 9,
+   "ratio": 1.9
+  },
+  {
+   "arm": "vanilla-claude-code",
+   "hi_pct": 5,
+   "lo_pct": 5,
+   "ratio": 1.1
+  },
+  {
+   "arm": "vanilla-openclaw",
+   "hi_pct": 29,
+   "lo_pct": 19,
+   "ratio": 1.6
+  },
+  {
+   "arm": "deep-eve-gpt5.4",
+   "hi_pct": 37,
+   "lo_pct": 25,
+   "ratio": 1.5
+  }
+ ],
+ "hedge_anatomy": [
+  {
+   "pattern": "access_disclaimer",
+   "hi_pct": 3,
+   "lo_pct": 17,
+   "lift": 5.0
+  },
+  {
+   "pattern": "outside_sourced",
+   "hi_pct": 7,
+   "lo_pct": 19,
+   "lift": 2.8
+  },
+  {
+   "pattern": "vague_noncommittal",
+   "hi_pct": 4,
+   "lo_pct": 7,
+   "lift": 1.7
+  },
+  {
+   "pattern": "punts_to_source",
+   "hi_pct": 12,
+   "lo_pct": 14,
+   "lift": 1.2
+  },
+  {
+   "pattern": "staleness_memory",
+   "hi_pct": 1,
+   "lo_pct": 4,
+   "lift": 3.1
+  }
+ ],
+ "accuracy_by_intent": [
+  {
+   "category": "pricing",
+   "site_pct": 68,
+   "web_pct": 42,
+   "lift_pct": 61
+  },
+  {
+   "category": "features",
+   "site_pct": 47,
+   "web_pct": 37,
+   "lift_pct": 30
+  },
+  {
+   "category": "setup",
+   "site_pct": 21,
+   "web_pct": 18,
+   "lift_pct": 20
+  }
+ ],
+ "accuracy_verdicts_by_source": {
+  "site": {
+   "correct": 35,
+   "partial": 29,
+   "incorrect": 2,
+   "not_addressed": 34
+  },
+  "web": {
+   "correct": 22,
+   "partial": 22,
+   "incorrect": 3,
+   "not_addressed": 53
+  }
+ }
+}

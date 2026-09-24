@@ -1,0 +1,1273 @@
+{
+  "design": "gap[0.65/0.48]+fame_floor(tranco>=240)+equal_N (deterministic fame-trim)",
+  "n_per_group": 30,
+  "treatment": "ora accessibility-layer score (ax_ratio); ax_tier = hi/lo split",
+  "confounds_controlled": [
+    "aeo.ora_discovery",
+    "aeo.citation_breadth (continuous, and as a high/low class split at 0.7)",
+    "fame.tranco_rank",
+    "fame.training_presence"
+  ],
+  "domains": [
+    {
+      "domain": "affinity.co",
+      "brand": "Affinity",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.68,
+      "aeo": {
+        "ora_discovery": 0.769,
+        "citation_breadth": 0.25
+      },
+      "fame": {
+        "tranco_rank": 30432,
+        "training_presence": 0.3
+      },
+      "answer_url": "https://www.affinity.co/request-demo",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "affirm.com",
+      "brand": "Affirm",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.41,
+      "aeo": {
+        "ora_discovery": 0.6666666666666666,
+        "citation_breadth": 0.5
+      },
+      "fame": {
+        "tranco_rank": 2849,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "ahrefs.com",
+      "brand": "Ahrefs",
+      "vertical": "seo",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.67,
+      "aeo": {
+        "ora_discovery": 0.688,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 2062,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://ahrefs.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "airtable.com",
+      "brand": "Airtable",
+      "vertical": "prosumer",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.48,
+      "aeo": {
+        "ora_discovery": 0.875,
+        "citation_breadth": 0.65
+      },
+      "fame": {
+        "tranco_rank": 2908,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://airtable.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "asana.com",
+      "brand": "Asana",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.65,
+      "aeo": {
+        "ora_discovery": 0.882,
+        "citation_breadth": 0.725
+      },
+      "fame": {
+        "tranco_rank": 2186,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://asana.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "attio.com",
+      "brand": "Attio",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.86,
+      "aeo": {
+        "ora_discovery": 0.385,
+        "citation_breadth": 0.35
+      },
+      "fame": {
+        "tranco_rank": 56515,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://attio.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "basecamp.com",
+      "brand": "Basecamp",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.37,
+      "aeo": {
+        "ora_discovery": 0.438,
+        "citation_breadth": 0.9
+      },
+      "fame": {
+        "tranco_rank": 5867,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://basecamp.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "bill.com",
+      "brand": "BILL",
+      "vertical": "payments",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.67,
+      "aeo": {
+        "ora_discovery": 0.375,
+        "citation_breadth": 0.65
+      },
+      "fame": {
+        "tranco_rank": 6954,
+        "training_presence": 0.45
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "box.com",
+      "brand": "Box",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.7,
+      "aeo": {
+        "ora_discovery": 0.6153846153846154,
+        "citation_breadth": 0.575
+      },
+      "fame": {
+        "tranco_rank": 708,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "brevo.com",
+      "brand": "Brevo",
+      "vertical": "comms",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.24,
+      "aeo": {
+        "ora_discovery": 0.812,
+        "citation_breadth": 0.95
+      },
+      "fame": {
+        "tranco_rank": 2751,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.brevo.com/pricing/",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "builder.io",
+      "brand": "Builder.io",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.44,
+      "aeo": {
+        "ora_discovery": 0.231,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 17933,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.builder.io/m/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "chargebee.com",
+      "brand": "Chargebee",
+      "vertical": "payments",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.75,
+      "aeo": {
+        "ora_discovery": 1.0,
+        "citation_breadth": 0.325
+      },
+      "fame": {
+        "tranco_rank": 13906,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.chargebee.com:443/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "chime.com",
+      "brand": "Chime",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.28,
+      "aeo": {
+        "ora_discovery": 0.438,
+        "citation_breadth": 0.3
+      },
+      "fame": {
+        "tranco_rank": 14169,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://chime.com",
+      "ground_truth": {
+        "pricing": false,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "circleci.com",
+      "brand": "CircleCI",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.71,
+      "aeo": {
+        "ora_discovery": 0.875,
+        "citation_breadth": 0.625
+      },
+      "fame": {
+        "tranco_rank": 10607,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "clickup.com",
+      "brand": "ClickUp",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.7,
+      "aeo": {
+        "ora_discovery": 0.706,
+        "citation_breadth": 0.775
+      },
+      "fame": {
+        "tranco_rank": 2367,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://clickup.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "close.com",
+      "brand": "Close CRM",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.85,
+      "aeo": {
+        "ora_discovery": 0.692,
+        "citation_breadth": 0.525
+      },
+      "fame": {
+        "tranco_rank": 26259,
+        "training_presence": 0.6
+      },
+      "answer_url": "https://close.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "coda.io",
+      "brand": "Coda (the doc platform)",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.3,
+      "aeo": {
+        "ora_discovery": 0.5,
+        "citation_breadth": 0.575
+      },
+      "fame": {
+        "tranco_rank": 12479,
+        "training_presence": 0.875
+      },
+      "answer_url": "https://coda.io/upgrade",
+      "ground_truth": {
+        "pricing": false,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "coinbase.com",
+      "brand": "Coinbase",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.09,
+      "aeo": {
+        "ora_discovery": 0.8333333333333334,
+        "citation_breadth": 0.325
+      },
+      "fame": {
+        "tranco_rank": 2078,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "confluent.io",
+      "brand": "Confluent",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.79,
+      "aeo": {
+        "ora_discovery": 0.4166666666666667,
+        "citation_breadth": 0.25
+      },
+      "fame": {
+        "tranco_rank": 18858,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "datadoghq.com",
+      "brand": "Datadog",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.68,
+      "aeo": {
+        "ora_discovery": 0.75,
+        "citation_breadth": 0.275
+      },
+      "fame": {
+        "tranco_rank": 320,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "docusign.com",
+      "brand": "DocuSign",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.647,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 3252,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "doordash.com",
+      "brand": "DoorDash",
+      "vertical": "consumer-sub",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.2,
+      "aeo": {
+        "ora_discovery": 0.75,
+        "citation_breadth": 0.525
+      },
+      "fame": {
+        "tranco_rank": 2407,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "elevenlabs.io",
+      "brand": "ElevenLabs",
+      "vertical": "ai",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.83,
+      "aeo": {
+        "ora_discovery": 0.875,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 3980,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://elevenlabs.io/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "forter.com",
+      "brand": "Forter",
+      "vertical": "payments",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.93,
+      "aeo": {
+        "ora_discovery": 0.824,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 271,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.forter.com/sales/",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "front.com",
+      "brand": "Front",
+      "vertical": "comms",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.5,
+        "citation_breadth": 0.925
+      },
+      "fame": {
+        "tranco_rank": 109979,
+        "training_presence": 0.45
+      },
+      "answer_url": "https://front.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "gamma.app",
+      "brand": "Gamma",
+      "vertical": "prosumer",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.29,
+      "aeo": {
+        "ora_discovery": 0.538,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 4061,
+        "training_presence": 0.4
+      },
+      "answer_url": "https://gamma.app",
+      "ground_truth": {
+        "pricing": false,
+        "features": false,
+        "setup": true
+      }
+    },
+    {
+      "domain": "hashicorp.com",
+      "brand": "HashiCorp",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.31,
+      "aeo": {
+        "ora_discovery": 0.812,
+        "citation_breadth": 0.325
+      },
+      "fame": {
+        "tranco_rank": 4679,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.hashicorp.com/en/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "helpscout.com",
+      "brand": "Help Scout",
+      "vertical": "comms",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.8333333333333334,
+        "citation_breadth": 0.25
+      },
+      "fame": {
+        "tranco_rank": 20508,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "hubspot.com",
+      "brand": "HubSpot",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.66,
+      "aeo": {
+        "ora_discovery": 0.647,
+        "citation_breadth": 0.3
+      },
+      "fame": {
+        "tranco_rank": 249,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.hubspot.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "intercom.com",
+      "brand": "Intercom",
+      "vertical": "comms",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.67,
+      "aeo": {
+        "ora_discovery": 0.692,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 1889,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.intercom.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "klarna.com",
+      "brand": "Klarna",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.6666666666666666,
+        "citation_breadth": 0.45
+      },
+      "fame": {
+        "tranco_rank": 2187,
+        "training_presence": 1.0
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "klaviyo.com",
+      "brand": "Klaviyo",
+      "vertical": "comms",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.82,
+      "aeo": {
+        "ora_discovery": 0.8235294117647058,
+        "citation_breadth": 0.35
+      },
+      "fame": {
+        "tranco_rank": 601,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "langchain.com",
+      "brand": "LangChain",
+      "vertical": "ai",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.68,
+      "aeo": {
+        "ora_discovery": 0.625,
+        "citation_breadth": 0.65
+      },
+      "fame": {
+        "tranco_rank": 15392,
+        "training_presence": 0.85
+      },
+      "answer_url": "https://www.langchain.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "looker.com",
+      "brand": "Looker (Google Cloud)",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.39,
+      "aeo": {
+        "ora_discovery": 0.083,
+        "citation_breadth": 0.6
+      },
+      "fame": {
+        "tranco_rank": 10950,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://cloud.google.com/looker-bi",
+      "ground_truth": {
+        "pricing": false,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "midjourney.com",
+      "brand": "Midjourney",
+      "vertical": "consumer-sub",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.02,
+      "aeo": {
+        "ora_discovery": 0.412,
+        "citation_breadth": 0.875
+      },
+      "fame": {
+        "tranco_rank": 4959,
+        "training_presence": 0.95
+      },
+      "answer_url": "https://midjourney.com",
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": false
+      }
+    },
+    {
+      "domain": "miro.com",
+      "brand": "Miro",
+      "vertical": "prosumer",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.42,
+      "aeo": {
+        "ora_discovery": 0.9230769230769231,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 2397,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "monday.com",
+      "brand": "monday.com",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.88,
+      "aeo": {
+        "ora_discovery": 0.941,
+        "citation_breadth": 0.875
+      },
+      "fame": {
+        "tranco_rank": 3296,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://monday.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "namecheap.com",
+      "brand": "Namecheap",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.02,
+      "aeo": {
+        "ora_discovery": 0.562,
+        "citation_breadth": 0.875
+      },
+      "fame": {
+        "tranco_rank": 977,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.namecheap.com/security/premiumdns/",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "neon.tech",
+      "brand": "Neon",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.73,
+      "aeo": {
+        "ora_discovery": 0.5384615384615384,
+        "citation_breadth": 0.35
+      },
+      "fame": {
+        "tranco_rank": 4674,
+        "training_presence": 0.45
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "netlify.com",
+      "brand": "Netlify",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.86,
+      "aeo": {
+        "ora_discovery": 0.875,
+        "citation_breadth": 0.95
+      },
+      "fame": {
+        "tranco_rank": 4339,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.netlify.com/pricing/",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "notion.com",
+      "brand": "Notion",
+      "vertical": "prosumer",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.65,
+      "aeo": {
+        "ora_discovery": 0.4375,
+        "citation_breadth": 0.85
+      },
+      "fame": {
+        "tranco_rank": 1912,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.notion.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "npmjs.com",
+      "brand": "npm (the JavaScript package registry)",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.2,
+      "aeo": {
+        "ora_discovery": 0.6,
+        "citation_breadth": 1.0
+      },
+      "fame": {
+        "tranco_rank": 2076,
+        "training_presence": 0.85
+      },
+      "answer_url": "https://www.npmjs.com/package/plans",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "otter.ai",
+      "brand": "Otter",
+      "vertical": "ai",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.32,
+      "aeo": {
+        "ora_discovery": 0.46153846153846156,
+        "citation_breadth": 0.975
+      },
+      "fame": {
+        "tranco_rank": 9309,
+        "training_presence": 0.45
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "payoneer.com",
+      "brand": "Payoneer",
+      "vertical": "payments",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.67,
+      "aeo": {
+        "ora_discovery": 0.688,
+        "citation_breadth": 0.525
+      },
+      "fame": {
+        "tranco_rank": 15144,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://www.payoneer.com/about/pricing/",
+      "ground_truth": {
+        "pricing": false,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "razorpay.com",
+      "brand": "Razorpay",
+      "vertical": "payments",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.88,
+      "aeo": {
+        "ora_discovery": 0.706,
+        "citation_breadth": 0.55
+      },
+      "fame": {
+        "tranco_rank": 3627,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://razorpay.com/pricing/",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "replicate.com",
+      "brand": "Replicate",
+      "vertical": "ai",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.72,
+      "aeo": {
+        "ora_discovery": 0.47058823529411764,
+        "citation_breadth": 0.975
+      },
+      "fame": {
+        "tranco_rank": 29605,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "resend.com",
+      "brand": "Resend",
+      "vertical": "comms",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.86,
+      "aeo": {
+        "ora_discovery": 1.0,
+        "citation_breadth": 0.775
+      },
+      "fame": {
+        "tranco_rank": 19111,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://resend.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "revolut.com",
+      "brand": "Revolut",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.05,
+      "aeo": {
+        "ora_discovery": 0.688,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 5443,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://revolut.com",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "robinhood.com",
+      "brand": "Robinhood",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.43,
+      "aeo": {
+        "ora_discovery": 0.562,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 3034,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://robinhood.com",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "salesloft.com",
+      "brand": "Salesloft",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.6470588235294118,
+        "citation_breadth": 0.275
+      },
+      "fame": {
+        "tranco_rank": 11810,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "seranking.com",
+      "brand": "SE Ranking",
+      "vertical": "seo",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.667,
+        "citation_breadth": 0.7
+      },
+      "fame": {
+        "tranco_rank": 20689,
+        "training_presence": 0.875
+      },
+      "answer_url": "https://seranking.com/subscription.html",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "similarweb.com",
+      "brand": "Similarweb",
+      "vertical": "seo",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.7,
+      "aeo": {
+        "ora_discovery": 0.5882352941176471,
+        "citation_breadth": 0.675
+      },
+      "fame": {
+        "tranco_rank": 4192,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "snowflake.com",
+      "brand": "Snowflake",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.75,
+        "citation_breadth": 0.375
+      },
+      "fame": {
+        "tranco_rank": 2491,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "sofi.com",
+      "brand": "SoFi",
+      "vertical": "payments",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.27,
+      "aeo": {
+        "ora_discovery": 0.36363636363636365,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 7087,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "surveymonkey.com",
+      "brand": "SurveyMonkey",
+      "vertical": "biz",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.66,
+      "aeo": {
+        "ora_discovery": 0.6470588235294118,
+        "citation_breadth": 0.275
+      },
+      "fame": {
+        "tranco_rank": 597,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "telnyx.com",
+      "brand": "Telnyx",
+      "vertical": "comms",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.97,
+      "aeo": {
+        "ora_discovery": 1.0,
+        "citation_breadth": 0.55
+      },
+      "fame": {
+        "tranco_rank": 29105,
+        "training_presence": 0.75
+      },
+      "answer_url": "https://telnyx.com/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "twilio.com",
+      "brand": "Twilio",
+      "vertical": "dev",
+      "ax_tier": "AX-high",
+      "ax_ratio": 0.68,
+      "aeo": {
+        "ora_discovery": 0.875,
+        "citation_breadth": 0.625
+      },
+      "fame": {
+        "tranco_rank": 1791,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://www.twilio.com/en-us/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "vultr.com",
+      "brand": "Vultr",
+      "vertical": "dev",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.39,
+      "aeo": {
+        "ora_discovery": 0.625,
+        "citation_breadth": 0.4
+      },
+      "fame": {
+        "tranco_rank": 6046,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": false
+      }
+    },
+    {
+      "domain": "x.ai",
+      "brand": "xAI",
+      "vertical": "ai",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.46,
+      "aeo": {
+        "ora_discovery": 0.167,
+        "citation_breadth": 0.95
+      },
+      "fame": {
+        "tranco_rank": 4682,
+        "training_presence": 1.0
+      },
+      "answer_url": "https://x.ai/pricing",
+      "ground_truth": {
+        "pricing": true,
+        "features": true,
+        "setup": true
+      }
+    },
+    {
+      "domain": "zoominfo.com",
+      "brand": "ZoomInfo",
+      "vertical": "biz",
+      "ax_tier": "AX-low",
+      "ax_ratio": 0.32,
+      "aeo": {
+        "ora_discovery": 0.8235294117647058,
+        "citation_breadth": 0.35
+      },
+      "fame": {
+        "tranco_rank": 4193,
+        "training_presence": 0.75
+      },
+      "answer_url": null,
+      "ground_truth": {
+        "pricing": true,
+        "features": false,
+        "setup": true
+      }
+    }
+  ]
+}
