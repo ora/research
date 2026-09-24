@@ -1,6 +1,6 @@
 # ora research: datasets
 
-The data and reproduction scripts behind the research published at [ora.ai/research](https://ora.ai/research). One directory per study. Each directory is a data release, not the paper: it holds the normalized per-run data (or a documented sample of it), the scripts that recompute every number the report states, and a README that says what is in the release and what is not.
+The data and reproduction scripts behind the research published at [ora.ai/research](https://ora.ai/research). Each directory is a data release, not the paper: it holds the normalized per-run data (or a documented sample of it), the scripts that recompute every number the report states, and a README that says what is in the release and what is not.
 
 ## Studies
 
