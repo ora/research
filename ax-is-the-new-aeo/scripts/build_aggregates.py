@@ -22,7 +22,7 @@ HERE = Path(__file__).resolve().parent
 W = HERE.parent
 D = W / "data"
 
-ARMS = ["vanilla-claude-agent", "vanilla-claude-code", "vanilla-openclaw", "deep-eve-gpt5.4"]
+ARMS = ["claude-agent", "claude-code", "openclaw", "eve"]
 CATS = ["pricing", "features", "setup"]
 
 # ---------------------------------------------------------------- load
@@ -408,17 +408,17 @@ if "--check" in sys.argv:
       "total_journeys_round":38000,"n_domains":1056,
       "comp_pages_hi":78,"comp_external_hi":3,"comp_search_hi":12,"comp_memory_hi":7,
       "comp_pages_lo":58,"comp_external_lo":7,"comp_search_lo":25,"comp_memory_lo":10,
-      "cost_mean_premium_pct":64,"cost_premium_pct_vanilla-openclaw":93,"cost_premium_pct_vanilla-claude-agent":93,
-      "cost_premium_pct_vanilla-claude-code":57,"cost_premium_pct_deep-eve-gpt5.4":11,
+      "cost_mean_premium_pct":64,"cost_premium_pct_openclaw":93,"cost_premium_pct_claude-agent":93,
+      "cost_premium_pct_claude-code":57,"cost_premium_pct_eve":11,
       "turns_hi":5.5,"turns_lo":6.8,"turns_lift_pct":23,"dur_hi":48,"dur_lo":55,"dur_lift_pct":15,
       "block_ratio":2.1,"grounded_hi_pct":78,"grounded_lo_pct":56,
       "fp_share_hi":0.776,"fp_share_lo":0.549,"fp_share_ratio":1.41,
       "searches_bin_ratio":2.3,   # 4 coarse bins, full corpus: 4.3 -> 3.0 -> 2.2 -> 1.9
                                   # (the paper's 9-bin figure spans 1.8 -> 4.5, a 2.6x spread)
-      "searches_hi_vanilla-claude-agent":0.4,"searches_lo_vanilla-claude-agent":0.9,"searches_ratio_vanilla-claude-agent":2.4,
-      "searches_hi_vanilla-claude-code":0.1,"searches_lo_vanilla-claude-code":0.3,"searches_ratio_vanilla-claude-code":3.5,
-      "searches_hi_vanilla-openclaw":6.9,"searches_lo_vanilla-openclaw":10.4,"searches_ratio_vanilla-openclaw":1.5,
-      "searches_hi_deep-eve-gpt5.4":1.2,"searches_lo_deep-eve-gpt5.4":1.9,"searches_ratio_deep-eve-gpt5.4":1.6,
+      "searches_hi_claude-agent":0.4,"searches_lo_claude-agent":0.9,"searches_ratio_claude-agent":2.4,
+      "searches_hi_claude-code":0.1,"searches_lo_claude-code":0.3,"searches_ratio_claude-code":3.5,
+      "searches_hi_openclaw":6.9,"searches_lo_openclaw":10.4,"searches_ratio_openclaw":1.5,
+      "searches_hi_eve":1.2,"searches_lo_eve":1.9,"searches_ratio_eve":1.6,
       "endorse_hi_pct":20,"endorse_lo_pct":11,"endorse_ratio":1.9,"endorse_weak_ratio":2.5,
       "endorse_ratio_pricing":2.2,
       "hedge_hi_access_disclaimer":4,"hedge_lo_access_disclaimer":16,"hedge_lift_access_disclaimer":4.4,
@@ -437,8 +437,8 @@ if "--check" in sys.argv:
       "acc_paired_site_pct":48.3,"acc_paired_web_pct":34.3,"acc_paired_diff_pp":14.0,"acc_paired_lift_pct":41,
       "acc_paired_empty_site_pct":6.7,"acc_paired_empty_web_pct":25.0,"acc_paired_empty_diff_pp":-18.3,
       "acc_paired_diff_pp_pricing":23.5,"acc_paired_diff_pp_features":6.8,"acc_paired_diff_pp_setup":0.4,
-      "acc_paired_diff_pp_vanilla-claude-code":38.3,"acc_paired_diff_pp_vanilla-claude-agent":12.3,
-      "acc_paired_diff_pp_vanilla-openclaw":4.0,"acc_paired_diff_pp_deep-eve-gpt5.4":-2.3,
+      "acc_paired_diff_pp_claude-code":38.3,"acc_paired_diff_pp_claude-agent":12.3,
+      "acc_paired_diff_pp_openclaw":4.0,"acc_paired_diff_pp_eve":-2.3,
       # fact fate, domain-collapsed (the paper's figure): wrong barely moves, omission grows
       "factfate_site_correct":40,"factfate_site_partial":27,"factfate_site_incorrect":4,"factfate_site_not_addressed":29,
       "factfate_web_correct":28,"factfate_web_partial":21,"factfate_web_incorrect":6,"factfate_web_not_addressed":45,

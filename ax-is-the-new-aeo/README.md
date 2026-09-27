@@ -43,8 +43,31 @@ delta is measured and documented, not hidden.
 |---|---|
 | [`data/`](data/) | The reproduction sample, as 4 flat CSVs: `journeys.csv` (one row per run, with judged endorsement/hedge/attribution/accuracy signals merged in), `accuracy_facts.csv` and `ground_truth_facts.csv` (long-format fact detail), and `domains.csv` (one row per domain), plus the generated `aggregates.json`. Own [README](data/README.md). |
 | [`data/training-knowledge-probe/`](data/training-knowledge-probe/) | A separate experiment, nested here because it's still data: final aggregated verdicts (`figure-points.csv`, `series.csv`) behind the training-knowledge figure. Own [README](data/training-knowledge-probe/README.md). |
-| [`experiment/`](experiment/) | The main study's experiment definition needed to interpret `data/`: a plain-language description of the three task intents (with the prompt-template shape) and of the treatment and AEO-control scores. |
 | [`scripts/`](scripts/) | One script, `build_aggregates.py` (pure standard library): recomputes `data/aggregates.json` from `data/` and reconciles it against the study's published numbers (`--check`). How `data/` was derived (sampling, consolidation) is documented in [`data/README.md`](data/README.md). |
+
+## The experiment, in brief
+
+Round-independent definition of the study, needed to interpret `data/`. Per-domain metadata
+and facts live in `data/domains.csv` and `data/ground_truth_facts.csv` (see
+[`data/README.md`](data/README.md)); this section describes the parts that aren't
+domain-indexed tables.
+
+**The scores.** The *treatment* score (`ax_ratio` in `data/domains.csv`) is the ora ranker's
+accessibility layer — what an agent meets on arrival: robots.txt stance toward agents, bot
+blocking, how much text survives a raw no-JavaScript fetch, and gating of key pages. The two
+AEO *controls* are `discovery` (the ora ranker's discovery-layer score: how
+answer-engine-ready the site's content is) and `citation_breadth` (how widely third-party
+sources already cover the domain). All three are described in the paper's Method section.
+
+**The tasks.** Each journey gave an agent one realistic buyer question about one business, in
+one of three intent categories (the `category` column in `data/journeys.csv`): **pricing**
+(current plans and costs, including any free plan/trial), **features** (main features and
+stated usage limits), and **setup** (how a new user gets started). Each prompt is a natural
+user request built from a frozen template with the business's own domain filled in, for
+example (pricing): *"I'm looking for a service that fits my budget. Can you find out what
+subscription options are available at {domain} and what they cost?"* Three independent
+repeats per domain x category, under a neutral system prompt with web search and plain page
+fetch available.
 
 ## Reproducing the numbers
 
@@ -89,5 +112,5 @@ only; the paper itself is published separately.
 ## License
 
 Code (`scripts/`) is MIT, see [`LICENSE`](LICENSE). The dataset (`data/`, including
-`data/training-knowledge-probe/`, and `experiment/`) is CC BY 4.0, see
+`data/training-knowledge-probe/`) is CC BY 4.0, see
 [`data/LICENSE`](data/LICENSE). (c) 2026 era labs (ora.ai).

@@ -23,31 +23,31 @@
  "fp_share_hi": 0.772,
  "fp_share_lo": 0.498,
  "fp_share_ratio": 1.55,
- "cost_grounded_hi_vanilla-claude-agent": 0.128,
- "cost_grounded_lo_vanilla-claude-agent": 0.222,
- "cost_premium_pct_vanilla-claude-agent": 73,
- "cost_grounded_hi_vanilla-claude-code": 0.023,
- "cost_grounded_lo_vanilla-claude-code": 0.039,
- "cost_premium_pct_vanilla-claude-code": 75,
- "cost_grounded_hi_vanilla-openclaw": 0.119,
- "cost_grounded_lo_vanilla-openclaw": 0.231,
- "cost_premium_pct_vanilla-openclaw": 95,
- "cost_grounded_hi_deep-eve-gpt5.4": 0.101,
- "cost_grounded_lo_deep-eve-gpt5.4": 0.105,
- "cost_premium_pct_deep-eve-gpt5.4": 4,
+ "cost_grounded_hi_claude-agent": 0.128,
+ "cost_grounded_lo_claude-agent": 0.222,
+ "cost_premium_pct_claude-agent": 73,
+ "cost_grounded_hi_claude-code": 0.023,
+ "cost_grounded_lo_claude-code": 0.039,
+ "cost_premium_pct_claude-code": 75,
+ "cost_grounded_hi_openclaw": 0.119,
+ "cost_grounded_lo_openclaw": 0.231,
+ "cost_premium_pct_openclaw": 95,
+ "cost_grounded_hi_eve": 0.101,
+ "cost_grounded_lo_eve": 0.105,
+ "cost_premium_pct_eve": 4,
  "cost_mean_premium_pct": 62,
- "searches_hi_vanilla-claude-agent": 0.4,
- "searches_lo_vanilla-claude-agent": 0.8,
- "searches_ratio_vanilla-claude-agent": 2.3,
- "searches_hi_vanilla-claude-code": 0.1,
- "searches_lo_vanilla-claude-code": 0.4,
- "searches_ratio_vanilla-claude-code": 2.9,
- "searches_hi_vanilla-openclaw": 7.0,
- "searches_lo_vanilla-openclaw": 11.4,
- "searches_ratio_vanilla-openclaw": 1.6,
- "searches_hi_deep-eve-gpt5.4": 1.5,
- "searches_lo_deep-eve-gpt5.4": 1.9,
- "searches_ratio_deep-eve-gpt5.4": 1.3,
+ "searches_hi_claude-agent": 0.4,
+ "searches_lo_claude-agent": 0.8,
+ "searches_ratio_claude-agent": 2.3,
+ "searches_hi_claude-code": 0.1,
+ "searches_lo_claude-code": 0.4,
+ "searches_ratio_claude-code": 2.9,
+ "searches_hi_openclaw": 7.0,
+ "searches_lo_openclaw": 11.4,
+ "searches_ratio_openclaw": 1.6,
+ "searches_hi_eve": 1.5,
+ "searches_lo_eve": 1.9,
+ "searches_ratio_eve": 1.3,
  "searches_by_industry": [
   {
    "industry": "Analytics",
@@ -165,18 +165,18 @@
  "endorse_ratio_pricing": 1.6,
  "endorse_ratio_features": 1.5,
  "endorse_ratio_setup": 1.9,
- "endorse_hi_vanilla-claude-agent": 17,
- "endorse_lo_vanilla-claude-agent": 9,
- "endorse_ratio_arm_vanilla-claude-agent": 1.9,
- "endorse_hi_vanilla-claude-code": 5,
- "endorse_lo_vanilla-claude-code": 5,
- "endorse_ratio_arm_vanilla-claude-code": 1.1,
- "endorse_hi_vanilla-openclaw": 29,
- "endorse_lo_vanilla-openclaw": 19,
- "endorse_ratio_arm_vanilla-openclaw": 1.6,
- "endorse_hi_deep-eve-gpt5.4": 37,
- "endorse_lo_deep-eve-gpt5.4": 25,
- "endorse_ratio_arm_deep-eve-gpt5.4": 1.5,
+ "endorse_hi_claude-agent": 17,
+ "endorse_lo_claude-agent": 9,
+ "endorse_ratio_arm_claude-agent": 1.9,
+ "endorse_hi_claude-code": 5,
+ "endorse_lo_claude-code": 5,
+ "endorse_ratio_arm_claude-code": 1.1,
+ "endorse_hi_openclaw": 29,
+ "endorse_lo_openclaw": 19,
+ "endorse_ratio_arm_openclaw": 1.6,
+ "endorse_hi_eve": 37,
+ "endorse_lo_eve": 25,
+ "endorse_ratio_arm_eve": 1.5,
  "endorsement_by_industry": [
   {
    "industry": "Analytics",
@@ -321,25 +321,25 @@
  ],
  "accuracy_empty_by_arm": [
   {
-   "arm": "vanilla-claude-agent",
+   "arm": "claude-agent",
    "site_pct": 2,
    "web_pct": 22,
    "ratio": 8.9
   },
   {
-   "arm": "vanilla-claude-code",
+   "arm": "claude-code",
    "site_pct": 7,
    "web_pct": 55,
    "ratio": 7.8
   },
   {
-   "arm": "vanilla-openclaw",
+   "arm": "openclaw",
    "site_pct": 7,
    "web_pct": 16,
    "ratio": 2.3
   },
   {
-   "arm": "deep-eve-gpt5.4",
+   "arm": "eve",
    "site_pct": 4,
    "web_pct": 14,
    "ratio": 3.6
@@ -357,10 +357,10 @@
  "acc_paired_diff_pp_pricing": 24.7,
  "acc_paired_diff_pp_features": 1.4,
  "acc_paired_diff_pp_setup": 1.1,
- "acc_paired_diff_pp_vanilla-claude-agent": 2.9,
- "acc_paired_diff_pp_vanilla-claude-code": 33.3,
- "acc_paired_diff_pp_vanilla-openclaw": 3.6,
- "acc_paired_diff_pp_deep-eve-gpt5.4": -3.2,
+ "acc_paired_diff_pp_claude-agent": 2.9,
+ "acc_paired_diff_pp_claude-code": 33.3,
+ "acc_paired_diff_pp_openclaw": 3.6,
+ "acc_paired_diff_pp_eve": -3.2,
  "factfate_site_correct": 40,
  "factfate_site_partial": 26,
  "factfate_site_incorrect": 3,
@@ -387,25 +387,25 @@
  ],
  "cost_by_arm": [
   {
-   "arm": "vanilla-claude-agent",
+   "arm": "claude-agent",
    "cost_grounded_hi": 0.128,
    "cost_grounded_lo": 0.222,
    "premium_pct": 73
   },
   {
-   "arm": "vanilla-claude-code",
+   "arm": "claude-code",
    "cost_grounded_hi": 0.023,
    "cost_grounded_lo": 0.039,
    "premium_pct": 75
   },
   {
-   "arm": "vanilla-openclaw",
+   "arm": "openclaw",
    "cost_grounded_hi": 0.119,
    "cost_grounded_lo": 0.231,
    "premium_pct": 95
   },
   {
-   "arm": "deep-eve-gpt5.4",
+   "arm": "eve",
    "cost_grounded_hi": 0.101,
    "cost_grounded_lo": 0.105,
    "premium_pct": 4
@@ -413,25 +413,25 @@
  ],
  "searches_by_arm": [
   {
-   "arm": "vanilla-claude-agent",
+   "arm": "claude-agent",
    "searches_hi": 0.4,
    "searches_lo": 0.8,
    "ratio": 2.3
   },
   {
-   "arm": "vanilla-claude-code",
+   "arm": "claude-code",
    "searches_hi": 0.1,
    "searches_lo": 0.4,
    "ratio": 2.9
   },
   {
-   "arm": "vanilla-openclaw",
+   "arm": "openclaw",
    "searches_hi": 7.0,
    "searches_lo": 11.4,
    "ratio": 1.6
   },
   {
-   "arm": "deep-eve-gpt5.4",
+   "arm": "eve",
    "searches_hi": 1.5,
    "searches_lo": 1.9,
    "ratio": 1.3
@@ -459,25 +459,25 @@
  ],
  "endorsement_by_arm": [
   {
-   "arm": "vanilla-claude-agent",
+   "arm": "claude-agent",
    "hi_pct": 17,
    "lo_pct": 9,
    "ratio": 1.9
   },
   {
-   "arm": "vanilla-claude-code",
+   "arm": "claude-code",
    "hi_pct": 5,
    "lo_pct": 5,
    "ratio": 1.1
   },
   {
-   "arm": "vanilla-openclaw",
+   "arm": "openclaw",
    "hi_pct": 29,
    "lo_pct": 19,
    "ratio": 1.6
   },
   {
-   "arm": "deep-eve-gpt5.4",
+   "arm": "eve",
    "hi_pct": 37,
    "lo_pct": 25,
    "ratio": 1.5
@@ -580,7 +580,7 @@
  ],
  "accuracy_paired_by_arm": [
   {
-   "arm": "vanilla-claude-agent",
+   "arm": "claude-agent",
    "n_domains": 11,
    "n_cells": 12,
    "site_pct": 42.1,
@@ -589,7 +589,7 @@
    "lift_pct": 7
   },
   {
-   "arm": "vanilla-claude-code",
+   "arm": "claude-code",
    "n_domains": 28,
    "n_cells": 37,
    "site_pct": 45.4,
@@ -598,7 +598,7 @@
    "lift_pct": 278
   },
   {
-   "arm": "vanilla-openclaw",
+   "arm": "openclaw",
    "n_domains": 30,
    "n_cells": 37,
    "site_pct": 41.3,
@@ -607,7 +607,7 @@
    "lift_pct": 9
   },
   {
-   "arm": "deep-eve-gpt5.4",
+   "arm": "eve",
    "n_domains": 28,
    "n_cells": 33,
    "site_pct": 47.1,
