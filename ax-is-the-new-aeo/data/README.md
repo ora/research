@@ -127,7 +127,7 @@ numbers:
 | Duration (s), hi / lo | 48 / 55 | 57 / 61 |
 | Block ratio (lo / hi) | 2.1x | 2.3x |
 | Cost premium (lo vs hi, mean over arms) | 64% | 62% |
-| Web-search ratio, claude-agent-sdk arm | 2.4x | 2.3x |
+| Web-search ratio, claude-agent arm | 2.4x | 2.3x |
 | Web-search ratio, openclaw arm | 1.5x | 1.6x |
 | Endorsement top-grade rate, hi / lo | 20% / 11% | 22% / 14% |
 | Hedge: access-disclaimer, hi / lo (lift) | 4% / 16% (4.4x) | 3% / 17% (5.0x) |
