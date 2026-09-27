@@ -102,13 +102,6 @@ only; the paper itself is published separately.
 }
 ```
 
-## Contributing
-
-- Open an issue for unclear methodology, questions about the data, or a specific number you
-  can't reproduce.
-- Challenges to a measured number are welcome: that's what the reproduction sample and script
-  are for.
-
 ## License
 
 Code (`scripts/`) is MIT, see [`LICENSE`](LICENSE). The dataset (`data/`, including
