@@ -6,7 +6,7 @@ The data and reproduction scripts behind the research published at [ora.ai/resea
 
 | Directory | Report | What is published |
 |---|---|---|
-| [`ax-beats-aeo/`](ax-beats-aeo/) | [AX is the new AEO](https://ora.ai/blog/ax-is-the-new-aeo) | A stratified 10% domain sample of 37,927 agent journeys across 1,056 sites (106 domains, 3,816 journeys) as flat CSVs, plus `scripts/build_aggregates.py --check`, which recomputes the study's aggregate numbers and reports the delta against the published ones. |
+| [`ax-is-the-new-aeo/`](ax-is-the-new-aeo/) | [AX is the new AEO](https://ora.ai/blog/ax-is-the-new-aeo) | A stratified 10% domain sample of 37,927 agent journeys across 1,056 sites (106 domains, 3,816 journeys) as flat CSVs, plus `scripts/build_aggregates.py --check`, which recomputes the study's aggregate numbers and reports the delta against the published ones. |
 | [`jev-agentic-web/`](jev-agentic-web/) | [Jev and the agentic web](https://ora.ai/blog/evaluating-jev) | The 10 task specs, one row per run for all 240 runs (surface, arm, task, repeat, seconds), task-level pass counts, and `scripts/aggregates.py`, which recomputes the time and success figures in the report. |
 
 ## How a study is laid out
