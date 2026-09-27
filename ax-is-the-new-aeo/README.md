@@ -3,7 +3,6 @@
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](data/LICENSE)
 [![Python 3, stdlib only](https://img.shields.io/badge/python-3%20%C2%B7%20stdlib%20only-blue.svg)](scripts/build_aggregates.py)
-[![Data: 3,816 journeys, 106 domains](https://img.shields.io/badge/data-3%2C816%20journeys%20%C2%B7%20106%20domains-orange.svg)](data/)
 [![Paper: ora research](https://img.shields.io/badge/paper-ora%20research-black.svg)](https://ora.ai/research)
 
 This directory is a data release, not the paper. It publishes a reproduction sample of the data
