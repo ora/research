@@ -57,7 +57,7 @@ The on-site component of the AEO score splits into two sub-scores.
 | Keyword optimization / stuffing | Negative (~−10%, GEO paper); Google spam policies |
 | IndexNow | Secret-key filename — not third-party detectable |
 | Bing/Google index status, Search Console toggles, publisher programs | Private consoles/partnerships — not crawl-detectable |
-| Title↔prompt semantic similarity | Strong signal (Ahrefs cosine 0.602 vs 0.484) but requires a query set → deferred to spec discussion; risks coupling to outcome queries |
+| Title↔prompt semantic similarity | Strong signal (Ahrefs cosine 0.602 vs 0.484) but requires a query set, which risks coupling the score to the experiment's own outcome queries |
 
 ## Scoring framing
 

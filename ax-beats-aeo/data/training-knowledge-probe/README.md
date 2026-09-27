@@ -1,9 +1,8 @@
 # training-knowledge-probe
 
 A second, separate experiment, nested here because it's still data: it backs the "how much of
-the answer comes from the model's training knowledge" figure, not the AX-vs-AEO grounding/
-accuracy claims that the rest of `data/` is about. Published as its own figure (paper/blog post
-forthcoming, like the main study).
+the answer comes from the model's training knowledge" figure in the paper's "shift" section,
+not the AX-vs-AEO grounding/accuracy claims that the rest of `data/` is about.
 
 ## What it measures
 
@@ -30,14 +29,6 @@ series, so they're out of scope for this release.
   volume. One row per model generation (7 rows), already averaged across all 90 questions for
   that model. The CI lets you assess the trend's significance yourself rather than take the
   reported p-value on faith, without needing the underlying per-question judgments.
-
-## What's not here, on purpose
-
-Only the final, aggregated-per-model verdicts are published. Not included: the individual
-per-question judged attributions, the exact question wording, the system prompts given to the
-probed models, or the judge's grading instructions. Those are internal so the underlying prompts
-and judge methodology aren't exposed to direct scrutiny/replication attempts from the published
-data alone; the aggregate series is what the figure is built from and what's reproducible here.
 
 ## License
 

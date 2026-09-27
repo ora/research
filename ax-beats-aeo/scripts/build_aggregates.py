@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Build the aggregated, normalized view of the experiment — the layer from which every
-published headline number (paper forthcoming) is deterministically derived.
+published headline number (paper: "AX is the New AEO", ora research 2026) is deterministically derived.
 
-Reads the consolidated data/ layer (journeys.csv + domains.csv — see data/README.md for how
-these were consolidated from the original per-file layout), computes every reported metric,
-and writes a single file:
+Reads the consolidated data/ layer (journeys.csv + domains.csv — see data/README.md),
+computes every reported metric, and writes a single file:
 
   data/aggregates.json   flat {token: value} map of every scalar, plus the by-industry,
                           by-accessibility-bin, and by-source-x-arm breakdowns as named
@@ -116,6 +115,11 @@ _bh,_bl = hilo(ROWS, lambda r: 1.0 if (r["blocked_onsite_fetches"] or 0)>0 else 
 put("block_ratio", round(ratio(_bl,_bh),1))
 _fh,_fl = hilo(ROWS, lambda r: float(r["first_party_answer"]))
 put("grounded_hi_pct", round(_fh*100)); put("grounded_lo_pct", round(_fl*100))
+# first-party evidence share: the mechanical, full-coverage companion to the judged answer
+# composition (attr_*) — the character share of everything the run retrieved that came from
+# the business's own site. Defined on every journey, not just the judged subset.
+_eh,_el = hilo(ROWS, lambda r: r["firstparty_evidence_share"])
+put("fp_share_hi", round(_eh,3)); put("fp_share_lo", round(_el,3)); put("fp_share_ratio", round(ratio(_eh,_el),2))
 
 # cost per grounded answer, per arm: (mean cost) / (mean first_party_answer), domain-collapsed within arm
 ground_rows = []
@@ -151,8 +155,10 @@ for ind in sorted(inds):
 put("searches_by_industry", search_ind_rows)
 
 # ================================================================ 5. grounding line chart: mean searches by accessibility bin
-BIN_EDGES = [(0.0,0.15),(0.15,0.28),(0.28,0.38),(0.38,0.45),(0.45,0.50),
-             (0.65,0.73),(0.73,0.80),(0.80,0.87),(0.87,1.01)]   # middle .50-.65 excluded by design
+# The paper's figure uses 9 bins over 1,056 domains. On a 106-domain sample the narrow bins
+# hold as few as 5 domains each and the curve gets noisy (one search-heavy domain bends a
+# bin), so this repo publishes the same dose-response over 4 coarse bins, 2 per group.
+BIN_EDGES = [(0.0,0.28),(0.28,0.50),(0.65,0.80),(0.80,1.01)]   # middle .50-.65 excluded by design
 bin_rows = []
 for lo,hi in BIN_EDGES:
     br=[r for r in ROWS if (AXR.get(r["domain"]) is not None and lo<=AXR[r["domain"]]<hi)]
@@ -222,7 +228,8 @@ put("answered_anyway_pct", round(100*len(ans)/len(blk)) if blk else None)
 # source = site-read if the run's answer was first-party grounded, else web-sourced
 def src_of(r):
     return "site" if r["first_party_answer"]==1 else "web"
-# NOTE: the study's published site-vs-web accuracy figures come from a stratified *paired*
+# NOTE: the study's published site-vs-web accuracy figures (site 48.3% vs web 34.3%, +41%;
+# empty answers 6.7% vs 25.0%, 3.7x) come from a stratified *paired*
 # estimator (cells = domain x arm x category, each business one vote), which corrects for
 # composition bias: the agent chooses the source, and site-built answers concentrate on the
 # easier businesses, so a pooled split overstates the site advantage that pairing removes. The
@@ -311,6 +318,66 @@ for arm in ARMS:
     empty_stack.append({"arm":arm,"site_pct":round(s*100),"web_pct":round(wv*100),"ratio":round(ratio(wv,s),1)})
 put("accuracy_empty_by_arm", empty_stack)
 
+# ================================================================ 9. accuracy, STRATIFIED PAIRED — the published estimator
+# The paper's headline site-vs-web accuracy numbers use this, not the pooled split above:
+# cells are (domain x arm x category), only cells containing BOTH a site and a web answer
+# count, cell means collapse to the domain, and the domain is the unit. This mirrors the
+# study's accuracy_paired.py exactly (minus the permutation p-values).
+def paired(sub, cellkey, valfn):
+    cells=collections.defaultdict(lambda:{"site":[],"web":[]})
+    for a in sub:
+        v=valfn(a)
+        if v is None: continue
+        cells[cellkey(a)][a["source"]].append(v)
+    per_dom=collections.defaultdict(list); ncells=0
+    for k,v in cells.items():
+        if v["site"] and v["web"]:
+            ncells+=1
+            per_dom[k[0]].append((sum(v["site"])/len(v["site"]), sum(v["web"])/len(v["web"])))
+    if len(per_dom) < 5: return None
+    dsite=[sum(c[0] for c in cs)/len(cs) for cs in per_dom.values()]
+    dweb =[sum(c[1] for c in cs)/len(cs) for cs in per_dom.values()]
+    ms=sum(dsite)/len(dsite); mw=sum(dweb)/len(dweb)
+    return {"n_domains":len(per_dom),"n_cells":ncells,
+            "site_pct":round(100*ms,1),"web_pct":round(100*mw,1),
+            "diff_pp":round(100*(ms-mw),1),
+            "lift_pct":round(100*(ms/mw-1)) if mw else None}
+def empty_of(a): return 1.0 if a["n_not_addressed"]==a["n_facts"] else 0.0
+pt = paired(acc_join, lambda a:(a["domain"],a["arm"],a["category"]), graded)
+if pt:
+    put("acc_paired_site_pct",pt["site_pct"]); put("acc_paired_web_pct",pt["web_pct"])
+    put("acc_paired_diff_pp",pt["diff_pp"]);   put("acc_paired_lift_pct",pt["lift_pct"])
+    put("acc_paired_cells",pt["n_cells"]);     put("acc_paired_domains",pt["n_domains"])
+pe = paired(acc_join, lambda a:(a["domain"],a["arm"],a["category"]), empty_of)
+if pe:
+    put("acc_paired_empty_site_pct",pe["site_pct"]); put("acc_paired_empty_web_pct",pe["web_pct"])
+    put("acc_paired_empty_diff_pp",pe["diff_pp"])
+paired_intent=[]
+for cat in CATS:
+    r_=paired([a for a in acc_join if a["category"]==cat], lambda a:(a["domain"],a["arm"]), graded)
+    if r_ is None: continue
+    paired_intent.append(dict(category=cat, **r_)); put(f"acc_paired_diff_pp_{cat}", r_["diff_pp"])
+paired_arm=[]
+for arm in ARMS:
+    r_=paired([a for a in acc_join if a["arm"]==arm], lambda a:(a["domain"],a["category"]), graded)
+    if r_ is None: continue
+    paired_arm.append(dict(arm=arm, **r_)); put(f"acc_paired_diff_pp_{arm}", r_["diff_pp"])
+
+# fate of every asked fact, domain-collapsed by source (each domain one vote) — the paper's
+# fact-fate figure uses this, not the fact-weighted verdict_dist above
+def verdicts_dc(src):
+    dd=collections.defaultdict(list)
+    for a in acc_join:
+        if a["source"]==src and a["n_facts"]:
+            dd[a["domain"]].append(tuple(a[k]/a["n_facts"] for k in ("n_correct","n_partial","n_incorrect","n_not_addressed")))
+    doms=[[sum(t[i] for t in v)/len(v) for i in range(4)] for v in dd.values()]
+    return {k: round(100*sum(d[i] for d in doms)/len(doms)) for i,k in
+            enumerate(("correct","partial","incorrect","not_addressed"))} if doms else None
+ff_site=verdicts_dc("site"); ff_web=verdicts_dc("web")
+for src,ff in (("site",ff_site),("web",ff_web)):
+    if ff:
+        for k,v in ff.items(): put(f"factfate_{src}_{k}", v)
+
 # ---------------------------------------------------------------- write the single JSON
 # every list computed above that isn't already flattened into scalar tokens gets put() here too,
 # so this file is a complete substitute for the old per-concern CSVs, not just the scalars.
@@ -322,6 +389,9 @@ put("endorsement_by_arm", end_arm)
 put("hedge_anatomy", hedge_rows)
 put("accuracy_by_intent", acc_intent)
 put("accuracy_verdicts_by_source", {"site": vd_site, "web": vd_web})
+put("accuracy_paired_by_intent", paired_intent)
+put("accuracy_paired_by_arm", paired_arm)
+put("fact_fate_by_source", {"site": ff_site, "web": ff_web})
 
 n_scalars = sum(1 for v in M.values() if not isinstance(v, (list, dict)))
 json.dump(M, open(D / "aggregates.json", "w"), indent=1)
@@ -329,32 +399,49 @@ print(f"wrote data/aggregates.json ({n_scalars} scalar tokens + {len(M) - n_scal
 
 # ---------------------------------------------------------------- reconciliation vs published numbers
 if "--check" in sys.argv:
+    # The study's published full-corpus values (37,927 journeys / 1,056 domains), as reported
+    # in the paper. The acc_* / verdict_* block bakes the full-corpus values of THIS script's
+    # pooled reconstruction (see the estimator note above src_of); the paper's published
+    # site-vs-web accuracy uses the stratified paired estimator instead and is printed as a
+    # note below the table.
     BAKED = {
-      "total_journeys_round":38000,"n_domains":1058,
+      "total_journeys_round":38000,"n_domains":1056,
       "comp_pages_hi":78,"comp_external_hi":3,"comp_search_hi":12,"comp_memory_hi":7,
       "comp_pages_lo":58,"comp_external_lo":7,"comp_search_lo":25,"comp_memory_lo":10,
-      "cost_mean_premium_pct":63,"cost_premium_pct_vanilla-openclaw":92,"cost_premium_pct_vanilla-claude-agent":92,
-      "cost_premium_pct_vanilla-claude-code":55,"cost_premium_pct_deep-eve-gpt5.4":11,
+      "cost_mean_premium_pct":64,"cost_premium_pct_vanilla-openclaw":93,"cost_premium_pct_vanilla-claude-agent":93,
+      "cost_premium_pct_vanilla-claude-code":57,"cost_premium_pct_deep-eve-gpt5.4":11,
       "turns_hi":5.5,"turns_lo":6.8,"turns_lift_pct":23,"dur_hi":48,"dur_lo":55,"dur_lift_pct":15,
       "block_ratio":2.1,"grounded_hi_pct":78,"grounded_lo_pct":56,
+      "fp_share_hi":0.776,"fp_share_lo":0.549,"fp_share_ratio":1.41,
+      "searches_bin_ratio":2.3,   # 4 coarse bins, full corpus: 4.3 -> 3.0 -> 2.2 -> 1.9
+                                  # (the paper's 9-bin figure spans 1.8 -> 4.5, a 2.6x spread)
       "searches_hi_vanilla-claude-agent":0.4,"searches_lo_vanilla-claude-agent":0.9,"searches_ratio_vanilla-claude-agent":2.4,
-      "searches_hi_vanilla-claude-code":0.1,"searches_lo_vanilla-claude-code":0.3,"searches_ratio_vanilla-claude-code":3.3,
+      "searches_hi_vanilla-claude-code":0.1,"searches_lo_vanilla-claude-code":0.3,"searches_ratio_vanilla-claude-code":3.5,
       "searches_hi_vanilla-openclaw":6.9,"searches_lo_vanilla-openclaw":10.4,"searches_ratio_vanilla-openclaw":1.5,
       "searches_hi_deep-eve-gpt5.4":1.2,"searches_lo_deep-eve-gpt5.4":1.9,"searches_ratio_deep-eve-gpt5.4":1.6,
-      "endorse_hi_pct":20,"endorse_lo_pct":11,"endorse_ratio":1.9,"endorse_weak_ratio":2.4,
+      "endorse_hi_pct":20,"endorse_lo_pct":11,"endorse_ratio":1.9,"endorse_weak_ratio":2.5,
       "endorse_ratio_pricing":2.2,
-      "hedge_hi_access_disclaimer":4,"hedge_lo_access_disclaimer":16,"hedge_lift_access_disclaimer":4.3,
-      "hedge_hi_outside_sourced":5,"hedge_lo_outside_sourced":15,"hedge_lift_outside_sourced":2.9,
+      "hedge_hi_access_disclaimer":4,"hedge_lo_access_disclaimer":16,"hedge_lift_access_disclaimer":4.4,
+      "hedge_hi_outside_sourced":5,"hedge_lo_outside_sourced":15,"hedge_lift_outside_sourced":3.0,
       "hedge_hi_vague_noncommittal":7,"hedge_lo_vague_noncommittal":12,"hedge_lift_vague_noncommittal":1.8,
       "hedge_hi_punts_to_source":15,"hedge_lo_punts_to_source":22,"hedge_lift_punts_to_source":1.4,
-      "answered_anyway_pct":99,
-      "acc_site_pct":None,"acc_web_pct":None,"acc_source_lift_pct":25,"acc_empty_site_pct":3,"acc_empty_web_pct":11,"acc_empty_ratio":3.4,
-      "acc_answers":2426,"acc_facts":30633,"acc_domains":131,
-      "verdict_site_correct":38,"verdict_site_partial":29,"verdict_site_incorrect":3,"verdict_site_not_addressed":30,
-      "verdict_web_correct":30,"verdict_web_partial":23,"verdict_web_incorrect":7,"verdict_web_not_addressed":40,
-      "acc_site_pricing":66,"acc_web_pricing":55,"acc_lift_pricing":21,
-      "acc_site_features":52,"acc_web_features":38,"acc_lift_features":36,
-      "acc_site_setup":26,"acc_web_setup":18,"acc_lift_setup":42,
+      "answered_anyway_pct":99,   # published as "~99%"; unrounded full-corpus value 99.9%
+      "acc_site_pct":53,"acc_web_pct":38,"acc_source_lift_pct":40,"acc_empty_site_pct":4,"acc_empty_web_pct":22,"acc_empty_ratio":6.1,
+      "acc_answers":2499,"acc_facts":31127,"acc_domains":131,
+      "verdict_site_correct":35,"verdict_site_partial":29,"verdict_site_incorrect":2,"verdict_site_not_addressed":34,
+      "verdict_web_correct":24,"verdict_web_partial":24,"verdict_web_incorrect":4,"verdict_web_not_addressed":49,
+      "acc_site_pricing":63,"acc_web_pricing":43,"acc_lift_pricing":48,
+      "acc_site_features":50,"acc_web_features":39,"acc_lift_features":29,
+      "acc_site_setup":24,"acc_web_setup":24,"acc_lift_setup":1,
+      # stratified PAIRED estimator — the numbers the paper actually publishes for accuracy
+      "acc_paired_site_pct":48.3,"acc_paired_web_pct":34.3,"acc_paired_diff_pp":14.0,"acc_paired_lift_pct":41,
+      "acc_paired_empty_site_pct":6.7,"acc_paired_empty_web_pct":25.0,"acc_paired_empty_diff_pp":-18.3,
+      "acc_paired_diff_pp_pricing":23.5,"acc_paired_diff_pp_features":6.8,"acc_paired_diff_pp_setup":0.4,
+      "acc_paired_diff_pp_vanilla-claude-code":38.3,"acc_paired_diff_pp_vanilla-claude-agent":12.3,
+      "acc_paired_diff_pp_vanilla-openclaw":4.0,"acc_paired_diff_pp_deep-eve-gpt5.4":-2.3,
+      # fact fate, domain-collapsed (the paper's figure): wrong barely moves, omission grows
+      "factfate_site_correct":40,"factfate_site_partial":27,"factfate_site_incorrect":4,"factfate_site_not_addressed":29,
+      "factfate_web_correct":28,"factfate_web_partial":21,"factfate_web_incorrect":6,"factfate_web_not_addressed":45,
     }
     print("\n  token                                    computed   baked   ok")
     ok=bad=0
@@ -367,3 +454,7 @@ if "--check" in sys.argv:
             ok+=match; bad+=(not match)
         print(f"  {k:40s} {str(cv):>8}  {str(bv):>6}   {status}")
     print(f"\n  matched {ok} / {ok+bad} checked baked values")
+    print("\n  note: acc_paired_* / factfate_* are the paper's published accuracy estimator")
+    print("  (stratified paired; fact fate domain-collapsed), recomputed here on the sample.")
+    print("  The plain acc_*/verdict_* tokens are the simpler pooled split, kept for the")
+    print("  corpus-wide view; its full-corpus values are baked. See data/README.md.")

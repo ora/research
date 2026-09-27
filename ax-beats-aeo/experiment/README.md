@@ -5,25 +5,21 @@ Round-independent definition of the study. Per-domain metadata and facts live in
 [`../data/README.md`](../data/README.md)); this folder holds the parts that aren't
 domain-indexed tables.
 
-- **`roster.json`** — the 60-domain matched core (30 AX-high / 30 AX-low): the selection design,
-  the confounds controlled, and each core domain's matching covariates. Frozen; not resampled
-  (see [`../data/README.md`](../data/README.md#sampling-method)). The same 60 domains are flagged
-  `in_matched_core` in `../data/domains.csv`.
-- **`specs/aeo-score-rubric.md`** — the accessibility-score rubric (what `ax_ratio` in
-  `../data/domains.csv` scores and why).
+- **`specs/aeo-score-rubric.md`** — the AEO on-site scoring rubric behind the study's AEO
+  *controls* (the framing the `discovery` and `citation_breadth` proxies in
+  `../data/domains.csv` derive from). The *treatment* score (`ax_ratio`) is the ora ranker's
+  accessibility layer — what an agent meets on arrival: robots.txt stance toward agents, bot
+  blocking, how much text survives a raw no-JavaScript fetch, and gating of key pages — as
+  described in the paper's Method section.
 
 ## The tasks, in brief
 
 Each journey gave an agent one realistic buyer question about one business, in one of three
 intent categories (the `category` column in `../data/journeys.csv`): **pricing** (current plans
 and costs, including any free plan/trial), **features** (main features and stated usage limits),
-and **setup** (how a new user gets started). Three independent repeats per domain x category,
-under a neutral system prompt with web search and plain page fetch available.
+and **setup** (how a new user gets started). Each prompt is a natural user request built from a
+frozen template with the business's own domain filled in, for example (pricing): *"I'm looking
+for a service that fits my budget. Can you find out what subscription options are available at
+{domain} and what they cost?"* Three independent repeats per domain x category, under a neutral
+system prompt with web search and plain page fetch available.
 
-## What's not here, on purpose
-
-The exact frozen prompt wording and the judges' grading instructions are not published, for the
-same reason as in [`../data/training-knowledge-probe/`](../data/training-knowledge-probe/README.md):
-the aggregate results and the per-fact verdicts (`../data/accuracy_facts.csv`, graded against
-`../data/ground_truth_facts.csv`) are what's verifiable here, without exposing the underlying
-prompts and judge methodology to direct replication from the published data alone.

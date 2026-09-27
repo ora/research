@@ -20,6 +20,9 @@
  "block_ratio": 2.3,
  "grounded_hi_pct": 78,
  "grounded_lo_pct": 51,
+ "fp_share_hi": 0.772,
+ "fp_share_lo": 0.498,
+ "fp_share_ratio": 1.55,
  "cost_grounded_hi_vanilla-claude-agent": 0.128,
  "cost_grounded_lo_vanilla-claude-agent": 0.222,
  "cost_premium_pct_vanilla-claude-agent": 73,
@@ -127,69 +130,34 @@
  "grounding_bins": [
   {
    "lo": 0.0,
-   "hi": 0.15,
-   "n_domains": 8,
-   "n_runs": 288,
-   "mean_searches": 5.7
-  },
-  {
-   "lo": 0.15,
    "hi": 0.28,
-   "n_domains": 7,
-   "n_runs": 252,
-   "mean_searches": 3.9
+   "n_domains": 15,
+   "n_runs": 540,
+   "mean_searches": 4.9
   },
   {
    "lo": 0.28,
-   "hi": 0.38,
-   "n_domains": 12,
-   "n_runs": 432,
-   "mean_searches": 3.6
-  },
-  {
-   "lo": 0.38,
-   "hi": 0.45,
-   "n_domains": 13,
-   "n_runs": 468,
-   "mean_searches": 3.3
-  },
-  {
-   "lo": 0.45,
    "hi": 0.5,
-   "n_domains": 13,
-   "n_runs": 468,
-   "mean_searches": 2.6
+   "n_domains": 38,
+   "n_runs": 1368,
+   "mean_searches": 3.1
   },
   {
    "lo": 0.65,
-   "hi": 0.73,
-   "n_domains": 30,
-   "n_runs": 1080,
-   "mean_searches": 2.4
-  },
-  {
-   "lo": 0.73,
    "hi": 0.8,
-   "n_domains": 9,
-   "n_runs": 324,
-   "mean_searches": 1.9
+   "n_domains": 39,
+   "n_runs": 1404,
+   "mean_searches": 2.3
   },
   {
    "lo": 0.8,
-   "hi": 0.87,
-   "n_domains": 9,
-   "n_runs": 324,
-   "mean_searches": 1.7
-  },
-  {
-   "lo": 0.87,
    "hi": 1.01,
-   "n_domains": 5,
-   "n_runs": 180,
-   "mean_searches": 2.7
+   "n_domains": 14,
+   "n_runs": 504,
+   "mean_searches": 2.0
   }
  ],
- "searches_bin_ratio": 3.4,
+ "searches_bin_ratio": 2.5,
  "endorse_hi_pct": 22,
  "endorse_lo_pct": 14,
  "endorse_ratio": 1.5,
@@ -377,6 +345,30 @@
    "ratio": 3.6
   }
  ],
+ "acc_paired_site_pct": 46.4,
+ "acc_paired_web_pct": 32.9,
+ "acc_paired_diff_pp": 13.5,
+ "acc_paired_lift_pct": 41,
+ "acc_paired_cells": 119,
+ "acc_paired_domains": 51,
+ "acc_paired_empty_site_pct": 11.3,
+ "acc_paired_empty_web_pct": 29.7,
+ "acc_paired_empty_diff_pp": -18.4,
+ "acc_paired_diff_pp_pricing": 24.7,
+ "acc_paired_diff_pp_features": 1.4,
+ "acc_paired_diff_pp_setup": 1.1,
+ "acc_paired_diff_pp_vanilla-claude-agent": 2.9,
+ "acc_paired_diff_pp_vanilla-claude-code": 33.3,
+ "acc_paired_diff_pp_vanilla-openclaw": 3.6,
+ "acc_paired_diff_pp_deep-eve-gpt5.4": -3.2,
+ "factfate_site_correct": 40,
+ "factfate_site_partial": 26,
+ "factfate_site_incorrect": 3,
+ "factfate_site_not_addressed": 31,
+ "factfate_web_correct": 26,
+ "factfate_web_partial": 17,
+ "factfate_web_incorrect": 3,
+ "factfate_web_not_addressed": 54,
  "grounding_composition": [
   {
    "group": "ax-high",
@@ -555,6 +547,87 @@
    "partial": 22,
    "incorrect": 3,
    "not_addressed": 53
+  }
+ },
+ "accuracy_paired_by_intent": [
+  {
+   "category": "pricing",
+   "n_domains": 37,
+   "n_cells": 53,
+   "site_pct": 62.8,
+   "web_pct": 38.1,
+   "diff_pp": 24.7,
+   "lift_pct": 65
+  },
+  {
+   "category": "features",
+   "n_domains": 26,
+   "n_cells": 35,
+   "site_pct": 39.9,
+   "web_pct": 38.5,
+   "diff_pp": 1.4,
+   "lift_pct": 4
+  },
+  {
+   "category": "setup",
+   "n_domains": 16,
+   "n_cells": 31,
+   "site_pct": 17.4,
+   "web_pct": 16.3,
+   "diff_pp": 1.1,
+   "lift_pct": 7
+  }
+ ],
+ "accuracy_paired_by_arm": [
+  {
+   "arm": "vanilla-claude-agent",
+   "n_domains": 11,
+   "n_cells": 12,
+   "site_pct": 42.1,
+   "web_pct": 39.2,
+   "diff_pp": 2.9,
+   "lift_pct": 7
+  },
+  {
+   "arm": "vanilla-claude-code",
+   "n_domains": 28,
+   "n_cells": 37,
+   "site_pct": 45.4,
+   "web_pct": 12.0,
+   "diff_pp": 33.3,
+   "lift_pct": 278
+  },
+  {
+   "arm": "vanilla-openclaw",
+   "n_domains": 30,
+   "n_cells": 37,
+   "site_pct": 41.3,
+   "web_pct": 37.7,
+   "diff_pp": 3.6,
+   "lift_pct": 9
+  },
+  {
+   "arm": "deep-eve-gpt5.4",
+   "n_domains": 28,
+   "n_cells": 33,
+   "site_pct": 47.1,
+   "web_pct": 50.3,
+   "diff_pp": -3.2,
+   "lift_pct": -6
+  }
+ ],
+ "fact_fate_by_source": {
+  "site": {
+   "correct": 40,
+   "partial": 26,
+   "incorrect": 3,
+   "not_addressed": 31
+  },
+  "web": {
+   "correct": 26,
+   "partial": 17,
+   "incorrect": 3,
+   "not_addressed": 54
   }
  }
 }

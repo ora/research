@@ -1,14 +1,20 @@
 # AX beats AEO: dataset
 
+[![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](data/LICENSE)
+[![Python 3, stdlib only](https://img.shields.io/badge/python-3%20%C2%B7%20stdlib%20only-blue.svg)](scripts/build_aggregates.py)
+[![Data: 3,816 journeys, 106 domains](https://img.shields.io/badge/data-3%2C816%20journeys%20%C2%B7%20106%20domains-orange.svg)](data/)
+[![Paper: ora research](https://img.shields.io/badge/paper-ora%20research-black.svg)](https://ora.ai/research)
+
 This directory is a data release, not the paper. It publishes a reproduction sample of the data
 behind the "AX beats AEO" study (whether AI agents ground their answers on a business's own
 site vs. third-party sources, and whether that's driven by agent accessibility rather than
 answer-engine optimization) plus the scripts to recompute the study's aggregate numbers from it.
 
-**Paper:** forthcoming from the [ora.ai](https://ora.ai) research lab (era labs). This README
-will be updated with a link on publication; until then, `data/aggregates.json` and
-`scripts/build_aggregates.py --check` are the closest thing to the published numbers available
-here (see [Reproducing the numbers](#reproducing-the-numbers)).
+**Paper:** *AX is the New AEO* — Ido Finder, Assaf Elovic, Gad Shalev; ora research (era labs),
+September 2026 — [ora.ai/research](https://ora.ai/research). `data/aggregates.json` and
+`scripts/build_aggregates.py --check` recompute the paper's aggregate numbers from the sample
+published here (see [Reproducing the numbers](#reproducing-the-numbers)).
 
 This directory also includes a second, separate experiment in
 [`data/training-knowledge-probe/`](data/training-knowledge-probe/): the data behind a related but
@@ -23,11 +29,11 @@ itself is in this directory.
 
 What is published in [`data/`](data/) is a **stratified ~10% domain sample** (106 domains,
 3,816 journeys) of the normalized, per-journey data, consolidated into 4 flat CSVs, plus the
-script to recompute every aggregate number from it. The sample keeps the full 60-domain matched
-core intact (subsampling it would break its own fame/breadth matching) and adds a proportionally
-stratified draw from the remaining domains. See [`data/README.md`](data/README.md) for the exact
-method and a full reconciliation table (published numbers vs. numbers recomputed from the
-sample).
+script to recompute every aggregate number from it. The sample keeps the first collection wave
+(60 domains, which carries nearly all of the ground-truth capture) intact and adds a
+proportionally stratified draw from the remaining domains. See
+[`data/README.md`](data/README.md) for the exact method and a full reconciliation table
+(published numbers vs. numbers recomputed from the sample).
 
 This means: numbers recomputed here from the 10% sample reproduce the study's published numbers
 to within a reasonable delta, not byte-for-byte, because they run on ~10% of the domains. That
@@ -39,8 +45,8 @@ delta is measured and documented, not hidden.
 |---|---|
 | [`data/`](data/) | The reproduction sample, as 4 flat CSVs: `journeys.csv` (one row per run, with judged endorsement/hedge/attribution/accuracy signals merged in), `accuracy_facts.csv` and `ground_truth_facts.csv` (long-format fact detail), and `domains.csv` (one row per domain), plus the generated `aggregates.json`. Own [README](data/README.md). |
 | [`data/training-knowledge-probe/`](data/training-knowledge-probe/) | A separate experiment, nested here because it's still data: final aggregated verdicts (`figure-points.csv`, `series.csv`) behind the training-knowledge figure. Own [README](data/training-knowledge-probe/README.md). |
-| [`experiment/`](experiment/) | The main study's experiment definition needed to interpret `data/`: the 60-domain matched core (`roster.json`), a plain-language description of the three task intents, and the accessibility-score rubric. Exact prompt wording and judge instructions are deliberately not published (see its README). |
-| [`scripts/`](scripts/) | `build_aggregates.py` (pure standard library, reproduces `data/aggregates.json` from `data/`), and two provenance scripts documenting how `data/` was derived: `sample_domains.py` (the 10% domain sample) and `consolidate.py` (the ~80-file to 4-file consolidation). |
+| [`experiment/`](experiment/) | The main study's experiment definition needed to interpret `data/`: a plain-language description of the three task intents (with the prompt-template shape) and the rubric behind the AEO-control scores. |
+| [`scripts/`](scripts/) | One script, `build_aggregates.py` (pure standard library): recomputes `data/aggregates.json` from `data/` and reconciles it against the study's published numbers (`--check`). How `data/` was derived (sampling, consolidation) is documented in [`data/README.md`](data/README.md). |
 
 ## Reproducing the numbers
 
@@ -52,13 +58,28 @@ python3 build_aggregates.py --check
 This reads `data/journeys.csv` and `data/domains.csv` and writes a single file,
 `data/aggregates.json`: every scalar plus the by-industry, by-accessibility-bin, and
 by-source-x-arm breakdowns as named tables. No dependencies beyond Python 3's standard library.
-`--check` prints a reconciliation against the study's published numbers (baked into the script;
-see [`data/README.md`](data/README.md) for why some cells differ, by sampling and by one known,
-documented methodology gap unrelated to sampling).
+`--check` prints a reconciliation against the study's published numbers (baked into the script).
+Accuracy comes in both the paper's stratified paired estimator (`acc_paired_*`) and a simpler
+pooled split; see [`data/README.md`](data/README.md) for the two estimators and for how closely
+each cell reproduces from a 10% sample.
 
 ## Status
 
-First public release, 2026. Data only; the paper is forthcoming.
+First public release, September 2026, accompanying the paper. Data and reproduction scripts
+only; the paper itself is published separately.
+
+## Citing
+
+```bibtex
+@techreport{finder2026ax,
+  title       = {AX is the New AEO},
+  author      = {Finder, Ido and Elovic, Assaf and Shalev, Gad},
+  institution = {ora research (era labs)},
+  year        = {2026},
+  month       = sep,
+  url         = {https://ora.ai/research}
+}
+```
 
 ## Contributing
 
