@@ -29,10 +29,8 @@ itself is in this directory.
 
 What is published in [`data/`](data/) is a **stratified ~10% domain sample** (106 domains,
 3,816 journeys) of the normalized, per-journey data, consolidated into 4 flat CSVs, plus the
-script to recompute every aggregate number from it. The sample keeps the first collection wave
-(60 domains, which carries nearly all of the ground-truth capture) intact and adds a
-proportionally stratified draw from the remaining domains. See
-[`data/README.md`](data/README.md) for the exact method and a full reconciliation table
+script to recompute every aggregate number from it. See
+[`data/README.md`](data/README.md) for the exact sampling method and a full reconciliation table
 (published numbers vs. numbers recomputed from the sample).
 
 This means: numbers recomputed here from the 10% sample reproduce the study's published numbers
@@ -45,7 +43,7 @@ delta is measured and documented, not hidden.
 |---|---|
 | [`data/`](data/) | The reproduction sample, as 4 flat CSVs: `journeys.csv` (one row per run, with judged endorsement/hedge/attribution/accuracy signals merged in), `accuracy_facts.csv` and `ground_truth_facts.csv` (long-format fact detail), and `domains.csv` (one row per domain), plus the generated `aggregates.json`. Own [README](data/README.md). |
 | [`data/training-knowledge-probe/`](data/training-knowledge-probe/) | A separate experiment, nested here because it's still data: final aggregated verdicts (`figure-points.csv`, `series.csv`) behind the training-knowledge figure. Own [README](data/training-knowledge-probe/README.md). |
-| [`experiment/`](experiment/) | The main study's experiment definition needed to interpret `data/`: a plain-language description of the three task intents (with the prompt-template shape) and the rubric behind the AEO-control scores. |
+| [`experiment/`](experiment/) | The main study's experiment definition needed to interpret `data/`: a plain-language description of the three task intents (with the prompt-template shape) and of the treatment and AEO-control scores. |
 | [`scripts/`](scripts/) | One script, `build_aggregates.py` (pure standard library): recomputes `data/aggregates.json` from `data/` and reconciles it against the study's published numbers (`--check`). How `data/` was derived (sampling, consolidation) is documented in [`data/README.md`](data/README.md). |
 
 ## Reproducing the numbers

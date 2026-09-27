@@ -2,15 +2,17 @@
 
 Round-independent definition of the study. Per-domain metadata and facts live in
 `../data/domains.csv` and `../data/ground_truth_facts.csv` (see
-[`../data/README.md`](../data/README.md)); this folder holds the parts that aren't
+[`../data/README.md`](../data/README.md)); this file describes the parts that aren't
 domain-indexed tables.
 
-- **`specs/aeo-score-rubric.md`** — the AEO on-site scoring rubric behind the study's AEO
-  *controls* (the framing the `discovery` and `citation_breadth` proxies in
-  `../data/domains.csv` derive from). The *treatment* score (`ax_ratio`) is the ora ranker's
-  accessibility layer — what an agent meets on arrival: robots.txt stance toward agents, bot
-  blocking, how much text survives a raw no-JavaScript fetch, and gating of key pages — as
-  described in the paper's Method section.
+## The scores, in brief
+
+The *treatment* score (`ax_ratio` in `../data/domains.csv`) is the ora ranker's
+accessibility layer — what an agent meets on arrival: robots.txt stance toward agents, bot
+blocking, how much text survives a raw no-JavaScript fetch, and gating of key pages. The two
+AEO *controls* are `discovery` (the ora ranker's discovery-layer score: how
+answer-engine-ready the site's content is) and `citation_breadth` (how widely third-party
+sources already cover the domain). All three are described in the paper's Method section.
 
 ## The tasks, in brief
 
