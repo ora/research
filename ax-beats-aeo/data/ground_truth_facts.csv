@@ -1,0 +1,1626 @@
+domain,block,field,fact_text
+affinity.co,pricing,plan,name=Essential | price_monthly=166.67 | currency=USD
+affinity.co,pricing,plan,name=Scale | price_monthly=191.67 | currency=USD
+affinity.co,pricing,plan,name=Advanced | price_monthly=225 | currency=USD
+affinity.co,pricing,plan,name=Enterprise | currency=USD
+affinity.co,pricing,free_plan,False
+affinity.co,features,main_feature,"Automatic capture of every email, meeting, and calendar interaction"
+affinity.co,features,main_feature,"Data enrichment from 40+ sources including Pitchbook, Preqin, Grata"
+affinity.co,features,main_feature,Relationship strength scoring from real interaction data
+affinity.co,features,main_feature,Automated meeting briefs before every call
+affinity.co,features,main_feature,Pipeline updates after every meeting automatically
+affinity.co,features,main_feature,Coverage gap flagging before Monday review
+affinity.co,features,main_feature,Warm path discovery through firm's existing network
+affinity.co,features,main_feature,Purpose-built AI agents for deal context and relationship history
+affinity.co,features,main_feature,AI Notetaker captures meeting conversations automatically
+affinity.co,features,main_feature,"Integrations with Claude, ChatGPT, and Snowflake via MCP"
+affinity.co,features,main_feature,Relationship data persists beyond employee turnover
+affinity.co,features,main_feature,"Analytics, reporting, and mobile app included"
+affinity.co,setup,has_public_api,True
+affinity.co,setup,key_integration,Claude
+affinity.co,setup,key_integration,ChatGPT
+affinity.co,setup,key_integration,Gemini
+affinity.co,setup,key_integration,Copilot
+affinity.co,setup,key_integration,Snowflake
+affirm.com,pricing,free_plan,True
+ahrefs.com,pricing,plan,"name=Lite | price_monthly=129 | currency=USD | key_limits=5 projects, 6 months historical data, 750 tracked keywords, 5 tracked AI prompts, 100,000 crawl credits, 1 user included"
+ahrefs.com,pricing,plan,"name=Standard | price_monthly=249 | currency=USD | key_limits=20 projects, 2 years historical data, 2,000 tracked keywords, 10 tracked AI prompts, 500,000 crawl credits, 1 user included"
+ahrefs.com,pricing,plan,"name=Advanced | price_monthly=449 | currency=USD | key_limits=50 projects, 5 years historical data, 5,000 tracked keywords, 20 tracked AI prompts, 1,500,000 crawl credits, 1 user included"
+ahrefs.com,pricing,plan,"name=Enterprise | price_monthly=1499 | currency=USD | key_limits=Annual commitment required, uncapped API access, SSO & enterprise-grade security, unlimited historical data, personalized higher limits"
+ahrefs.com,pricing,plan,name=Brand Radar Starter | price_monthly=29 | currency=USD
+ahrefs.com,pricing,plan,"name=Brand Radar Custom Prompts - Basic | price_monthly=50 | currency=USD | key_limits=2,500 checks/mo, overage $0.020/check"
+ahrefs.com,pricing,plan,"name=Brand Radar Custom Prompts - Growth | price_monthly=100 | currency=USD | key_limits=7,000 checks/mo, overage $0.015/check"
+ahrefs.com,pricing,plan,"name=Brand Radar Custom Prompts - Scale | price_monthly=250 | currency=USD | key_limits=25,000 checks/mo, overage $0.010/check"
+ahrefs.com,pricing,free_plan,True
+ahrefs.com,pricing,pricing_model_notes,"Pay annually, save up to 17%. No discounts offered. Additional users charged on pay-as-you-go basis. Pay-as-you-go credits and data available with automatic charges when consumption exceeds plan limits. No contracts or setup fees. Can cancel anytime."
+ahrefs.com,features,main_feature,Site Explorer for backlink and organic traffic analysis
+ahrefs.com,features,main_feature,Keywords Explorer with AI suggestions and keyword clusters
+ahrefs.com,features,main_feature,Site Audit with always-on crawling and AI detection
+ahrefs.com,features,main_feature,Rank Tracker for monitored keyword rankings
+ahrefs.com,features,main_feature,Brand Radar AI tracking across 476M+ organic prompts
+ahrefs.com,features,main_feature,Content Explorer for competitor content insights
+ahrefs.com,features,main_feature,Web Analytics for site performance measurement
+ahrefs.com,features,main_feature,Social Media Manager for publishing and scheduling posts
+ahrefs.com,features,main_feature,Report Builder for consolidated marketing data reporting
+ahrefs.com,features,main_feature,Competitive Analysis with SERP history and comparison
+ahrefs.com,features,main_feature,API and MCP Server access for data integration
+ahrefs.com,features,main_feature,GBP Monitor and Google Search Console insights
+ahrefs.com,features,usage_limit,"Lite: 5 projects, 750 tracked keywords, 100K crawl credits/mo"
+ahrefs.com,features,usage_limit,"Standard: 20 projects, 2,000 tracked keywords, 500K crawl credits/mo"
+ahrefs.com,features,usage_limit,"Advanced: 50 projects, 5,000 tracked keywords, 1.5M crawl credits/mo"
+ahrefs.com,features,usage_limit,"Enterprise: from 100 projects, 10K+ keywords, 5M+ crawl credits/mo"
+ahrefs.com,features,usage_limit,Lite: 6 months historical data; Standard: 2 years; Advanced: 5 years
+ahrefs.com,features,usage_limit,"Lite: 1,000 credits/user/mo; Standard/Advanced/Enterprise: unlimited"
+ahrefs.com,features,usage_limit,"Lite: 2,500 max rows/report; up to 150,000 on Enterprise"
+ahrefs.com,features,usage_limit,Export rows: 500K (Lite) to 10M+ (Enterprise) per month
+ahrefs.com,features,usage_limit,Brand Radar: 5–20 tracked AI prompts depending on plan
+ahrefs.com,features,usage_limit,Rank Tracker updates weekly on all plans
+ahrefs.com,setup,setup_step,Visit the REST API section and review the overview and authentication docs
+ahrefs.com,setup,setup_step,Create and manage your API keys via the API keys section
+ahrefs.com,setup,setup_step,Try free test queries without an Enterprise plan
+ahrefs.com,setup,setup_step,Browse available endpoints in the endpoint explorer
+ahrefs.com,setup,setup_step,"For AI assistants, follow MCP introduction to connect Ahrefs data"
+ahrefs.com,setup,setup_step,"For dashboards, use Data Studio connectors (Site Explorer, Rank Tracker, etc.)"
+ahrefs.com,setup,setup_step,"For third-party apps, apply to Ahrefs Connect integration program"
+ahrefs.com,setup,setup_step,"For bot tracking, set up Bot Analytics via Cloudflare Logpush or Worker"
+ahrefs.com,setup,auth_method,API keys (REST API); OAuth 2.0 (Ahrefs Connect integration program)
+ahrefs.com,setup,has_public_api,True
+ahrefs.com,setup,key_integration,Claude Desktop / Web
+ahrefs.com,setup,key_integration,ChatGPT
+ahrefs.com,setup,key_integration,Claude Code
+ahrefs.com,setup,key_integration,Google Data Studio
+ahrefs.com,setup,key_integration,Cloudflare (Logpush and Worker)
+ahrefs.com,setup,key_integration,MCP (AI assistants/agents)
+airtable.com,pricing,plan,name=Free
+airtable.com,pricing,plan,name=Team | price_annual_per_month=20 | currency=USD | key_limits=Per user/month when billed annually
+airtable.com,pricing,plan,name=Business | price_annual_per_month=45 | currency=USD | key_limits=Per user/month when billed annually
+airtable.com,pricing,plan,name=Enterprise Scale | key_limits=Custom pricing based on organization's needs and scale; contact sales
+airtable.com,pricing,free_plan,True
+airtable.com,pricing,pricing_model_notes,"Charged per seat. Free plan: all users free. Team/Business plans: charged for users with edit permissions for at least one base; read-only collaborators, form submissions, and share links not charged. Charges prorated for mid-month additions."
+airtable.com,features,main_feature,Interface Designer for building custom apps
+airtable.com,features,main_feature,Automation runs for workflow automation
+airtable.com,features,main_feature,AI credits with Omni and AI Field Agents
+airtable.com,features,main_feature,"Multiple views: Grid, Kanban, Gantt, Timeline, Calendar"
+airtable.com,features,main_feature,Synced tables with two-way sync support
+airtable.com,features,main_feature,Extensions including scripting and custom extensions
+airtable.com,features,main_feature,Realtime collaboration and commenting
+airtable.com,features,main_feature,Forms with custom branding options
+airtable.com,features,main_feature,Portals for guest user access
+airtable.com,features,main_feature,SAML-based single sign-on (SSO)
+airtable.com,features,main_feature,Audit logs and data loss prevention (DLP)
+airtable.com,features,main_feature,HyperDB and App Library for enterprise app building
+airtable.com,features,usage_limit,"Free: 1,000 records per base, 5 editors max"
+airtable.com,features,usage_limit,"Team: 50,000 records per base, unlimited editors"
+airtable.com,features,usage_limit,"Business: 125,000 records per base"
+airtable.com,features,usage_limit,"Enterprise Scale: 500,000 records per base"
+airtable.com,features,usage_limit,Free: 100 automation runs/month
+airtable.com,features,usage_limit,"Team: 25,000 automation runs/month"
+airtable.com,features,usage_limit,"Business: 100,000 automation runs/month"
+airtable.com,features,usage_limit,"Enterprise Scale: 500,000 automation runs/month"
+airtable.com,features,usage_limit,Free: 500 AI credits/editor/month
+airtable.com,features,usage_limit,"Team: 15,000 AI credits/paid user/month"
+airtable.com,features,usage_limit,"Free: 1 GB attachments per base; Enterprise: 1,000 GB"
+airtable.com,features,usage_limit,"Free API: 1,000 calls/month; Team: 100,000 calls/month"
+asana.com,pricing,plan,"name=Personal | price_monthly=0 | price_annual_per_month=0 | currency=USD | key_limits=2 users, unlimited tasks and projects, list/board/calendar views, 100MB max per file"
+asana.com,pricing,plan,"name=Starter | price_monthly=13.49 | price_annual_per_month=10.99 | currency=USD | key_limits=Per user, no user seat limits, AI Studio Basic w/50K credits, timeline and Gantt views, reporting dashboards, unlimited automations"
+asana.com,pricing,plan,"name=Advanced | price_monthly=30.49 | price_annual_per_month=24.99 | currency=USD | key_limits=Per user, AI Studio Basic w/75K credits, unlimited portfolios, goals, workload management, approvals and proofing, Salesforce/Tableau/Power BI support"
+asana.com,pricing,plan,"name=Enterprise | key_limits=Contact sales for pricing, AI Studio Basic w/200K credits, SAML authentication, user provisioning, universal workload, capacity planning, service accounts"
+asana.com,pricing,free_plan,True
+asana.com,pricing,pricing_model_notes,Personal plan is free forever. Starter and Advanced plans show both monthly and annual billing options with annual discount (up to 18% savings). Enterprise plan requires contacting sales. All paid plans are per-user pricing.
+asana.com,features,main_feature,Unlimited tasks and projects organization
+asana.com,features,main_feature,"List, board, calendar, timeline, and Gantt views"
+asana.com,features,main_feature,Unlimited automations for assignments and notifications
+asana.com,features,main_feature,Reporting dashboards with charts and metrics
+asana.com,features,main_feature,Goals tracking connected to company-wide objectives
+asana.com,features,main_feature,Workload and capacity planning across portfolios
+asana.com,features,main_feature,Approvals and proofing with PDF/design annotation
+asana.com,features,main_feature,"Custom fields, templates, and forms with branching"
+asana.com,features,main_feature,AI Studio with credits for automated workflows
+asana.com,features,main_feature,Portfolios for high-level multi-project oversight
+asana.com,features,main_feature,Time tracking comparing estimated vs. actual effort
+asana.com,features,main_feature,SAML authentication and SCIM user provisioning
+asana.com,features,usage_limit,Personal plan: up to 2 users only
+asana.com,features,usage_limit,Personal plan: 100MB max file size
+asana.com,features,usage_limit,AI Studio Basic: 50K credits/month on Starter
+asana.com,features,usage_limit,AI Studio Basic: 75K credits/month on Advanced
+asana.com,features,usage_limit,AI Studio Basic: 200K credits/month on Enterprise
+asana.com,features,usage_limit,"Seat increments: 1 (2–5 users), 5 (up to 30), 10 (up to 100), 25 (up to 500), 50 (500+)"
+asana.com,setup,setup_step,Visit the quick start guide to build your first app
+asana.com,setup,setup_step,Create and authorize with a token
+asana.com,setup,setup_step,Create tasks via the API
+asana.com,setup,auth_method,token
+asana.com,setup,has_public_api,True
+asana.com,setup,key_integration,App Directory apps
+asana.com,setup,key_integration,Webhooks
+asana.com,setup,key_integration,Rule actions
+asana.com,setup,key_integration,App components (UI embeds)
+attio.com,pricing,plan,"name=Free | price_monthly=0 | price_annual_per_month=0 | key_limits=Up to 3 seats, Up to 3 objects, 50,000 records, 200 emails/mo, Up to 3 reports"
+attio.com,pricing,plan,"name=Plus | price_monthly=44 | price_annual_per_month=35 | key_limits=Up to 10 seats, Up to 5 objects, 250,000 records, 1,000 emails/mo, Up to 15 reports"
+attio.com,pricing,plan,"name=Pro | price_monthly=99 | price_annual_per_month=79 | key_limits=Unlimited seats, Up to 12 objects, 1,000,000 records, Unlimited emails/mo, Up to 100 reports"
+attio.com,pricing,plan,"name=Enterprise | key_limits=Unlimited objects, Unlimited teams, Custom records, Unlimited emails/mo, 100+ reports"
+attio.com,pricing,free_plan,True
+attio.com,pricing,pricing_model_notes,Per user/month billing. Monthly and annual billing options available. Annual billing offers 20% savings. Enterprise plan billed annually with custom pricing.
+attio.com,features,main_feature,Real-time contact syncing
+attio.com,features,main_feature,Automatic data enrichment for companies and people
+attio.com,features,main_feature,AI agents and Ask Attio AI assistant
+attio.com,features,main_feature,Call Intelligence and email sequences
+attio.com,features,main_feature,Workflows with integration blocks for automation
+attio.com,features,main_feature,Custom objects and relationship attributes
+attio.com,features,main_feature,Advanced reporting with funnel and insight reports
+attio.com,features,main_feature,Email and calendar sync per user
+attio.com,features,main_feature,Bulk email sending with visibility controls
+attio.com,features,main_feature,"MCP server, API, webhook, and App SDK access"
+attio.com,features,main_feature,Permission controls with team and individual management
+attio.com,features,main_feature,Record and entry templates with formula attributes
+attio.com,features,usage_limit,"Free: up to 3 seats, 3 objects, 50,000 records"
+attio.com,features,usage_limit,"Plus: up to 10 seats, 5 objects, 250,000 records"
+attio.com,features,usage_limit,"Pro: unlimited seats, 12 objects, 1,000,000 records"
+attio.com,features,usage_limit,"Enterprise: unlimited seats, objects, and records"
+attio.com,features,usage_limit,"Free: 200 emails/month; Plus: 1,000 emails/month"
+attio.com,features,usage_limit,"Bulk email: 10 at once (Free), 50 at once (Plus+)"
+attio.com,features,usage_limit,"Free: 100 seat credits/user/mo, 250 workspace credits/mo"
+attio.com,features,usage_limit,"Plus: 500 seat credits/user/mo, 1,500 workspace credits/mo"
+attio.com,features,usage_limit,"Pro: 1,000 seat credits/user/mo, 10,000 workspace credits/mo"
+attio.com,features,usage_limit,Free: up to 3 reports; Plus: 15; Pro: 100; Enterprise: 100+
+attio.com,setup,setup_step,Visit Attio Docs and choose a platform component to build with
+attio.com,setup,setup_step,Select App SDK to embed TypeScript React apps in Attio interface
+attio.com,setup,setup_step,Use REST API to read and write data to Attio workspaces
+attio.com,setup,setup_step,Connect AI tools via MCP to manage your Attio workspace
+attio.com,setup,setup_step,Run SQL queries against workspace data using the SQL component
+attio.com,setup,has_public_api,True
+attio.com,setup,sdk,App SDK (TypeScript/React)
+attio.com,setup,key_integration,Claude
+attio.com,setup,key_integration,ChatGPT
+attio.com,setup,key_integration,Webhooks
+basecamp.com,pricing,plan,"name=Free | key_limits=1 project, 1 GB storage, up to 20 users"
+basecamp.com,pricing,plan,"name=Pro | price_monthly=15 | currency=USD | key_limits=Unlimited projects, 500 GB storage, pay-per-user ($15/user/month), guests and clients free"
+basecamp.com,pricing,plan,"name=Pro Unlimited | price_annual_per_month=299 | currency=USD | key_limits=Unlimited projects, 5 TB storage, unlimited users, all features included, fixed price"
+basecamp.com,pricing,free_plan,True
+basecamp.com,pricing,pricing_model_notes,"Pro Unlimited offers 60-day free trial. Pro offers 30-day free trial. Free plan available with 1 project forever. No credit card required for free plan or trials. Pay-per-user model for Pro; all-inclusive fixed price for Pro Unlimited. Optional upgrades available: Timesheet ($50/month), Admin Pro Pack ($50/month), additional storage ($50/month per 1TB)."
+bill.com,pricing,plan,name=Essentials | price_monthly=49 | currency=USD | key_limits=Per user/month; manual integration via CSV; 6 standard user roles; AP and AR features with basic integrations
+bill.com,pricing,plan,name=Team | price_monthly=65 | currency=USD | key_limits=Per user/month; automatic 2-way sync with QuickBooks Online/Pro/Premier and Xero; custom user roles; AP and AR features
+bill.com,pricing,plan,"name=Corporate | price_monthly=89 | currency=USD | key_limits=Per user/month; automatic 2-way sync with QuickBooks Enterprise, Oracle NetSuite, Sage Intacct, Microsoft Dynamics; procurement features; custom approval policies; discounts for approver-only users"
+bill.com,pricing,plan,name=Enterprise | currency=USD | key_limits=Custom pricing; enhanced security; multi-location accounting; priority support; automatic 2-way sync with enterprise software; single sign-on; dual control; API access
+bill.com,pricing,plan,"name=Spend & Expense | price_monthly=0 | currency=USD | key_limits=Free plan; corporate cards; budgets; expense tracking; access to credit lines $1,000-$5M; no per-user fees"
+bill.com,pricing,free_plan,True
+bill.com,pricing,pricing_model_notes,"AP & AR plans priced per user per month. Spend & Expense is free with no subscription or per-user fees. Transaction fees apply for payments (ACH $0.59, checks $1.99, virtual card free, etc.). Free trial available for AP & AR in most cases."
+bill.com,features,main_feature,Accounts Payable automation reducing time by 50%
+bill.com,features,main_feature,Accounts Receivable to get paid 2x faster
+bill.com,features,main_feature,ACH payments for paying and getting paid
+bill.com,features,main_feature,Pay vendors by credit card even without card acceptance
+bill.com,features,main_feature,International payments to over 130 countries
+bill.com,features,main_feature,"Invoice creation, sending, and management with customer portal"
+bill.com,features,main_feature,Approval tracking with separation of duties and fraud protection
+bill.com,features,main_feature,AI to reduce manual work and streamline bill pay
+bill.com,features,main_feature,Corporate cards with virtual card fraud protection
+bill.com,features,main_feature,Budget management and expense management software
+bill.com,features,main_feature,Reimbursements managing out-of-pocket and card spend
+bill.com,features,main_feature,Rewards earned on every dollar spent on BILL Divvy Card
+bill.com,features,usage_limit,"Credit lines range from $1,000 to $5M (not guaranteed)"
+box.com,pricing,plan,"name=Individual | key_limits=10 GB storage, 250 MB file upload limit, 1 file version, 5 Box Sign signature requests per month"
+box.com,pricing,plan,"name=Personal Pro | key_limits=100 GB storage, 5 GB file upload, 10 file versions, 15 Box Sign signature requests per month"
+box.com,pricing,plan,"name=Business Starter | key_limits=100 GB storage, 2 GB file upload, 25 file versions, 10 Box Sign signature requests per month, minimum 3 users"
+box.com,pricing,plan,"name=Business Essentials | key_limits=Unlimited storage, 5 GB file upload, unlimited external collaborators, 50K API calls per month, minimum 3 users"
+box.com,pricing,plan,"name=Business Plus | key_limits=Unlimited storage, 15 GB file upload, unlimited external collaborators, 50K API calls per month, minimum 3 users"
+box.com,pricing,plan,"name=Enterprise | key_limits=Unlimited storage, 50 GB file upload, unlimited external collaborators, 1K AI Units per month, 100K API calls per month, minimum 3 users"
+box.com,pricing,plan,"name=Enterprise Plus | key_limits=Unlimited storage, 150 GB file upload, unlimited external collaborators, 2K AI Units per month, 100K API calls per month, minimum 3 users"
+box.com,pricing,plan,"name=Enterprise Advanced | key_limits=Unlimited storage, 500 GB file upload, unlimited external collaborators, 20K AI Units per month, 200K API calls per month, minimum 3 users"
+box.com,pricing,free_plan,True
+box.com,pricing,pricing_model_notes,"Monthly and annual billing options available. Platform add-ons (Core APIs, AI Units, Document Generation APIs, Sign APIs) require annual commitment and contact sales for pricing. Personal Pro and Business plans show 'per month' pricing but specific dollar amounts not stated in text."
+box.com,features,main_feature,Intelligent content management platform for unstructured data
+box.com,features,main_feature,Secure collaboration on files inside and outside organization
+box.com,features,main_feature,"Box AI for summaries, deep analysis, smart recommendations"
+box.com,features,main_feature,Box AI Agents for automating complex workflows
+box.com,features,main_feature,"Extract structured data from contracts, statements, documents"
+box.com,features,main_feature,Drag-and-drop workflow automation builder with AI agents
+box.com,features,main_feature,AI-driven security with deep learning malware detection
+box.com,features,main_feature,Automated classification and granular access controls
+box.com,features,main_feature,"Built-in compliance tools for GDPR, HIPAA, FINRA"
+box.com,features,main_feature,Unlimited e-signatures built into content ecosystem
+box.com,features,main_feature,AI-native APIs and Box AI Studio for developers
+box.com,features,main_feature,Box Zones data residency across 10 global regions
+box.com,features,usage_limit,Unlimited e-signatures available for free
+box.com,setup,has_public_api,True
+box.com,setup,key_integration,Salesforce
+box.com,setup,key_integration,Slack
+box.com,setup,key_integration,Databricks
+brevo.com,pricing,plan,name=Free | key_limits=Up to 300 emails per day after account approval; no credit card required
+brevo.com,pricing,plan,"name=Starter | key_limits=From 5,000 emails per month; includes Sales Essentials"
+brevo.com,pricing,plan,"name=Standard | key_limits=Everything in Starter, plus click heatmaps, geography & device reports, 1 page included, Sales Essentials"
+brevo.com,pricing,plan,"name=Professional | key_limits=From 150,000 emails per month; additional marketing channels (WhatsApp, Popups, Mobile & Web Push); multi-user access (10 seats); Sales Advanced"
+brevo.com,pricing,plan,name=Enterprise | key_limits=Custom price; for 1M+ contacts; custom solutions & full data control; Sales Advanced
+brevo.com,pricing,free_plan,True
+brevo.com,pricing,pricing_model_notes,Monthly or yearly commitment options available; yearly option shows -10% discount; pay-as-you-go credits available; no hidden fees; SMS credits sold separately
+brevo.com,features,main_feature,Multichannel campaign automation and customer journey builder
+brevo.com,features,main_feature,"Email, SMS, WhatsApp transactional messaging via SMTP and API"
+brevo.com,features,main_feature,Drag-and-drop email editor with responsive templates
+brevo.com,features,main_feature,AI content generator for subject lines and email copy
+brevo.com,features,main_feature,"Advanced segmentation with demographics, behavior, custom events"
+brevo.com,features,main_feature,Marketing automation with unlimited multi-step workflows
+brevo.com,features,main_feature,A/B testing for subject lines and content variants
+brevo.com,features,main_feature,Web and event tracking to trigger messages and segments
+brevo.com,features,main_feature,"Contact scoring based on engagement, purchases, behaviors"
+brevo.com,features,main_feature,AI segmentation and AI Data Analyst (Aura AI)
+brevo.com,features,main_feature,"Custom loyalty engine with points, tiers, and rewards"
+brevo.com,features,main_feature,"150+ integrations including Shopify, WordPress, Stripe, Zapier"
+brevo.com,features,usage_limit,Free plan: up to 300 emails per day
+brevo.com,features,usage_limit,"Starter: from 5,000 emails per month"
+brevo.com,features,usage_limit,"Professional: from 150,000 emails per month"
+brevo.com,features,usage_limit,Standard: 1 landing page included
+brevo.com,features,usage_limit,Professional: 10 seats included
+brevo.com,features,usage_limit,Deliverability Specialist support: 3 hours per year (Professional)
+brevo.com,features,usage_limit,Free plan: 500 contacts included
+brevo.com,features,usage_limit,"Free plan: web push up to 1,000 subscribers"
+brevo.com,features,usage_limit,"SMS credits sold separately, priced by volume and destination"
+brevo.com,setup,setup_step,Sign in to Brevo and access the API section
+brevo.com,setup,setup_step,Set up API key or OAuth 2.0 authentication
+brevo.com,setup,setup_step,"Install an official SDK (Node.js, Python, or PHP)"
+brevo.com,setup,setup_step,Follow the interactive quickstart to make your first API call
+brevo.com,setup,setup_step,Browse use-case guides or API reference for further integration
+brevo.com,setup,auth_method,API key or OAuth 2.0
+brevo.com,setup,has_public_api,True
+brevo.com,setup,sdk,Node.js
+brevo.com,setup,sdk,Python
+brevo.com,setup,sdk,PHP
+brevo.com,setup,key_integration,Transactional email
+brevo.com,setup,key_integration,Transactional SMS
+brevo.com,setup,key_integration,WhatsApp messaging
+brevo.com,setup,key_integration,Webhooks
+brevo.com,setup,key_integration,Contact management
+brevo.com,setup,key_integration,eCommerce sync
+brevo.com,setup,key_integration,Conversations/live chat
+brevo.com,setup,key_integration,SMTP relay
+brevo.com,setup,key_integration,MCP Server (AI assistants)
+builder.io,pricing,plan,"name=Free | price_monthly=0 | key_limits=Up to 5 users, 25 daily Agent Credits, 75 monthly Agent Credits"
+builder.io,pricing,plan,"name=Pro | key_limits=Per user/mo, 5 max users per space, 75 monthly Agent Credits, 500 monthly on-demand, $25 per 500 Agent Credits"
+builder.io,pricing,plan,"name=Team | key_limits=Per user/mo, 20 max users per space, Unlimited Agent Credits, Admin/Developer/Designer/Editor roles"
+builder.io,pricing,plan,"name=Enterprise | key_limits=Custom pricing, Custom user seats, Custom Agent Credits, SSO, RBAC, SLAs"
+builder.io,pricing,free_plan,True
+builder.io,pricing,pricing_model_notes,Pro and Team plans show 'per user/mo' pricing but exact amounts not stated in text. Enterprise requires contacting sales. Agent Credits available as add-on ($25 per 500). Monthly and Annual billing options mentioned but annual pricing not specified.
+builder.io,features,main_feature,Visual IDE (Fusion) for code generation and iteration
+builder.io,features,main_feature,Visual CMS (Publish) for content and marketing experiences
+builder.io,features,main_feature,AI agent generates and iterates on enterprise-ready web apps
+builder.io,features,main_feature,Figma plugin to copy/paste designs into projects
+builder.io,features,main_feature,VS Code extension to leverage Fusion within IDE
+builder.io,features,main_feature,Real-time multiplayer live editing across users
+builder.io,features,main_feature,Built-in and custom MCP server support
+builder.io,features,main_feature,Builder Agent integrated in Slack and JIRA
+builder.io,features,main_feature,Peer Reviews and commenting on branches
+builder.io,features,main_feature,Quality Review Agent tests every PR in real browser
+builder.io,features,main_feature,Design System Intelligence maps Figma to code components
+builder.io,features,main_feature,Single Sign-On (SSO) with SAML and OIDC support
+builder.io,features,usage_limit,"Free: 25 Agent Credits/day, 75/month, up to 5 users"
+builder.io,features,usage_limit,"Pro: 500 Agent Credits/user/month, up to 5 users"
+builder.io,features,usage_limit,"Team: 500 Agent Credits/user/month, up to 20 users"
+builder.io,features,usage_limit,Add'l 500 Agent Credits for $25/month on Pro and Team
+builder.io,features,usage_limit,Enterprise: custom user seats and Agent Credits
+chargebee.com,pricing,plan,"name=Starter | price_monthly=0 | currency=USD | key_limits=Free for the first USD 250K of cumulative billing, then 0.75% on billing"
+chargebee.com,pricing,plan,name=Performance | price_monthly=599 | price_annual_per_month=599 | currency=USD | key_limits=Annual commitment / Billed monthly for up to USD 100K billing/mo
+chargebee.com,pricing,plan,name=Enterprise | currency=USD | key_limits=Contact sales for quote
+chargebee.com,pricing,plan,name=CPQ Lite | price_monthly=0 | key_limits=Free for the first 50 quotes
+chargebee.com,pricing,plan,name=CPQ | key_limits=Contact sales
+chargebee.com,pricing,plan,name=RevRec Performance | key_limits=Contact sales for quote
+chargebee.com,pricing,plan,name=RevRec Enterprise | key_limits=Contact sales for quote
+chargebee.com,pricing,plan,name=Growth Starter | price_monthly=0 | key_limits=Exclusively for CB Billing customers
+chargebee.com,pricing,plan,name=Growth Enterprise | key_limits=Contact sales
+chargebee.com,pricing,free_plan,True
+chargebee.com,pricing,pricing_model_notes,"Chargebee offers usage-based, subscription, and hybrid billing models. Starter plan charges 0.75% on billing after USD 250K cumulative billing threshold. Performance plan billed monthly with annual commitment."
+chargebee.com,features,main_feature,Subscription and invoicing management with calendar and advance billing
+chargebee.com,features,main_feature,Usage-based and hybrid billing with real-time event ingestion
+chargebee.com,features,main_feature,CPQ (Configure Price Quote) with assisted-sales workflows
+chargebee.com,features,main_feature,Revenue recognition (RevRec) and SaaS metrics reporting
+chargebee.com,features,main_feature,"40+ payment gateway integrations including Stripe, Adyen, PayPal"
+chargebee.com,features,main_feature,Dunning management with smart dunning option
+chargebee.com,features,main_feature,Global tax support including US sales tax and EU VAT
+chargebee.com,features,main_feature,Customer portal and lifecycle email automation
+chargebee.com,features,main_feature,"Multi-currency, multi-language, multi-entity management"
+chargebee.com,features,main_feature,"Real-time usage limits, alerts, and usage analytics"
+chargebee.com,features,main_feature,"Enterprise access controls: SAML, SCIM, JIT provisioning"
+chargebee.com,features,main_feature,"Data export to GCS, Amazon S3, Snowflake, and BI stack"
+chargebee.com,features,usage_limit,Flow plan includes 100M usage events per month
+chargebee.com,features,usage_limit,Enterprise Plus supports up to 500M usage events per month
+chargebee.com,features,usage_limit,Multi-entity management up to 100 business entities
+chargebee.com,features,usage_limit,Account hierarchy: parent-child structures up to 30 levels deep
+chargebee.com,features,usage_limit,First 50 CPQ quotes free on Flow plan
+circleci.com,pricing,plan,"name=Free | price_monthly=0 | currency=USD | key_limits=Up to 6,000 build minutes, 5 active users/month, 30x concurrency, 30,000 free credits/month, 2 GB storage, 1 GB network"
+circleci.com,pricing,plan,"name=Performance | price_monthly=15 | currency=USD | key_limits=Starting at $15/month, usage-based pricing, 30,000 credits included free, 5 active users, 80x concurrency, additional users $15/month, bulk credits available at discount"
+circleci.com,pricing,plan,"name=Scale | key_limits=Billed annually, customizable plans, enterprise controls, largest resource classes, all environments including GPU, optional 24/7 support"
+circleci.com,pricing,free_plan,True
+circleci.com,pricing,pricing_model_notes,"CircleCI uses a credits-based usage model. Free plan: 30,000 credits/month (expire monthly). Performance plan: 30,000 credits included + $15 per 25,000 additional credits/month (paid credits roll over for 12 months). Scale plan: custom pricing, billed annually. Credits pay for active users, compute time, and premium features. Network and storage beyond thresholds charged at 420 credits/GB."
+circleci.com,features,main_feature,Autonomous validation engine for AI-generated code
+circleci.com,features,main_feature,Lightning-fast feedback with autonomous fixes
+circleci.com,features,main_feature,"Smarter Testing: run only relevant tests, up to 97% faster"
+circleci.com,features,main_feature,Chunk: automated fix-it for flaky tests and tech debt
+circleci.com,features,main_feature,Release management with incremental release monitoring
+circleci.com,features,main_feature,Automatic rollback on deployments
+circleci.com,features,main_feature,"Test orchestration for code from teams, agents, models"
+circleci.com,features,main_feature,CircleCI CLI with MCP server built in
+circleci.com,features,main_feature,"Cloud, hybrid runner, and on-premises server hosting"
+circleci.com,features,main_feature,Autoscaling execution environments
+circleci.com,features,main_feature,Build image registry and optimization tools
+circleci.com,features,main_feature,"Integrations with GitHub, GitLab, Bitbucket, AWS, GCP, Azure, Kubernetes"
+circleci.com,setup,setup_step,Create a CircleCI account (free sign-up available).
+circleci.com,setup,setup_step,"Connect your code repository (GitHub, Bitbucket, or GitLab)."
+circleci.com,setup,setup_step,Select your org and choose 'Create project' in the web app.
+circleci.com,setup,setup_step,Follow in-app instructions to set up your pipeline.
+circleci.com,setup,setup_step,Connect your code and prepare a config file in-app.
+circleci.com,setup,setup_step,Review triggers and pipeline settings in the app.
+circleci.com,setup,setup_step,Commit your config file and run your first pipeline.
+circleci.com,setup,setup_step,"Explore the passing pipeline, view job steps and output."
+circleci.com,setup,auth_method,"GitHub, Bitbucket, or GitLab account connection (OAuth or GitHub App)"
+circleci.com,setup,has_public_api,True
+circleci.com,setup,key_integration,GitHub App
+circleci.com,setup,key_integration,GitHub OAuth
+circleci.com,setup,key_integration,Bitbucket Cloud
+circleci.com,setup,key_integration,Bitbucket Data Center
+circleci.com,setup,key_integration,GitLab
+circleci.com,setup,key_integration,VS Code Extension
+clickup.com,pricing,plan,"name=Free Forever | key_limits=60MB Storage, Unlimited Tasks, 5 Spaces, 40 Lists/Space, 100 Folders/Space, Basic Custom Field Manager, 1 Form, 5 Active Rules with 100 Automation executions, 2 Teams, 1 Wiki, 30 day Message History, Trial access to many features"
+clickup.com,pricing,plan,"name=Unlimited | price_monthly=10 | price_annual_per_month=7 | currency=USD | key_limits=Unlimited Spaces/Folders/Forms, Unlimited Storage, Unlimited Custom Fields, Unlimited Gantt Charts, Unlimited Integrations, 500 Active Rules with 1,000 Automation executions, 3 Teams, Unlimited Message History"
+clickup.com,pricing,plan,"name=Business | price_monthly=19 | price_annual_per_month=12 | currency=USD | key_limits=Everything in Unlimited, Unlimited Dashboards, Unlimited Timeline Views, Webhooks & Automation, 5K Automations Per Month, Mind Mapping, Private Whiteboards, Custom Exporting, 10 Teams"
+clickup.com,pricing,plan,"name=Enterprise | key_limits=Everything in Business, Enterprise Permissions and Governance, Unlimited Custom Roles, SAML SSO & SCIM Provisioning, 250K Automations Per Month, Custom Branding, MSA & HIPAA Available, Data Residency, Contact sales for pricing"
+clickup.com,pricing,free_plan,True
+clickup.com,pricing,pricing_model_notes,"100% Money-back Guarantee within 30 days. Save up to 30% with yearly billing. Pricing is per user/month, billed yearly or monthly. Payment is per Workspace. Discounts available for nonprofits, students, educators, and startups."
+clickup.com,features,main_feature,"Tasks, Kanban boards, Gantt charts, and sprint management"
+clickup.com,features,main_feature,Collaborative Docs and Wikis
+clickup.com,features,main_feature,Native time tracking and resource management
+clickup.com,features,main_feature,Dashboards with advanced cards
+clickup.com,features,main_feature,Mind mapping and private whiteboards
+clickup.com,features,main_feature,Automations and webhook integrations
+clickup.com,features,main_feature,Goals and portfolio management
+clickup.com,features,main_feature,Calendar view and timeline views
+clickup.com,features,main_feature,In-app video recording
+clickup.com,features,main_feature,ClickUp Chat and Email in ClickUp
+clickup.com,features,main_feature,"AI assistant (Brain) across tasks, docs, chat"
+clickup.com,features,main_feature,Enterprise Search across workspace
+clickup.com,features,usage_limit,"Free: 60MB storage, 1 form"
+clickup.com,features,usage_limit,"Business: 5,000 automations per month"
+clickup.com,features,usage_limit,"Enterprise: 250,000 automations per month"
+clickup.com,features,usage_limit,"Brain AI: +1,500 AI Super Credits per user/month"
+clickup.com,features,usage_limit,"Everything AI: +5,000 AI Super Credits per user/month"
+clickup.com,features,usage_limit,"AI Super Credits: $0.001 each ($10 per 10,000)"
+clickup.com,setup,has_public_api,True
+close.com,pricing,plan,"name=Solo | price_monthly=19 | price_annual_per_month=9 | currency=USD | key_limits=Limited to 1 user, Limited to 10k leads, Workflows not included, 500 AI credits per user/month"
+close.com,pricing,plan,"name=Essentials | price_monthly=49 | price_annual_per_month=35 | currency=USD | key_limits=Unlimited contacts & leads, Team collaboration features, Workflows not included, 1000 AI credits per user/month"
+close.com,pricing,plan,"name=Growth | price_monthly=109 | price_annual_per_month=99 | currency=USD | key_limits=Automated workflows, Power dialer, Custom activities, 1500 AI credits per user/month"
+close.com,pricing,plan,"name=Scale | price_monthly=149 | price_annual_per_month=139 | currency=USD | key_limits=Role-based access & permissions, Lead visibility rules, Predictive dialer, Unlimited call recording retention, 2000 AI credits per user/month"
+close.com,pricing,free_plan,False
+close.com,pricing,pricing_model_notes,Per-user/seat pricing. Monthly and annual billing options available. Annual plans offer up to 50% savings. Calling and SMS are usage-based and passed through at cost. AI credits included per plan; additional credits available for purchase. 30-day money-back guarantee after purchase.
+close.com,features,main_feature,"Built-in calling, email, and SMS communication"
+close.com,features,main_feature,Chloe AI sales agent for calling and qualifying leads
+close.com,features,main_feature,Automated workflows for outreach and CRM updates
+close.com,features,main_feature,Power dialer and predictive dialer
+close.com,features,main_feature,Lead and pipeline management with Smart Views
+close.com,features,main_feature,Multi-channel inbox and task management
+close.com,features,main_feature,Live call coaching and call recording
+close.com,features,main_feature,Email open tracking and bulk email sending
+close.com,features,main_feature,Meeting scheduling with calendar sync and notetaker
+close.com,features,main_feature,Reporting dashboards and opportunity funnel reports
+close.com,features,main_feature,"Role-based access, permissions, and lead visibility rules"
+close.com,features,main_feature,Mobile app with API access
+close.com,features,usage_limit,"Solo: up to 10,000 leads, 1 user only"
+close.com,features,usage_limit,"Solo: 500 AI credits/user/month, no rollover"
+close.com,features,usage_limit,"Essentials: 1,000 AI credits/user, up to 10,000/month pool"
+close.com,features,usage_limit,"Growth: 1,500 AI credits/user, up to 15,000/month pool"
+close.com,features,usage_limit,"Scale: 2,000 AI credits/user, up to 20,000/month pool"
+close.com,features,usage_limit,Solo/Essentials: 3 connected email accounts; Growth/Scale: 10
+close.com,features,usage_limit,Solo/Essentials: call recording retained 30 days; Growth: 90 days
+close.com,features,usage_limit,Scale: unlimited call recording retention
+close.com,features,usage_limit,"Custom Activities: 250 max; instances 50,000/month on Growth"
+coda.io,pricing,free_plan,True
+coda.io,pricing,pricing_model_notes,"Pricing model not based on per-seat charging; specific plan names, prices, and limits not detailed on this page text"
+coda.io,features,main_feature,Collaborative docs combining doc and app experience
+coda.io,features,main_feature,Team hubs for centralizing strategy and schedules
+coda.io,features,main_feature,Interconnected tables with synced edits and personalized views
+coda.io,features,main_feature,"No-code app building with formulas, buttons, automations"
+coda.io,features,main_feature,"AI chat for brainstorming, content creation, Q&A"
+coda.io,features,main_feature,"AI assistant to generate tables, summaries, content"
+coda.io,features,main_feature,AI column for at-scale auto-generated content from data
+coda.io,features,main_feature,600+ integrations with external tools
+coda.io,features,main_feature,Customizable templates for multiple team roles
+coda.io,features,main_feature,Gallery of published team solutions
+coda.io,features,main_feature,Real-time collaboration and decision-making workflows
+coinbase.com,pricing,plan,name=Coinbase One
+coinbase.com,pricing,free_plan,True
+coinbase.com,features,main_feature,"Buy, sell, and manage hundreds of cryptocurrencies"
+coinbase.com,features,main_feature,"Trade stock, gold, and silver perpetuals up to 25x leverage"
+coinbase.com,features,main_feature,Advanced charting and real-time order books
+coinbase.com,features,main_feature,Deep liquidity across hundreds of markets
+coinbase.com,features,main_feature,Zero trading fees with Coinbase One membership
+coinbase.com,features,main_feature,Boosted rewards and priority support via Coinbase One
+coinbase.com,features,main_feature,"Trade, stake, and earn onchain via Base App"
+coinbase.com,features,main_feature,Access millions of assets and earn USDC rewards
+coinbase.com,features,main_feature,DEX trading available
+coinbase.com,features,main_feature,Beginner crypto guides and market updates
+coinbase.com,features,main_feature,USDC stablecoin support
+coinbase.com,features,main_feature,Sign up and start a crypto portfolio
+coinbase.com,features,usage_limit,Stock perpetuals only available in eligible jurisdictions
+coinbase.com,features,usage_limit,Products and features may not be available in all regions
+coinbase.com,features,usage_limit,$1M trading minimum required for $200K reward pool eligibility
+coinbase.com,setup,setup_step,Visit Coinbase Developer Platform and click 'Get started'
+coinbase.com,setup,setup_step,Create or use your existing Coinbase account
+coinbase.com,setup,setup_step,Obtain a single API key to begin building
+coinbase.com,setup,auth_method,API key
+coinbase.com,setup,has_public_api,True
+coinbase.com,setup,sdk,OnchainKit
+coinbase.com,setup,sdk,AgentKit
+coinbase.com,setup,key_integration,Payments (stablecoin)
+coinbase.com,setup,key_integration,Trading and custody
+coinbase.com,setup,key_integration,Wallets (embedded/server)
+coinbase.com,setup,key_integration,Onramp & Offramp
+coinbase.com,setup,key_integration,Staking
+coinbase.com,setup,key_integration,Data API
+coinbase.com,setup,key_integration,Node
+coinbase.com,setup,key_integration,Paymaster
+coinbase.com,setup,key_integration,Exchange API
+coinbase.com,setup,key_integration,Prime API
+confluent.io,pricing,plan,"name=Basic | price_monthly=0 | currency=USD | key_limits=250/750 MBps throughput, 1,500 partition limit, 5 TB storage limit, 99.5% uptime SLA"
+confluent.io,pricing,plan,"name=Standard | price_monthly=385 | currency=USD | key_limits=250/750 MBps throughput, 2,500 partition limit, infinite storage, 99.99% uptime SLA"
+confluent.io,pricing,plan,"name=Enterprise | price_monthly=895 | currency=USD | key_limits=1,920/5,760 MBps throughput, 96,000 partition limit, infinite storage, 99.99% uptime SLA, private networking"
+confluent.io,pricing,plan,"name=Freight | price_monthly=2300 | currency=USD | key_limits=9,120/27,360 MBps throughput, 50,000 partition limit, infinite storage, relaxed latency"
+confluent.io,pricing,free_plan,True
+confluent.io,pricing,pricing_model_notes,"Usage-based pricing with Elastic Confluent Units (eCKUs) charged per hour. Basic tier: first eCKU free, then $0.14/eCKU-hour. Data ingress/egress and storage charges vary by tier. Discounts scale with usage."
+confluent.io,features,main_feature,Self-managed enterprise-grade Apache Kafka distribution
+confluent.io,features,main_feature,Self-Balancing Clusters automate partition distribution across brokers
+confluent.io,features,main_feature,Confluent for Kubernetes automates Day-2 Kafka operations
+confluent.io,features,main_feature,Tiered Storage offloads workloads to cost-effective object storage
+confluent.io,features,main_feature,"Control Center UI scales to 400K partitions, 1-min startup"
+confluent.io,features,main_feature,120+ pre-built connectors for data sources and sinks
+confluent.io,features,main_feature,Schema Registry enforces data contracts and schema evolution
+confluent.io,features,main_feature,Apache Flink integration for real-time stream processing
+confluent.io,features,main_feature,"Granular RBAC, ACLs, OAuth/OIDC, TLS/mTLS security"
+confluent.io,features,main_feature,Cluster Linking for cross-cluster and hybrid cloud data sync
+confluent.io,features,main_feature,Unified Stream Manager single-pane monitoring and governance
+confluent.io,features,main_feature,Ansible Playbooks and Confluent Replicator for orchestration
+confluent.io,features,usage_limit,Free on single broker with no time limit
+confluent.io,features,usage_limit,Free for 30 days on unlimited brokers
+confluent.io,setup,setup_step,"Choose between Confluent Cloud, Confluent Platform, or Apache Kafka"
+confluent.io,setup,setup_step,For Cloud: follow the Confluent Cloud Quick Start
+confluent.io,setup,setup_step,For on-premises: install Confluent Platform via ZIP and TAR archive
+confluent.io,setup,setup_step,Install the Confluent CLI to manage Platform or Cloud
+confluent.io,setup,setup_step,Use Confluent Platform Quick Start to get started on laptop
+confluent.io,setup,has_public_api,True
+confluent.io,setup,key_integration,Apache Kafka
+confluent.io,setup,key_integration,Apache Flink
+confluent.io,setup,key_integration,Kafka Connect
+confluent.io,setup,key_integration,Schema Registry
+confluent.io,setup,key_integration,Kafka Streams
+confluent.io,setup,key_integration,Terraform
+confluent.io,setup,key_integration,Confluent for Kubernetes
+confluent.io,setup,key_integration,Ansible Playbooks
+confluent.io,setup,key_integration,Apache Iceberg
+confluent.io,setup,key_integration,Delta Lake
+datadoghq.com,pricing,plan,"name=AI Credits | price_monthly=500 | currency=USD | key_limits=Per 500 credits, per month. Billed annually or $1.30 per credit on-demand."
+datadoghq.com,pricing,plan,"name=Code Coverage | price_monthly=12 | price_annual_per_month=8 | currency=USD | key_limits=Per committer, per month. Billed annually or $12 on-demand."
+datadoghq.com,pricing,plan,"name=Log Management - Ingest | price_monthly=0.1 | price_annual_per_month=0.1 | currency=USD | key_limits=Per ingested or scanned GB, per month. Billed annually or $0.10 on-demand."
+datadoghq.com,pricing,plan,"name=Log Management - Standard Indexing | price_monthly=2.55 | price_annual_per_month=1.7 | currency=USD | key_limits=Per million log events, per month. Billed annually or $2.55 on-demand. 15-day retention."
+datadoghq.com,pricing,plan,"name=Log Management - Flex Storage | price_monthly=0.075 | price_annual_per_month=0.05 | currency=USD | key_limits=Per million events stored, per month. Billed annually or $0.075 on-demand."
+datadoghq.com,pricing,plan,"name=Log Management - Flex Compute | price_monthly=0.05 | currency=USD | key_limits=Per instance-hour, per month. Multiple preconfigured compute options available."
+datadoghq.com,pricing,plan,"name=Log Management - Flex Logs Starter | price_monthly=0.9 | price_annual_per_month=0.6 | currency=USD | key_limits=Per million events stored, per month. Billed annually or $0.90 on-demand. Retention options: 3, 6, 12, 15 months."
+datadoghq.com,pricing,plan,"name=Log Forwarding to Custom Destinations | price_monthly=0.25 | currency=USD | key_limits=Per GB outbound, per destination, per month."
+datadoghq.com,pricing,free_plan,True
+datadoghq.com,pricing,pricing_model_notes,"Multi-Year/Volume discounts available. Annual, monthly, and on-demand plans available. Flexible pricing designed to scale with business needs."
+datadoghq.com,features,main_feature,Turn-key integrations aggregating metrics across full DevOps stack
+datadoghq.com,features,main_feature,APM: trace requests end-to-end across distributed systems
+datadoghq.com,features,main_feature,"Log management: search, filter, analyze logs in context"
+datadoghq.com,features,main_feature,Synthetic monitoring: proactive user journey and SLO management
+datadoghq.com,features,main_feature,Real User Monitoring: frontend performance and session metrics
+datadoghq.com,features,main_feature,"Network monitoring across multi-cloud, hybrid, on-premises environments"
+datadoghq.com,features,main_feature,Real-time interactive dashboards with high-resolution metrics
+datadoghq.com,features,main_feature,Team collaboration: discuss issues in-context with production data
+datadoghq.com,features,main_feature,Alerting on any metric for single host or entire cluster
+datadoghq.com,features,main_feature,Full REST API and client libraries for custom instrumentation
+datadoghq.com,features,main_feature,"Cloud security: risk assessment, threat detection, vulnerability management"
+datadoghq.com,features,main_feature,AI-assisted investigation reducing investigation time by up to 93%
+datadoghq.com,setup,setup_step,Install the Datadog Agent on your hosts
+datadoghq.com,setup,setup_step,"Set up integrations to gather metrics, traces, and logs"
+datadoghq.com,setup,setup_step,Get started in the Datadog app to visualize data
+datadoghq.com,setup,setup_step,"Create dashboards, alerts, monitors, and more"
+datadoghq.com,setup,has_public_api,True
+datadoghq.com,setup,sdk,Client SDKs (platform-specific)
+datadoghq.com,setup,key_integration,"1,000+ built-in integrations"
+datadoghq.com,setup,key_integration,OpenTelemetry
+datadoghq.com,setup,key_integration,CI/CD providers
+datadoghq.com,setup,key_integration,IDE Plugins
+docusign.com,pricing,plan,name=Personal | price_monthly=11 | price_annual_per_month=11 | currency=USD | key_limits=5 envelopes per month
+docusign.com,pricing,plan,name=Standard | price_monthly=30 | price_annual_per_month=30 | currency=USD | key_limits=100 envelopes per user per year
+docusign.com,pricing,plan,name=Business Pro | price_monthly=45 | price_annual_per_month=45 | currency=USD | key_limits=100 envelopes per user per year
+docusign.com,pricing,plan,name=Enhanced plans | key_limits=Custom envelope limits
+docusign.com,pricing,free_plan,False
+docusign.com,pricing,pricing_model_notes,"Annual | Billed monthly subscription type with 30-day money-back guarantee for annual plans. Personal plan is $132 annual commitment. Standard and Business Pro are $360 and $540 annual commitments respectively. Prices shown are per user/month for Standard and Business Pro. Add-ons available: SMS delivery starting at $0.36/delivery, ID verification starting at $2.40/attempt. Pay-as-you-go overage billing for envelopes exceeding plan allowance."
+docusign.com,features,main_feature,Electronic signature sending via envelopes
+docusign.com,features,main_feature,AI-assisted agreement summary and management
+docusign.com,features,main_feature,Reusable templates for faster setup
+docusign.com,features,main_feature,1000+ partner integrations and App Center
+docusign.com,features,main_feature,Real-time audit trail for all agreements
+docusign.com,features,main_feature,Mobile app and mobile-responsive signing
+docusign.com,features,main_feature,Real-time commenting for team collaboration
+docusign.com,features,main_feature,Bulk sending to multiple recipients at once
+docusign.com,features,main_feature,Payment collection during signing process
+docusign.com,features,main_feature,Mobile-friendly web forms for data collection
+docusign.com,features,main_feature,SMS delivery for faster signature collection
+docusign.com,features,main_feature,Identity verification to reduce fraud risk
+docusign.com,features,usage_limit,Personal: 5 envelopes per month
+docusign.com,features,usage_limit,Standard: 100 envelopes per user per year
+docusign.com,features,usage_limit,Business Pro: 100 envelopes per user per year
+docusign.com,features,usage_limit,Enhanced: custom envelope limits
+docusign.com,features,usage_limit,Standard: 5 SMS deliveries one-time bonus
+docusign.com,features,usage_limit,Standard: 5 identity verifications one-time bonus
+docusign.com,setup,has_public_api,True
+docusign.com,setup,key_integration,eSignature REST API
+docusign.com,setup,key_integration,Web Forms API
+docusign.com,setup,key_integration,Workflow Builder API
+docusign.com,setup,key_integration,Agreement Manager API
+docusign.com,setup,key_integration,Docusign Admin API
+docusign.com,setup,key_integration,Connect Webhooks
+doordash.com,pricing,plan,name=Monthly Plan | price_monthly=9.99 | currency=USD
+doordash.com,pricing,plan,name=Annual Plan | price_monthly=8.0 | currency=USD
+doordash.com,pricing,free_plan,False
+elevenlabs.io,pricing,plan,"name=Free | price_monthly=0 | key_limits=10k credits per month, 3 Projects in Studio"
+elevenlabs.io,pricing,plan,"name=Starter | price_monthly=6 | price_annual_per_month=5 | key_limits=30k credits per month, 20 Projects in Studio, Commercial License, Instant Voice Cloning"
+elevenlabs.io,pricing,plan,"name=Creator | price_monthly=22 | price_annual_per_month=18.33 | key_limits=121k credits per month, Professional Voice Cloning, Additional Credits"
+elevenlabs.io,pricing,plan,"name=Pro | price_monthly=99 | price_annual_per_month=82.5 | key_limits=600k credits per month, 44.1kHz PCM audio output via API, 192kbps quality audio"
+elevenlabs.io,pricing,plan,"name=Scale | price_monthly=299 | price_annual_per_month=249.17 | key_limits=1.8M credits per month, 3 Workspace seats, Team Collaboration, 3 Professional Voice Clones"
+elevenlabs.io,pricing,plan,"name=Business | price_monthly=990 | price_annual_per_month=825 | key_limits=6M credits per month, 10 Workspace seats, 10 Professional Voice Clones, Low-latency TTS"
+elevenlabs.io,pricing,plan,"name=Enterprise | key_limits=Custom pricing, Custom terms, DPA/SLAs, BAAs for HIPAA, Custom SSO, Priority support"
+elevenlabs.io,pricing,free_plan,True
+elevenlabs.io,pricing,pricing_model_notes,Annual billing costs 10 months of payment (2 months free). Credits-based system shared across all products. First month of Creator plan is 50% off ($11). Startup Grants Program offers 12 months free with 33M characters for qualifying startups.
+elevenlabs.io,features,main_feature,Text to Speech audio generation
+elevenlabs.io,features,main_feature,Speech to Text transcription
+elevenlabs.io,features,main_feature,Voice Cloning (Instant and Professional)
+elevenlabs.io,features,main_feature,Sound Effects generation
+elevenlabs.io,features,main_feature,AI Music generation with commercial use
+elevenlabs.io,features,main_feature,Voice Changer and Voice Isolator tools
+elevenlabs.io,features,main_feature,Automatic Dubbing and Dubbing Studio
+elevenlabs.io,features,main_feature,AI Image and Video generation
+elevenlabs.io,features,main_feature,Voice Design custom voice creation
+elevenlabs.io,features,main_feature,Studio with multi-project support
+elevenlabs.io,features,main_feature,Conversational AI Voice Agents
+elevenlabs.io,features,main_feature,44.1kHz PCM and 192kbps high-quality audio output
+elevenlabs.io,features,usage_limit,"Free: 10k credits/month, 3 Studio projects"
+elevenlabs.io,features,usage_limit,"Starter: 30k credits/month, 20 Studio projects"
+elevenlabs.io,features,usage_limit,Creator: 121k credits/month
+elevenlabs.io,features,usage_limit,Pro: 600k credits/month
+elevenlabs.io,features,usage_limit,"Scale: 1.8M credits/month, 3 workspace seats"
+elevenlabs.io,features,usage_limit,"Business: 6M credits/month, 10 workspace seats"
+elevenlabs.io,features,usage_limit,Enterprise: custom credits and seats
+elevenlabs.io,features,usage_limit,Startup Grant: 33M characters free for 12 months
+elevenlabs.io,features,usage_limit,Single request credit limit applies (details in FAQ)
+elevenlabs.io,setup,setup_step,Visit ElevenLabs and sign up for an account
+elevenlabs.io,setup,setup_step,"Choose your path: ElevenCreative, ElevenAgents, ElevenAPI, or Reception AI"
+elevenlabs.io,setup,setup_step,"For API use, obtain an API key from the dashboard"
+elevenlabs.io,setup,setup_step,Install the official Python or TypeScript SDK
+elevenlabs.io,setup,setup_step,"Select a voice by ID from the 10,000+ voice library"
+elevenlabs.io,setup,setup_step,"Choose a model based on quality, latency, and language needs"
+elevenlabs.io,setup,setup_step,Make API requests or use the no-code dashboard to generate audio
+elevenlabs.io,setup,setup_step,Monitor credit usage; credits reset monthly and roll over up to two months
+elevenlabs.io,setup,auth_method,API key
+elevenlabs.io,setup,has_public_api,True
+elevenlabs.io,setup,sdk,Python
+elevenlabs.io,setup,sdk,TypeScript
+elevenlabs.io,setup,key_integration,REST API
+elevenlabs.io,setup,key_integration,ElevenCreative (no-code web app)
+elevenlabs.io,setup,key_integration,ElevenAgents (visual builder)
+elevenlabs.io,setup,key_integration,Reception AI (AI phone receptionist)
+elevenlabs.io,setup,key_integration,Microsoft Entra SAML SSO
+elevenlabs.io,setup,key_integration,Okta SAML SSO
+elevenlabs.io,setup,key_integration,SCIM
+forter.com,pricing,plan,name=Contact Sales
+forter.com,pricing,pricing_model_notes,No pricing information available on page; contact sales required
+forter.com,features,main_feature,Analytics Agent: query traffic data for instant insights
+forter.com,features,main_feature,Payments Agent: optimizes authorization rates and routing
+forter.com,features,main_feature,"Dispute Agent: triages chargebacks, pulls evidence, writes letters"
+forter.com,features,main_feature,Abuse Agent: writes and optimizes policies from plain language
+forter.com,features,main_feature,Integration Agent: auto-connects Forter to existing systems
+forter.com,features,main_feature,"Fraud Management: increase approvals, stop fraud and abuse"
+forter.com,features,main_feature,"Payment Optimization: orchestrates payment flows, reduces costs"
+forter.com,features,main_feature,Agentic Orchestration: supports AI-agent-driven commerce safely
+forter.com,features,main_feature,Network of 2B+ identities for instant customer recognition
+forter.com,features,main_feature,"Single platform uniting fraud, payments, and dispute decisions"
+forter.com,features,main_feature,Patented Decision AI identifying humans and autonomous agents
+forter.com,features,main_feature,Identity and Issuer Intelligence for maximizing approval rates
+forter.com,setup,setup_step,Review the Quick Start section for common use cases
+forter.com,setup,setup_step,Integrate the JavaScript snippet (v27 recommended) for behavior tracking
+forter.com,setup,setup_step,Integrate iOS or Android SDK if mobile support is needed
+forter.com,setup,setup_step,Connect via Forter's API for real-time decisions on transactions
+forter.com,setup,setup_step,Transfer historical data to train Forter's decision model
+forter.com,setup,setup_step,"Choose and configure relevant product (Fraud Management, Account Protection, etc.)"
+forter.com,setup,has_public_api,True
+forter.com,setup,sdk,iOS SDK
+forter.com,setup,sdk,Android SDK
+forter.com,setup,key_integration,Shopify
+forter.com,setup,key_integration,Salesforce Commerce Cloud
+forter.com,setup,key_integration,JavaScript snippet
+forter.com,setup,key_integration,PSP integrations
+front.com,pricing,plan,"name=Starter | price_monthly=25 | currency=USD | key_limits=Single channel type, up to 10 seats, up to 10 automation rules, basic analytics, no-code public knowledge base"
+front.com,pricing,plan,"name=Professional | price_monthly=65 | currency=USD | key_limits=Omnichannel support, up to 50 seats, up to 20 automation rules, advanced analytics, multiple workspaces, SSO, SCIM"
+front.com,pricing,plan,"name=Enterprise | price_monthly=105 | currency=USD | key_limits=Advanced AI tools, unlimited rules and macros, multi-language knowledge base, custom roles and permissions, AI Copilot/QA/CSAT included"
+front.com,pricing,free_plan,False
+front.com,pricing,pricing_model_notes,"Prices shown are per seat per month when billed annually with 24% savings. Starter supports up to 10 seats, Professional up to 50 seats, Enterprise unlimited. AI add-ons available separately (Autopilot starting at $0.05/conversation, Copilot $20/seat/month, Smart QA $20/seat/month, Smart CSAT $10/seat/month). Free trial includes all Professional plan features, no credit card required."
+front.com,features,main_feature,Shared inbox and collaborative email management
+front.com,features,main_feature,"Omnichannel support: email, SMS, social, WhatsApp, chat"
+front.com,features,main_feature,AI Autopilot for complex omnichannel customer workflows
+front.com,features,main_feature,AI Copilot real-time assistant for agent productivity
+front.com,features,main_feature,Smart QA automated AI-powered agent quality assurance
+front.com,features,main_feature,Smart CSAT AI-inferred customer satisfaction ratings
+front.com,features,main_feature,Ticketing system for complex support workflows
+front.com,features,main_feature,Live chat customers don't hate
+front.com,features,main_feature,No-code and customizable knowledge base
+front.com,features,main_feature,Workflow automation rules and macros
+front.com,features,main_feature,Advanced analytics and custom reporting
+front.com,features,main_feature,Integrations and API for connecting external tools
+front.com,features,usage_limit,"Starter: up to 10 seats, single channel type"
+front.com,features,usage_limit,"Professional: up to 50 seats, up to 5 workspaces"
+front.com,features,usage_limit,Starter: up to 10 automation rules
+front.com,features,usage_limit,Professional: up to 20 automation rules
+front.com,features,usage_limit,Enterprise: unlimited rules and macros
+front.com,features,usage_limit,Starter: up to 10 channels per license
+front.com,features,usage_limit,Professional: up to 30 channels per license
+front.com,features,usage_limit,Enterprise: up to 50 channels per license
+front.com,features,usage_limit,API rate limit increase: $200 per 100 requests/min/month
+gamma.app,pricing,free_plan,True
+gamma.app,pricing,pricing_model_notes,"Free tier includes starter pack of AI credits. Paid plans unlock latest AI models, more credits, advanced analytics, custom fonts, option to remove Gamma badge, and more. Specific plan names and prices not stated in text."
+gamma.app,setup,setup_step,Visit Gamma Developer Docs and review API overview
+gamma.app,setup,setup_step,Obtain a Pro/Ultra/Teams/Business plan for API key access
+gamma.app,setup,setup_step,Copy API key from Settings > API Keys in your Gamma account
+gamma.app,setup,setup_step,Include X-API-KEY header in all requests with Content-Type: application/json
+gamma.app,setup,setup_step,"POST to /v1.0/generations with inputText, format, and other params"
+gamma.app,setup,setup_step,Poll GET /v1.0/generations/{generationId} every 5 seconds for status
+gamma.app,setup,setup_step,Retrieve gammaUrl or exportUrl from completed generation response
+gamma.app,setup,setup_step,For OAuth: register a client and run the authorization flow instead
+gamma.app,setup,auth_method,API key (X-API-KEY header) or OAuth 2.0 (Authorization: Bearer)
+gamma.app,setup,has_public_api,True
+gamma.app,setup,key_integration,Zapier
+gamma.app,setup,key_integration,Make
+gamma.app,setup,key_integration,n8n
+gamma.app,setup,key_integration,MCP server (AI tools via OAuth with Dynamic Client Registration)
+hashicorp.com,pricing,plan,name=HCP Terraform Essentials | price_monthly=0.1 | currency=USD | key_limits=Starting at $0.10 per month per resource
+hashicorp.com,pricing,plan,name=HCP Terraform Standard | price_monthly=0.47 | currency=USD | key_limits=Starting at $0.47 per month per resource
+hashicorp.com,pricing,plan,name=HCP Terraform Premium | price_monthly=0.99 | currency=USD | key_limits=Starting at $0.99 per month per resource
+hashicorp.com,pricing,plan,name=IBM Terraform Enterprise | key_limits=Custom Pricing - Contact sales
+hashicorp.com,pricing,plan,name=IBM HCP Terraform Europe | key_limits=Custom Pricing - Contact sales
+hashicorp.com,pricing,plan,"name=Pay-as-You-Go (PAYG) | currency=USD | key_limits=On-demand, usage-based billing with no long-term commitment and $500 credit"
+hashicorp.com,pricing,plan,name=Flex | key_limits=Single and multi-year plans available - Contact sales
+hashicorp.com,pricing,free_plan,True
+hashicorp.com,pricing,pricing_model_notes,Usage-based pricing per resource per month. $500 HCP trial credit available. Prices shown are starting rates and vary by usage.
+hashicorp.com,features,main_feature,Automated infrastructure as code provisioning and management
+hashicorp.com,features,main_feature,Remote state storage for infrastructure configurations
+hashicorp.com,features,main_feature,VCS connection for version control integration
+hashicorp.com,features,main_feature,Secure variable storage for sensitive data
+hashicorp.com,features,main_feature,Remote runs including plan and apply operations
+hashicorp.com,features,main_feature,Private registry for modules and providers
+hashicorp.com,features,main_feature,Team management and collaboration tools
+hashicorp.com,features,main_feature,No-code provisioning for self-service workflows
+hashicorp.com,features,main_feature,Policy and security governance controls
+hashicorp.com,features,main_feature,Cross-organization registry sharing
+hashicorp.com,features,main_feature,"Waypoint templates, add-ons, and actions included"
+hashicorp.com,features,main_feature,Test-integrated module publishing and generated module tests
+hashicorp.com,features,usage_limit,Essentials: test-integrated module publishing limited to 10 modules
+hashicorp.com,features,usage_limit,Standard and above: unlimited module publishing
+hashicorp.com,features,usage_limit,Generated module tests in Beta on Standard and Premium
+hashicorp.com,setup,setup_step,Install the Sentinel CLI
+hashicorp.com,setup,setup_step,Write your first example Sentinel policies
+hashicorp.com,setup,setup_step,Run your first example Sentinel policies
+hashicorp.com,setup,key_integration,HCP Terraform
+hashicorp.com,setup,key_integration,Vault
+hashicorp.com,setup,key_integration,Nomad
+helpscout.com,pricing,plan,"name=Free | key_limits=5 users, 1 Inbox, 1 Docs site, 100 contacts/mo, 10 saved replies, 10 tags, 1 basic SLA policy, 150 basic workflows"
+helpscout.com,pricing,plan,"name=Standard | price_monthly=25 | currency=USD | key_limits=Multiple Inboxes, Live chat and SMS, WhatsApp/Instagram/Messenger, Multiple knowledge bases, Basic workflows, AI Inbox assistant"
+helpscout.com,pricing,plan,"name=Plus | price_monthly=45 | currency=USD | key_limits=Advanced workflows, Two advanced SLA policies, Secure customer portal, Unlimited AI Drafts, Round robin routing, Salesforce/Jira/HubSpot integration, Internal teams"
+helpscout.com,pricing,plan,"name=Pro | price_monthly=75 | currency=USD | key_limits=Unlimited workflows, Unlimited SLA policies, Multiple routing types, SSO/SAML, HIPAA compliance, Up to 50 light users, Dedicated onboarding, Strategic account manager"
+helpscout.com,pricing,free_plan,True
+helpscout.com,pricing,pricing_model_notes,Prices shown are per user/month. Monthly and annual billing options available (annual pricing not specified in text). Additional Inboxes $10/mo (annual) or $12/mo (monthly). Additional Docs sites $20/mo (annual) or $24/mo (monthly). AI Answers charged at $0.75 per resolution with 3-month free trial included at signup.
+helpscout.com,features,main_feature,Unified inbox for all support channels
+helpscout.com,features,main_feature,AI agents resolve 73% of interactions on average
+helpscout.com,features,main_feature,Embeddable support hub called Beacon with AI chat
+helpscout.com,features,main_feature,"In-app messages, modals, banners, and NPS surveys"
+helpscout.com,features,main_feature,"Reporting and analytics on volume, response time, performance"
+helpscout.com,features,main_feature,Automated workflows for routing and task management
+helpscout.com,features,main_feature,Knowledge base for building a custom help center
+helpscout.com,features,main_feature,Saved replies for common questions
+helpscout.com,features,main_feature,Multiple inboxes per department or product
+helpscout.com,features,main_feature,"AI tools: thread recap, reply editing, translation, drafting"
+helpscout.com,features,main_feature,Company/account-level context management
+helpscout.com,features,main_feature,Snooze and send-later scheduling for conversations
+helpscout.com,setup,has_public_api,True
+helpscout.com,setup,key_integration,Shopify
+helpscout.com,setup,key_integration,WooCommerce
+hubspot.com,pricing,plan,"name=Free | price_monthly=0 | currency=USD | key_limits=Up to 2 users. No credit card required. 1,000 marketing contacts. 2,000 email sends per calendar month with HubSpot branding. 1 automated action. Up to 50 active CRM segments. Limited live chat and forms features."
+hubspot.com,pricing,plan,"name=Starter | price_monthly=7 | price_annual_per_month=7 | currency=USD | key_limits=500 HubSpot Credits. 1,000 marketing contacts. 5x marketing contact tier email send limit. Up to 10 automated actions. Up to 1,200 active CRM segments. Remove HubSpot branding from email marketing and live chat. Simple marketing automation."
+hubspot.com,pricing,plan,"name=Professional | price_monthly=890 | price_annual_per_month=800 | currency=USD | key_limits=Includes 3 Core Seats. Additional Core Seats start at $45/mo. 3,000 HubSpot Credits. 2,000 marketing contacts. 10x marketing contact tier email send limit. Unlimited email automation actions. Up to 2,000 active CRM segments. Omni-channel marketing automation. Agent Hub and AEO Beta access. One-time Professional Onboarding fee of $3,000."
+hubspot.com,pricing,plan,"name=Enterprise | price_monthly=3600 | currency=USD | key_limits=Includes 5 Core Seats. Additional Core Seats start at $75/mo. 5,000 HubSpot Credits. 10,000 marketing contacts. 20x marketing contact tier email send limit. Unlimited email automation actions. Up to 2,000 active CRM segments. Multi-touch revenue attribution. Customer journey analytics. One-time Enterprise Onboarding fee of $7,000."
+hubspot.com,pricing,plan,"name=HubSpot AEO | price_monthly=50 | price_annual_per_month=45 | currency=USD | key_limits=Track 25 prompts across 3 answer engines daily. 2,500 answers per month. Purchase additional prompts anytime. 28-day trial available."
+hubspot.com,pricing,free_plan,True
+hubspot.com,pricing,pricing_model_notes,"Marketing Hub offers per-seat pricing for Starter plan. Professional and Enterprise plans include core seats with additional seats available. Annual billing offers discounts. HubSpot Credits are available separately at $9.00 per 1,000 credits when paying annually. Onboarding fees required for Professional ($3,000) and Enterprise ($7,000) plans."
+hubspot.com,features,main_feature,Email marketing with automation and send limits
+hubspot.com,features,main_feature,Ad management and retargeting across ad types
+hubspot.com,features,main_feature,CRM segmentation with active and static segments
+hubspot.com,features,main_feature,Omni-channel marketing automation workflows
+hubspot.com,features,main_feature,Lead scoring with AI recommendations
+hubspot.com,features,main_feature,Social media scheduling and management
+hubspot.com,features,main_feature,Custom reporting and campaign analytics
+hubspot.com,features,main_feature,Live chat and conversational bots
+hubspot.com,features,main_feature,SEO recommendations and site auditing
+hubspot.com,features,main_feature,Answer engine optimization (AEO) tracking
+hubspot.com,features,main_feature,Customer journey analytics
+hubspot.com,features,main_feature,Cookie consent management tools
+hubspot.com,features,usage_limit,"Free: 2,000 email sends/month, up to 2 users"
+hubspot.com,features,usage_limit,Starter: 5x contact tier email send limit
+hubspot.com,features,usage_limit,Professional: 10x contact tier email send limit
+hubspot.com,features,usage_limit,Enterprise: 20x contact tier email send limit
+hubspot.com,features,usage_limit,AEO: 25 prompts across 3 engines daily ($50/mo)
+hubspot.com,features,usage_limit,Professional: up to 300 workflows for 10 teams
+hubspot.com,features,usage_limit,"Enterprise: up to 1,000 workflows for 300 teams"
+hubspot.com,features,usage_limit,"WhatsApp: up to 1,000 messages/month (Pro/Enterprise)"
+hubspot.com,features,usage_limit,"Social media Pro: 50 accounts, 10,000 posts/month"
+hubspot.com,features,usage_limit,"Free: 10 dashboards, 50 reports per dashboard"
+hubspot.com,setup,setup_step,Create a HubSpot Developer account
+hubspot.com,setup,setup_step,"Explore APIs, Apps, Developer Tooling, and CMS docs"
+hubspot.com,setup,setup_step,Visit HubSpot Academy for training and certifications
+hubspot.com,setup,setup_step,Watch tutorials on the HubSpot Developers YouTube channel
+hubspot.com,setup,setup_step,Read the HubSpot Developer Blog for hands-on tutorials
+hubspot.com,setup,setup_step,Sign up for the HubSpot Developer Newsletter
+hubspot.com,setup,has_public_api,True
+intercom.com,pricing,plan,"name=Essential | price_monthly=29 | currency=USD | key_limits=Per seat/month. Includes Fin AI Agent, Messenger, Shared inbox and ticketing system, Pre-built reports, Public help center"
+intercom.com,pricing,plan,"name=Advanced | price_monthly=85 | currency=USD | key_limits=Per seat/month. Includes Fin AI Agent, Multiple team Inboxes, Workflows automation builder, Round robin assignment, Private and multilingual Help Center, 20 free Lite seats"
+intercom.com,pricing,plan,"name=Expert | price_monthly=132 | currency=USD | key_limits=Per seat/month. Includes Fin AI Agent, SSO & identity management, HIPAA support, Service level agreements (SLAs), Multibrand Messenger/Help Center, 50 free Lite seats"
+intercom.com,pricing,free_plan,False
+intercom.com,pricing,pricing_model_notes,"Hybrid model: seat-based pricing for plans (Essential/Advanced/Expert) plus usage-based pricing for Fin AI Agent ($0.99 per outcome). Additional usage charges for SMS, WhatsApp, Email campaigns, and Phone. Add-ons available: Pro ($99/mo), Copilot ($29/mo annual or $35/mo monthly), Proactive Support Plus ($99/mo). All plans include unlimited live chat, support email, in-app chats, banners, tooltips. Minimum 1 Full seat required to start."
+intercom.com,features,main_feature,Fin AI Agent for automated customer service resolution
+intercom.com,features,main_feature,Shared inbox and ticketing system
+intercom.com,features,main_feature,Messenger for live chat and in-app messaging
+intercom.com,features,main_feature,Workflows automation builder
+intercom.com,features,main_feature,Public and multilingual Help Center
+intercom.com,features,main_feature,Pre-built reports and reporting
+intercom.com,features,main_feature,"Omnichannel support (email, chat, phone, SMS, WhatsApp)"
+intercom.com,features,main_feature,Copilot AI assistant for agents in inbox
+intercom.com,features,main_feature,SSO and identity management (Expert plan)
+intercom.com,features,main_feature,HIPAA support (Expert plan)
+intercom.com,features,main_feature,Service level agreements (SLAs) on Expert plan
+intercom.com,features,main_feature,"Proactive Support: Posts, Checklists, Product Tours, Surveys"
+intercom.com,features,usage_limit,Copilot free for 10 conversations per agent/month
+intercom.com,features,usage_limit,AI Auto-translation free for 10 conversations per agent/month
+intercom.com,features,usage_limit,Advanced plan includes 20 free Lite seats
+intercom.com,features,usage_limit,Expert plan includes 50 free Lite seats
+intercom.com,setup,has_public_api,True
+intercom.com,setup,key_integration,GitHub Issues
+intercom.com,setup,key_integration,Tickets API
+intercom.com,setup,key_integration,Webhooks
+intercom.com,setup,key_integration,Inbox
+intercom.com,setup,key_integration,Messenger
+klarna.com,pricing,plan,name=Klarna Mobile Plan | price_monthly=35 | currency=USD
+klarna.com,pricing,plan,name=Klarna Membership
+klarna.com,pricing,free_plan,True
+klaviyo.com,pricing,plan,"name=Free | price_monthly=0 | currency=USD | key_limits=Up to 250 active profiles, 500 email sends/month, $5 of mobile messages/month, 10,000 Composer credits, email support for first 60 days only"
+klaviyo.com,pricing,plan,name=Marketing
+klaviyo.com,pricing,plan,name=Data + Analytics
+klaviyo.com,pricing,plan,name=Service
+klaviyo.com,pricing,plan,name=Composer
+klaviyo.com,pricing,plan,name=Customer Agent
+klaviyo.com,pricing,plan,name=Professional Services
+klaviyo.com,pricing,plan,name=Enterprise
+klaviyo.com,pricing,free_plan,True
+klaviyo.com,pricing,pricing_model_notes,"Free plan available indefinitely with limits (250 active profiles, 500 email sends/month). Paid plans available but specific pricing not shown on this page text. Contact sales option mentioned for some tiers."
+klaviyo.com,features,main_feature,Customer profiles with AI-powered behavior prediction
+klaviyo.com,features,main_feature,Segmentation using hundreds of data points and AI
+klaviyo.com,features,main_feature,350+ pre-built integrations and APIs
+klaviyo.com,features,main_feature,"Automated email, SMS, and push flows with templates"
+klaviyo.com,features,main_feature,"Omnichannel campaigns across SMS, email, and push"
+klaviyo.com,features,main_feature,"Web forms: pop-ups, fly-outs, embedded, multi-step"
+klaviyo.com,features,main_feature,Klaviyo AI with predictive analytics and recommendations
+klaviyo.com,features,main_feature,"Comprehensive reporting across email, SMS, and push"
+klaviyo.com,features,main_feature,Benchmarks comparing performance to 100 peer brands
+klaviyo.com,features,main_feature,Product analysis for upsell and recommendation timing
+klaviyo.com,features,main_feature,"RFM analysis by recency, frequency, and monetary value"
+klaviyo.com,features,main_feature,"Portfolio management across brands, accounts, and regions"
+klaviyo.com,setup,setup_step,Visit Klaviyo developer docs and explore getting started guide
+klaviyo.com,setup,setup_step,Learn how to authenticate with the API
+klaviyo.com,setup,setup_step,Create a test account to safely build integrations
+klaviyo.com,setup,setup_step,"Install a Klaviyo-maintained SDK (Python, PHP, Ruby, or Node)"
+klaviyo.com,setup,setup_step,Populate test account with sample data to explore the API
+klaviyo.com,setup,setup_step,Make test API calls using Postman with pre-built requests
+klaviyo.com,setup,setup_step,Read developer guides for your specific use case
+klaviyo.com,setup,auth_method,API authentication (details referenced but not specified in this text)
+klaviyo.com,setup,has_public_api,True
+klaviyo.com,setup,sdk,Python
+klaviyo.com,setup,sdk,PHP
+klaviyo.com,setup,sdk,Ruby
+klaviyo.com,setup,sdk,Node
+klaviyo.com,setup,key_integration,Point-of-sale software
+klaviyo.com,setup,key_integration,Inventory management systems
+klaviyo.com,setup,key_integration,Scheduling apps
+klaviyo.com,setup,key_integration,Postman
+klaviyo.com,setup,key_integration,Napkin.io
+klaviyo.com,setup,key_integration,Klaviyo Labs GitHub
+langchain.com,pricing,plan,"name=Developer | price_monthly=0 | currency=USD | key_limits=Up to 5k base traces/mo, then pay-as-you-go; 1 seat; Community support"
+langchain.com,pricing,plan,"name=Plus | price_monthly=39 | currency=USD | key_limits=Up to 10k base traces/mo, then pay-as-you-go; Unlimited seats; 1 free small serverless deployment included"
+langchain.com,pricing,plan,"name=Enterprise | currency=USD | key_limits=Custom pricing; Self-hosted and hybrid deployment options; Custom SSO, ABAC, and RBAC; Support SLA; Custom seats and workspaces"
+langchain.com,pricing,free_plan,True
+langchain.com,pricing,pricing_model_notes,Pay-as-you-go model with usage-based billing. LCU (LangChain Compute Unit) = $1.50; LSU (LangChain Storage Unit) = $1.00. Seats billed monthly on 1st or pro-rated if added mid-month. Traces billed monthly in arrears. Enterprise plans invoiced annually upfront. Developer plan includes 5 LCU Fleet usage/mo free; Plus plan includes 25 LCU Fleet usage/mo free.
+langchain.com,features,main_feature,"Tracing, monitoring, and evaluation for AI agents"
+langchain.com,features,main_feature,LangSmith Deployment: deploy long-running agents managed infrastructure
+langchain.com,features,main_feature,LangSmith Fleet: create agents using everyday language no code
+langchain.com,features,main_feature,LangSmith Engine: diagnose agent failures and generate fixes automatically
+langchain.com,features,main_feature,LangSmith Sandboxes: ephemeral isolated sandboxes for agent-generated code
+langchain.com,features,main_feature,"LLM Gateway: manage costs, fallbacks, PII redaction between agents and LLMs"
+langchain.com,features,main_feature,Prompt Hub and Playground for prompt management
+langchain.com,features,main_feature,Annotation queue for human feedback collection
+langchain.com,features,main_feature,Dataset collection and bulk data export
+langchain.com,features,main_feature,Online and offline evaluations for agent quality
+langchain.com,features,main_feature,Real-time streaming of intermediary steps and final output
+langchain.com,features,main_feature,MCP server exposure for deployed agents
+langchain.com,features,usage_limit,"Developer: 5k base traces/month, 1 seat, 5 LCU Fleet free"
+langchain.com,features,usage_limit,"Plus: 10k base traces/month, unlimited seats, 25 LCU Fleet free"
+langchain.com,features,usage_limit,Base trace retention: 14 days; extended trace retention: 400 days
+langchain.com,features,usage_limit,Developer Sandboxes: limited to 10 sandboxes
+langchain.com,features,usage_limit,Engine runs once every 6 hours per organization
+langchain.com,features,usage_limit,Plus: 1 free small serverless deployment included
+looker.com,pricing,pricing_model_notes,"Pricing details not provided in text. Page states 'Request a quote or view pricing details' and 'Contact sales' but specific plan names, prices, and limits are not disclosed."
+looker.com,features,main_feature,LookML: SQL-based modeling language for centrally defining business rules
+looker.com,features,main_feature,Git version-controlled data model for governed business logic
+looker.com,features,main_feature,"Real-time, governed data view across multiple clouds"
+looker.com,features,main_feature,Integration with Data Studio (Looker Studio) for visualization
+looker.com,features,main_feature,Semantic model connection for governed and ungoverned data analysis
+looker.com,features,main_feature,Looker (Google Cloud core) built on Google Cloud infrastructure
+looker.com,features,main_feature,Proactive alerts and embedded insights in workflows
+looker.com,features,main_feature,Prebuilt integrations and robust APIs for custom builds
+looker.com,features,main_feature,Reports and dashboards creation with no stale data
+looker.com,features,main_feature,Self-serve exploration with filters and Quick Start analysis
+looker.com,features,main_feature,Hosted or self-managed instance deployment options
+looker.com,features,main_feature,Looker Modeler: single source of truth for BI metrics
+looker.com,setup,has_public_api,True
+looker.com,setup,key_integration,BigQuery
+looker.com,setup,key_integration,Gemini
+looker.com,setup,key_integration,Google Cloud
+midjourney.com,pricing,plan,name=Basic Plan | price_monthly=10 | currency=USD
+midjourney.com,pricing,plan,name=Standard Plan | price_monthly=30 | currency=USD
+midjourney.com,pricing,plan,name=Pro Plan | price_monthly=60 | currency=USD
+midjourney.com,pricing,plan,name=Mega Plan | price_monthly=120 | currency=USD
+midjourney.com,pricing,free_plan,False
+midjourney.com,setup,key_integration,Discord
+miro.com,pricing,plan,"name=Free | price_monthly=0 | price_annual_per_month=0 | currency=USD | key_limits=3 editable boards, 10 AI credits/month, 100 MCP calls/day, 250+ integrations"
+miro.com,pricing,plan,"name=Starter | price_annual_per_month=8 | currency=USD | key_limits=Unlimited boards, 25 AI credits/member/month, 500 MCP calls/day, visitor editing, high-resolution exports"
+miro.com,pricing,plan,"name=Business | price_annual_per_month=20 | currency=USD | key_limits=Unlimited workspaces, unlimited guests, 50 AI credits/member/month, 2000 MCP calls/day, interactive prototypes, AI workflows, two-way integrations"
+miro.com,pricing,plan,"name=Enterprise | key_limits=Custom pricing from 30 members, 2500+ AI credits/month, 10000 MCP calls/day, enterprise security, SSO, audit logs, regional data hosting"
+miro.com,pricing,free_plan,True
+miro.com,pricing,pricing_model_notes,Per-seat pricing. Annual billing saves 20% over monthly. Free plan has unlimited team members. Starter and Business support monthly or annual billing. Enterprise requires contact sales. AI credits pool org-wide and reset monthly. Prorated charges for mid-cycle member additions.
+miro.com,features,main_feature,"Intelligent Canvas for brainstorming, design, planning, and shipping"
+miro.com,features,main_feature,7000+ customizable templates for various use cases
+miro.com,features,main_feature,"AI-powered tools: generate diagrams, synthesize research, create summaries"
+miro.com,features,main_feature,"250+ integrations including Jira, Asana, Slack, Figma, Teams"
+miro.com,features,main_feature,Interactive presentations with full board access during sessions
+miro.com,features,main_feature,"Live workshops with timers, voting, and facilitation tools"
+miro.com,features,main_feature,TalkTrack: record async interactive video board walkthroughs
+miro.com,features,main_feature,"Diagramming, wireframing, kanban, timelines, tables, docs, slides formats"
+miro.com,features,main_feature,Real-time and async collaboration modes supported
+miro.com,features,main_feature,AI generates custom diagrams/frameworks from existing team work
+miro.com,features,main_feature,"Enterprise-grade security: SSL, SSO, audit log, domain filtering"
+miro.com,features,main_feature,"SOC-2, GDPR, and PCI compliant platform"
+miro.com,setup,setup_step,Create a developer team in Miro
+miro.com,setup,setup_step,Create and configure your app in Miro
+miro.com,setup,setup_step,Bootstrap your app in Miro
+miro.com,setup,has_public_api,True
+miro.com,setup,sdk,Miro Web SDK (JavaScript)
+miro.com,setup,sdk,Miro REST API
+miro.com,setup,sdk,Miro Live Embed (iFrame)
+miro.com,setup,key_integration,Miro Marketplace
+miro.com,setup,key_integration,oEmbed
+miro.com,setup,key_integration,third-party products via REST API
+monday.com,pricing,plan,"name=Free | price_monthly=0 | price_annual_per_month=0 | currency=USD | key_limits=Up to 2 seats, Up to 3 boards, Up to 3 Docs, 200+ templates, 8 column types, iOS and Android apps"
+monday.com,pricing,plan,"name=Basic | price_monthly=9 | price_annual_per_month=9 | currency=USD | key_limits=1,000 AI credits/month, 3 tools, Unlimited free viewers, Unlimited items"
+monday.com,pricing,plan,"name=Standard | price_monthly=12 | price_annual_per_month=12 | currency=USD | key_limits=2,000 AI credits/month, 5 tools, Automations (250 actions/month), Integrations (250 actions/month), Timeline & Gantt views, Calendar view, Guest access, API calls (1,000/day)"
+monday.com,pricing,plan,"name=Pro | price_monthly=19 | price_annual_per_month=19 | currency=USD | key_limits=3,000 AI credits/month, 6 tools, Automations (25,000 actions/month), Integrations (25,000 actions/month), Private boards and docs, Advanced board views, Time tracking, Advanced columns, API calls (10,000/day)"
+monday.com,pricing,plan,"name=Enterprise | currency=USD | key_limits=Custom AI credits, 6 tools, Enterprise-grade security & governance, Enterprise-scale automations & integrations (up to 250,000/month), Portfolio management, Resource management, Multi-level permissions, API calls (25,000/day), 24/7 enterprise support, 99.9% uptime SLA"
+monday.com,pricing,free_plan,True
+monday.com,pricing,pricing_model_notes,Pricing is per seat per month. Prices shown are for annual billing with 18% savings. Monthly billing available at higher rates. Prices do not include tax and vary by billing country. AI credits can be purchased separately. Free plan includes up to 2 seats.
+monday.com,features,main_feature,AI agent workforce for automated task execution
+monday.com,features,main_feature,Sidekick AI assistant for work management
+monday.com,features,main_feature,Vibe app builder for custom app creation
+monday.com,features,main_feature,AI meeting notetaker for meeting summaries
+monday.com,features,main_feature,AI workflow builder for process automation
+monday.com,features,main_feature,Automations up to enterprise-scale actions per month
+monday.com,features,main_feature,Integrations with third-party tools via actions
+monday.com,features,main_feature,"Timeline, Gantt, Calendar, and Kanban board views"
+monday.com,features,main_feature,Time tracking and advanced columns
+monday.com,features,main_feature,"Private boards, docs, and multi-level permissions"
+monday.com,features,main_feature,"CRM with contacts, deals, quotes, and invoices"
+monday.com,features,main_feature,Service ticketing with customer portal and triage
+monday.com,features,usage_limit,"Free: up to 2 seats, 3 boards, 3 Docs"
+monday.com,features,usage_limit,"Basic: 1,000 AI credits/month, 3 AI tools"
+monday.com,features,usage_limit,"Standard: 2,000 AI credits/month, 250 automations/month"
+monday.com,features,usage_limit,"Pro: 3,000 AI credits/month, 25,000 automations/month"
+monday.com,features,usage_limit,"Enterprise: custom AI credits, 25,000 API calls/day"
+monday.com,features,usage_limit,"CRM Basic: 1,000 active contacts & deals, 1 workspace"
+monday.com,features,usage_limit,"CRM Standard: 10,000 active contacts, 250 automations/month"
+monday.com,features,usage_limit,"CRM Pro: 100,000 active contacts, 25K automations/month"
+monday.com,features,usage_limit,Dev Standard: 250 automations/integrations actions/month
+monday.com,features,usage_limit,"Service Standard: AI Triage for 1 ticket board, 10 portal users"
+monday.com,setup,setup_step,Open a developer account
+monday.com,setup,setup_step,Visit the developer center
+monday.com,setup,setup_step,Make your first API call
+monday.com,setup,setup_step,Connect your IDE to our MCPs
+monday.com,setup,setup_step,Extend the UI
+monday.com,setup,auth_method,OAuth2
+monday.com,setup,has_public_api,True
+monday.com,setup,sdk,Vibe (open-source React components)
+monday.com,setup,key_integration,Slack
+monday.com,setup,key_integration,Make
+monday.com,setup,key_integration,Zapier
+monday.com,setup,key_integration,PagerDuty
+monday.com,setup,key_integration,Twilio
+monday.com,setup,key_integration,DocuSign
+monday.com,setup,key_integration,Gmail
+monday.com,setup,key_integration,Google Calendar
+monday.com,setup,key_integration,Mailchimp
+monday.com,setup,key_integration,Jira
+monday.com,setup,key_integration,Discord
+monday.com,setup,key_integration,Google Sheets
+monday.com,setup,key_integration,HubSpot
+monday.com,setup,key_integration,Notion
+monday.com,setup,key_integration,Telegram
+monday.com,setup,key_integration,Claude
+monday.com,setup,key_integration,ChatGPT
+monday.com,setup,key_integration,WhatsApp
+namecheap.com,pricing,plan,"name=PremiumDNS | price_annual_per_month=0.41 | currency=USD | key_limits=2 million DNS queries per month per domain, 100% uptime guarantee, DNSSEC support, DDoS protection, ALIAS record support, global Anycast servers"
+namecheap.com,pricing,free_plan,False
+namecheap.com,pricing,pricing_model_notes,"One price per domain per year. Introductory price $4.88/yr, renewal price $9.98/yr. Service syncs with domain expiration date and prorates accordingly."
+namecheap.com,features,main_feature,100% DNS uptime guarantee
+namecheap.com,features,main_feature,DNSSEC support to combat DNS attacks
+namecheap.com,features,main_feature,Global Anycast network with 30+ edge servers
+namecheap.com,features,main_feature,DDoS protection with automatic traffic re-routing
+namecheap.com,features,main_feature,"ALIAS record support, no CNAME apex restrictions"
+namecheap.com,features,main_feature,Faster DNS speeds via global Anycast servers
+namecheap.com,features,main_feature,Works with any domain registered anywhere
+namecheap.com,features,main_feature,Closes security gaps and prevents fake site redirects
+namecheap.com,features,main_feature,Worldwide coverage for DNS queries
+namecheap.com,features,main_feature,Downtime compensatory credit up to 30 days
+namecheap.com,features,usage_limit,Up to 2 million DNS queries per month
+namecheap.com,features,usage_limit,One price per domain per year
+neon.tech,pricing,plan,"name=Free | price_monthly=0 | currency=USD | key_limits=100 projects, 100 CU-hrs monthly per project, 0.5 GB storage per project, sizes up to 2 CU (8 GB RAM), unlimited team members"
+neon.tech,pricing,plan,"name=Launch | currency=USD | key_limits=Usage-based: $0.106 per CU-hr, $0.35 per GB-month storage, 100 projects, sizes up to 16 CU (64 GB RAM), 3-day metrics/logs, typical spend $15/mo"
+neon.tech,pricing,plan,"name=Scale | currency=USD | key_limits=Usage-based: $0.222 per CU-hr, $0.35 per GB-month storage, 1000+ projects, sizes up to 56 CU (224 GB RAM), SLAs, HIPAA, private network, typical spend $701/mo"
+neon.tech,pricing,free_plan,True
+neon.tech,pricing,pricing_model_notes,"Usage-based pricing with no monthly minimum. Billed per CU-hour for compute and per GB-month for storage. Free plan includes 100 CU-hours monthly per project with no credit card required. Paid plans scale from zero when idle. Object Storage, Functions, and AI Gateway are free during beta phase."
+neon.tech,features,main_feature,Serverless Postgres database with storage-compute separation
+neon.tech,features,main_feature,"Autoscaling CPU, memory, and storage to fit workload"
+neon.tech,features,main_feature,Instant git-like database branching with copy-on-write
+neon.tech,features,main_feature,S3-compatible object storage that branches with projects
+neon.tech,features,main_feature,Managed Better Auth with users/sessions in Postgres
+neon.tech,features,main_feature,"Serverless Functions without timeouts, close to database"
+neon.tech,features,main_feature,AI Gateway for frontier and open-source models via one API
+neon.tech,features,main_feature,Point-in-time instant database restore without flat fees
+neon.tech,features,main_feature,Private networking via PrivateLink at no additional cost
+neon.tech,features,main_feature,Logs and metrics export to Datadog or OTel services
+neon.tech,features,main_feature,Sensitive data anonymization for safe testing/sharing
+neon.tech,features,main_feature,Automatic branch deletion when work is complete
+neon.tech,features,usage_limit,"15,000,000 Postgres databases started daily (platform scale)"
+neon.tech,setup,setup_step,Run `npx neon@latest init` in your terminal for one-command setup
+neon.tech,setup,setup_step,AI-guided setup creates a project automatically
+neon.tech,setup,setup_step,Schema is applied automatically during init
+neon.tech,setup,setup_step,A `.env` file is written automatically in one step
+neon.tech,setup,setup_step,Optionally follow guided quickstart: Next.js full backend (~10 min)
+neon.tech,setup,setup_step,Connect your framework using framework/language/ORM guides
+neon.tech,setup,setup_step,"Integrate AI coding tools via MCP (Cursor, Claude Code, Copilot, etc.)"
+neon.tech,setup,auth_method,"Managed Better Auth with sign-up, OAuth, and sessions"
+neon.tech,setup,has_public_api,True
+neon.tech,setup,sdk,neon (npx neon@latest)
+neon.tech,setup,key_integration,Next.js
+neon.tech,setup,key_integration,Django
+neon.tech,setup,key_integration,Drizzle
+neon.tech,setup,key_integration,React Router
+neon.tech,setup,key_integration,Express
+neon.tech,setup,key_integration,NestJS
+neon.tech,setup,key_integration,Astro
+neon.tech,setup,key_integration,SvelteKit
+neon.tech,setup,key_integration,Nuxt
+neon.tech,setup,key_integration,Laravel
+neon.tech,setup,key_integration,Rails
+neon.tech,setup,key_integration,Cursor
+neon.tech,setup,key_integration,Claude Code
+neon.tech,setup,key_integration,OpenAI Codex
+neon.tech,setup,key_integration,GitHub Copilot
+neon.tech,setup,key_integration,Prisma
+neon.tech,setup,key_integration,SQLAlchemy
+neon.tech,setup,key_integration,TypeORM
+netlify.com,pricing,plan,name=Free | price_monthly=0 | key_limits=300 credit limit / month
+netlify.com,pricing,plan,"name=Personal | price_monthly=9 | key_limits=1,000 credits / month"
+netlify.com,pricing,plan,"name=Pro | price_monthly=20 | key_limits=3,000 to 20,000 credits/month (tiered)"
+netlify.com,pricing,plan,name=Enterprise | key_limits=Custom
+netlify.com,pricing,free_plan,True
+netlify.com,pricing,pricing_model_notes,"Credit-based pricing model. Production deploys: 15 credits each. Compute: 10 credits per GB-hour. Bandwidth: 20 credits per GB. Web requests: 2 credits per 10k requests. AI inference varies by model. Additional credits available via auto recharge ($5 / 500 credits or $10 / 1,500 credits). Pro plan supports credit rollover for tiers above 3,000 credits."
+netlify.com,features,main_feature,Deploy to global CDN in seconds
+netlify.com,features,main_feature,Auto-deploy on every Git push with preview URLs
+netlify.com,features,main_feature,Build APIs with serverless functions
+netlify.com,features,main_feature,Instant databases and file storage
+netlify.com,features,main_feature,Built-in identity and auth handling
+netlify.com,features,main_feature,AI Gateway to connect any major AI model
+netlify.com,features,main_feature,Agent Runners for AI-powered app prototyping
+netlify.com,features,main_feature,Roll back any deploy in one click
+netlify.com,features,main_feature,Automatic HTTPS and DDoS protection
+netlify.com,features,main_feature,Global edge network with 99.99% uptime
+netlify.com,features,main_feature,"Drag-and-drop deploy, no login required"
+netlify.com,features,main_feature,Manage secrets and env vars by team
+netlify.com,setup,setup_step,Sign up for a Netlify account
+netlify.com,setup,setup_step,"Create a new project via AI agent, Git repo, or drag-and-drop"
+netlify.com,setup,setup_step,Choose a supported framework to get started quickly
+netlify.com,setup,setup_step,Use the deploy wizard to configure your project
+netlify.com,setup,setup_step,Set up a custom domain
+netlify.com,setup,auth_method,Account login (Sign Up / Log In)
+netlify.com,setup,has_public_api,True
+netlify.com,setup,sdk,Netlify SDK
+netlify.com,setup,sdk,Netlify CLI
+netlify.com,setup,key_integration,Git repositories
+netlify.com,setup,key_integration,Netlify REST API
+netlify.com,setup,key_integration,Netlify CLI
+netlify.com,setup,key_integration,Netlify MCP Server
+netlify.com,setup,key_integration,"AI Gateway (OpenRouter, AI models)"
+netlify.com,setup,key_integration,Netlify Extensions
+netlify.com,setup,key_integration,Netlify Database / Blobs
+netlify.com,setup,key_integration,Netlify DNS
+notion.com,pricing,plan,name=Free | price_monthly=0 | currency=USD | key_limits=For individuals to organize personal projects and life. Limited AI capabilities (trial). Up to 5MB file uploads. 7 days page history. 10 external guests. Limited blocks for 2+ members.
+notion.com,pricing,plan,name=Plus | price_monthly=10 | currency=USD | key_limits=For small teams and professionals. Trial AI capabilities. Unlimited file uploads. 30 days page history. Unlimited guests. Unlimited collaborative blocks. Custom forms and sites.
+notion.com,pricing,plan,"name=Business | price_monthly=20 | currency=USD | key_limits=For growing businesses. Notion Agent, AI Meeting Notes, Enterprise Search (beta). 90 days page history. Unlimited guests. Advanced connections. SAML SSO. Granular database permissions."
+notion.com,pricing,plan,"name=Enterprise | currency=USD | key_limits=For organizations requiring scalability, control, and security. Contact Sales. Zero data retention with LLM providers. User provisioning (SCIM). Advanced security controls. Audit log. Customer success manager. DLP/SIEM connections."
+notion.com,pricing,free_plan,True
+notion.com,pricing,pricing_model_notes,"Per-member/seat pricing. Guests are free. Pay monthly or yearly (save up to 20% with yearly). Prorated charges for mid-month membership changes. Custom Agents and Workers available at $10 per 1,000 monthly credits. Custom domains available at $8/month (annual) or $10/month (monthly)."
+notion.com,features,main_feature,"AI agent (chat, generate, autofill, translate) via Notion Agent"
+notion.com,features,main_feature,AI Meeting Notes with transcript deletion option
+notion.com,features,main_feature,Enterprise Search across workspace content
+notion.com,features,main_feature,"Databases with subtasks, dependencies, custom properties"
+notion.com,features,main_feature,Charts for data visualization
+notion.com,features,main_feature,Forms with conditional logic (paid tiers)
+notion.com,features,main_feature,Sites with custom domains and branding
+notion.com,features,main_feature,Automations including database automations
+notion.com,features,main_feature,"Teamspaces (open, closed, private)"
+notion.com,features,main_feature,"Public API, webhooks, and connected properties"
+notion.com,features,main_feature,Workers: custom code for agent tools and workflows
+notion.com,features,main_feature,"SAML SSO, SCIM provisioning, audit log (Enterprise)"
+notion.com,features,usage_limit,"Free: pages/blocks unlimited for individuals, limited for 2+ members"
+notion.com,features,usage_limit,Free: file uploads up to 5 MB
+notion.com,features,usage_limit,Free: page history 7 days; Plus 30 days; Business 90 days; Enterprise unlimited
+notion.com,features,usage_limit,Free: external guest limit 10; paid plans unlimited guests
+notion.com,features,usage_limit,Free: 1 chart; Plus and above unlimited charts
+notion.com,features,usage_limit,Free: 1 notion.site domain; paid plans up to 5
+notion.com,features,usage_limit,AI data retention 30 days on Free/Plus/Business; zero retention on Enterprise
+notion.com,features,usage_limit,Custom Agents require Notion credits
+notion.com,features,usage_limit,Workers require Notion credits (free trial until Oct 15)
+notion.com,setup,setup_step,Go to the Quickstart to create a personal access token
+notion.com,setup,setup_step,Make your first API request using the token
+notion.com,setup,setup_step,See a new page appear in your workspace
+notion.com,setup,setup_step,"Choose an auth model: PAT, internal, or public connection"
+notion.com,setup,setup_step,"Configure capabilities (read, write, comments, etc.) for your connection"
+notion.com,setup,setup_step,Grant content access to pages/databases via Developer portal or OAuth
+notion.com,setup,setup_step,Optionally set up webhooks to subscribe to real-time events
+notion.com,setup,setup_step,Optionally list your public connection on the Marketplace
+notion.com,setup,auth_method,Static API token (PAT or internal connection) or OAuth 2.0 (public connections)
+notion.com,setup,has_public_api,True
+notion.com,setup,sdk,Notion SDK for JavaScript
+notion.com,setup,key_integration,Webhooks
+notion.com,setup,key_integration,Notion Marketplace
+notion.com,setup,key_integration,SCIM (user provisioning)
+notion.com,setup,key_integration,SAML SSO
+notion.com,setup,key_integration,Postman
+notion.com,setup,key_integration,Notion MCP
+notion.com,setup,key_integration,Notion Workers
+npmjs.com,pricing,plan,name=Free | price_monthly=0 | currency=USD
+npmjs.com,pricing,plan,name=Pro | price_monthly=7 | currency=USD
+npmjs.com,pricing,plan,name=Teams | price_monthly=7 | currency=USD
+npmjs.com,pricing,free_plan,True
+npmjs.com,features,main_feature,Fast flow control library combining promises and callbacks
+npmjs.com,features,main_feature,Runs functions in series or parallel combinations
+npmjs.com,features,main_feature,Accepts synchronous and asynchronous functions
+npmjs.com,features,main_feature,Supports retries with configurable delays and backoffs
+npmjs.com,features,main_feature,Configurable timeouts per plan
+npmjs.com,features,main_feature,Reusable plan objects for shared error/success handling
+npmjs.com,features,main_feature,Chainable API for sequential function execution
+npmjs.com,features,main_feature,Error handling with typed error callbacks (e.g. SyntaxError)
+npmjs.com,features,main_feature,HTTP response support via response plan property
+npmjs.com,features,main_feature,Base plan fallback for default behavior
+npmjs.com,features,main_feature,Filter functions returning truthy results from input
+npmjs.com,features,main_feature,Flow values through array of functions serially
+npmjs.com,setup,setup_step,Create a new user account on the public registry
+npmjs.com,setup,setup_step,Create a strong password for your account
+npmjs.com,setup,setup_step,Configure two-factor authentication (2FA)
+npmjs.com,setup,setup_step,Download and install Node.js and npm
+npmjs.com,setup,setup_step,Configure your local environment
+npmjs.com,setup,auth_method,Username/password with optional two-factor authentication (2FA)
+otter.ai,pricing,plan,"name=Basic | currency=USD | key_limits=300 monthly transcription minutes, 3 lifetime audio/video file imports, 30 mins max per meeting, 1 concurrent meeting, 25 conversation history"
+otter.ai,pricing,plan,"name=Pro | price_monthly=8.33 | price_annual_per_month=4.17 | currency=USD | key_limits=1200 in-app recording minutes, 10 monthly audio/video file imports, 90 mins max per meeting, 2 concurrent meetings, unlimited conversation history"
+otter.ai,pricing,plan,"name=Business | price_monthly=19.99 | currency=USD | key_limits=Unlimited meetings and in-app recordings, unlimited audio/video file imports, 4 hours max per meeting, 3 concurrent meetings, unlimited conversation history"
+otter.ai,pricing,plan,"name=Enterprise | currency=USD | key_limits=Contact sales for pricing; unlimited custom AI workflows, SSO, SCIM, domain capture, enterprise-grade security, HIPAA compliance add-on"
+otter.ai,pricing,free_plan,True
+otter.ai,pricing,pricing_model_notes,Monthly and annual billing options available; annual plans offer 50-51% savings; student discount of 20% available for Pro plans with .edu email; Business plan shows 20% off for 3 months promotional offer; prices shown in USD
+otter.ai,features,main_feature,AI meeting transcription with live speaker recognition
+otter.ai,features,main_feature,Automated meeting summaries with decisions and action items
+otter.ai,features,main_feature,AI Chat searches across meetings and connected apps
+otter.ai,features,main_feature,Bot-free desktop recording on Mac and Windows
+otter.ai,features,main_feature,Automatic action item capture and assignment
+otter.ai,features,main_feature,CRM integration to push sales insights automatically
+otter.ai,features,main_feature,Channels to organize meetings by team or project
+otter.ai,features,main_feature,Live transcription in multiple languages
+otter.ai,features,main_feature,MCP Server connects meeting knowledge to ChatGPT/Claude
+otter.ai,features,main_feature,SDR Agent conducts live demos and books meetings 24/7
+otter.ai,features,main_feature,Recruiting Agent provides real-time interview help
+otter.ai,features,main_feature,Audio/video file import and transcription
+otter.ai,features,usage_limit,"Basic plan: unlimited meetings, free forever"
+otter.ai,features,usage_limit,"Business plan: 6,000 monthly transcription minutes"
+otter.ai,features,usage_limit,Business plan: 4 hours maximum per conversation
+payoneer.com,pricing,free_plan,True
+payoneer.com,pricing,pricing_model_notes,"Transaction-based pricing model. No monthly subscription fee. Annual account fee of 29.95 USD applies only if account receives less than 6,000.00 USD or equivalent in any 12 consecutive months, not charged in first year. Fees vary by payment type, payment method, currency, and payment corridor. Receiving payments: free from Payoneer balance or marketplaces; 1% from credit card (up to 3.99% + 0.49 USD); 1% from ACH/EU/UK bank. Sending payments: up to 4.00 USD/EUR/GBP same country; up to 1% + 4.00 USD different country. Withdrawals: 1.50 USD same country local currency; 1.2-4% different country. Card annual fee: 29.95 USD. Card purchases: up to 1.8% without conversion, up to 3.5% with conversion. ATM withdrawals: 3.15 USD/2.50 EUR/1.95 GBP/3.15 CAD/470 JPY + up to 1.8-3.5%."
+payoneer.com,features,main_feature,Cross-border payments across 190+ countries and territories
+payoneer.com,features,main_feature,Support for 70+ currencies
+payoneer.com,features,main_feature,Multi-currency receiving accounts for global payments
+payoneer.com,features,main_feature,"Withdraw, hold multiple currencies, track balances"
+payoneer.com,features,main_feature,Corporate cards for global spending
+payoneer.com,features,main_feature,Send payment requests or invoices to clients
+payoneer.com,features,main_feature,Receive payments from marketplaces and integrated platforms
+payoneer.com,features,main_feature,Local currency receiving accounts
+payoneer.com,features,main_feature,Workforce Management solution
+payoneer.com,features,main_feature,Free transfers between Payoneer customer balances
+payoneer.com,features,main_feature,ACH bank debit payments (US only)
+payoneer.com,features,main_feature,Credit card payment acceptance
+payoneer.com,features,usage_limit,Sales over $50K USD monthly require contacting Sales
+payoneer.com,features,usage_limit,ACH bank debit available US only
+payoneer.com,features,usage_limit,PayPal payments available US only
+payoneer.com,features,usage_limit,Product availability subject to customer eligibility and jurisdiction
+razorpay.com,pricing,plan,name=Standard | currency=INR | key_limits=2% platform fee + GST
+razorpay.com,pricing,plan,name=Enterprise Plan | key_limits=Contact Sales for customised pricing
+razorpay.com,pricing,free_plan,True
+razorpay.com,pricing,pricing_model_notes,0% platform fees for first 90 days. Standard plan: 2.15% + GST for credit/debit cards and UPI. Enterprise plan requires contact for custom pricing. Payroll subscriptions start at ₹2499/month.
+razorpay.com,features,main_feature,"Payment gateway accepting cards, UPI, netbanking, wallets"
+razorpay.com,features,main_feature,"Payment Links, Pages, Buttons, and Invoices included"
+razorpay.com,features,main_feature,International payments support
+razorpay.com,features,main_feature,Subscriptions and recurring payments
+razorpay.com,features,main_feature,Smart Collect for NEFT/bank transfer tracking
+razorpay.com,features,main_feature,Instant Settlements available
+razorpay.com,features,main_feature,RazorpayX business banking with current accounts
+razorpay.com,features,main_feature,Corporate credit card collateral-free with high limits
+razorpay.com,features,main_feature,"Automated payroll, TDS, PF, ESI, PT compliance"
+razorpay.com,features,main_feature,Vendor payments and scheduled payouts
+razorpay.com,features,main_feature,Route for marketplace and bank transfer automation
+razorpay.com,features,main_feature,API access with developer-friendly documentation
+razorpay.com,features,usage_limit,Enterprise plan for merchants over ₹5L/month revenue
+razorpay.com,features,usage_limit,0% platform fee for first 90 days (new signups)
+razorpay.com,setup,has_public_api,True
+razorpay.com,setup,sdk,React Native
+razorpay.com,setup,sdk,iOS
+razorpay.com,setup,sdk,Android
+razorpay.com,setup,sdk,Server Side SDKs
+razorpay.com,setup,key_integration,Web Integration
+razorpay.com,setup,key_integration,React Native
+razorpay.com,setup,key_integration,iOS Integration
+razorpay.com,setup,key_integration,Android Integration
+razorpay.com,setup,key_integration,Ecommerce Plugins
+razorpay.com,setup,key_integration,API Playground
+replicate.com,pricing,plan,"name=Pay-as-you-go (Public Models) | currency=USD | key_limits=Billed by time (per-second) or by input/output tokens/images depending on model. Examples: Claude 3.7 Sonnet $3.00/million input tokens, $0.015/thousand output tokens; FLUX Pro $0.04/output image; Deepseek-R1 $3.75/million input tokens, $0.01/thousand output tokens"
+replicate.com,pricing,plan,name=Pay-as-you-go (Private Models) | currency=USD | key_limits=Billed by hardware and time. CPU Small: $0.000025/sec ($0.09/hr); CPU: $0.0001/sec ($0.36/hr); Nvidia A100 (80GB): $0.0014/sec ($5.04/hr); Nvidia H100: $0.001525/sec ($5.49/hr); Nvidia L40S: $0.000975/sec ($3.51/hr); Nvidia T4: $0.000225/sec ($0.81/hr). Fast booting fine-tunes billed only for active processing time
+replicate.com,pricing,plan,"name=Enterprise | key_limits=Dedicated account manager, priority support, higher GPU limits, performance SLAs, volume discounts for large spend"
+replicate.com,pricing,free_plan,False
+replicate.com,pricing,pricing_model_notes,"Usage-based pricing. Public models billed by time (per-second) or by input/output tokens/images. Private models billed by hardware type and time online (including idle time, except for fast booting fine-tunes which only charge for active processing). Multi-GPU capacity available with committed spend contracts."
+replicate.com,features,main_feature,Run AI models with one line of code via API
+replicate.com,features,main_feature,Fine-tune models with your own data
+replicate.com,features,main_feature,Deploy custom models using Cog open-source tool
+replicate.com,features,main_feature,Automatic scaling up and down based on traffic
+replicate.com,features,main_feature,Scale to zero with no charge when idle
+replicate.com,features,main_feature,"Generate images, speech, music, and videos"
+replicate.com,features,main_feature,Large Language Model (LLM) support
+replicate.com,features,main_feature,Restore and caption images
+replicate.com,features,main_feature,Logging and monitoring with metrics and logs
+replicate.com,features,main_feature,Community-contributed thousands of production-ready models
+replicate.com,features,main_feature,"Node, Python, and HTTP client support"
+replicate.com,features,main_feature,Pay-per-use compute billing only while code runs
+replicate.com,setup,setup_step,Visit replicate.com and sign in or try for free
+replicate.com,setup,setup_step,"Choose a starting path: Node.js, Python, or Google Colab"
+replicate.com,setup,setup_step,Run a model from Node.js with a few lines of JavaScript
+replicate.com,setup,setup_step,Or run a model from Python via the Python client library
+replicate.com,setup,setup_step,Or run any public model in a Google Colab notebook
+replicate.com,setup,setup_step,Optionally fine-tune an image model with your own data
+replicate.com,setup,setup_step,Optionally deploy a custom model on Replicate's infrastructure
+replicate.com,setup,auth_method,API tokens (mentioned under Security/API tokens section)
+replicate.com,setup,has_public_api,True
+replicate.com,setup,sdk,Node.js (JavaScript)
+replicate.com,setup,sdk,Python
+replicate.com,setup,key_integration,Google Colab
+replicate.com,setup,key_integration,Next.js
+replicate.com,setup,key_integration,Discord (Python bot)
+replicate.com,setup,key_integration,SwiftUI
+replicate.com,setup,key_integration,Cloudflare Workers
+replicate.com,setup,key_integration,"HuggingFace (LoRAs, Diffusers)"
+replicate.com,setup,key_integration,ComfyUI
+replicate.com,setup,key_integration,OpenAI (realtime speech)
+replicate.com,setup,key_integration,Val Town (webhooks)
+replicate.com,setup,key_integration,Brev (GPU)
+replicate.com,setup,key_integration,Lambda Labs (GPU)
+replicate.com,setup,key_integration,GitHub Actions
+replicate.com,setup,key_integration,MCP server
+resend.com,pricing,plan,"name=Free | price_monthly=0 | currency=USD | key_limits=3,000 emails/mo, 100 emails/day limit, 1 domain, 10,000 automation runs, 30-day data retention, 5 AI credits/mo"
+resend.com,pricing,plan,"name=Pro | price_monthly=20 | currency=USD | key_limits=50,000 emails/mo, overage $0.90/1,000 emails, 10 domains, 10,000 automation runs, 30-day data retention, 100 AI credits/mo, no daily limit"
+resend.com,pricing,plan,"name=Scale | price_monthly=90 | currency=USD | key_limits=100,000 emails/mo, overage $0.90/1,000 emails, 1,000 domains, 10,000 automation runs, 30-day data retention, 500 AI credits/mo, no daily limit, Slack & ticket support"
+resend.com,pricing,plan,"name=Enterprise | key_limits=Custom pricing, flexible automation runs, flexible data retention, flexible domains, flexible AI credits, priority support, no daily limit"
+resend.com,pricing,free_plan,True
+resend.com,pricing,pricing_model_notes,"Pay-as-you-go overage model available for paid subscriptions. Extra emails charged at $0.90/1,000 emails. Automations charged at $0.0015/run beyond 10,000 free runs. Dedicated IPs add-on available at $30/mo for customers exceeding 3,000 emails/day on Scale plan."
+resend.com,features,main_feature,Transactional and marketing email sending and receiving
+resend.com,features,main_feature,RESTful API for email sending
+resend.com,features,main_feature,SMTP relay support
+resend.com,features,main_feature,Official SDKs provided
+resend.com,features,main_feature,Schedule emails for future delivery
+resend.com,features,main_feature,Batch sending capability
+resend.com,features,main_feature,Open and link tracking
+resend.com,features,main_feature,React Email integration for templating
+resend.com,features,main_feature,Automation runs with pay-as-you-go scaling
+resend.com,features,main_feature,Multi-region sending support
+resend.com,features,main_feature,"DKIM, SPF, DMARC email authentication"
+resend.com,features,main_feature,Webhook endpoints with signed security
+resend.com,features,usage_limit,"Free: 3,000 emails/mo, 100 emails/day limit"
+resend.com,features,usage_limit,"Free: 1 domain, 5 AI credits/mo"
+resend.com,features,usage_limit,"Pro: 50,000 emails/mo, no daily limit"
+resend.com,features,usage_limit,"Pro: 10 domains, 100 AI credits/mo"
+resend.com,features,usage_limit,"Scale: 100,000 emails/mo, 1,000 domains"
+resend.com,features,usage_limit,"Scale: 500 AI credits/mo, no daily limit"
+resend.com,features,usage_limit,"All plans: 10,000 automation runs included"
+resend.com,features,usage_limit,All plans: 30-day data retention (Enterprise flexible)
+resend.com,features,usage_limit,Free: 1 webhook endpoint; Pro/Scale: 10 endpoints
+resend.com,features,usage_limit,"Extra emails: $0.90 per 1,000 on paid plans"
+resend.com,features,usage_limit,Automations overage: $0.0015 per run beyond free limit
+resend.com,setup,setup_step,Verify your own domain with Resend
+resend.com,setup,setup_step,Create a Resend API key
+resend.com,setup,setup_step,Choose your language/framework quickstart guide
+resend.com,setup,setup_step,Integrate Resend SDK into your project
+resend.com,setup,setup_step,Send transactional or marketing emails
+resend.com,setup,auth_method,API key
+resend.com,setup,has_public_api,True
+resend.com,setup,sdk,Node.js
+resend.com,setup,sdk,Next.js
+resend.com,setup,sdk,Express
+resend.com,setup,sdk,PHP
+resend.com,setup,sdk,Laravel
+resend.com,setup,sdk,Python
+resend.com,setup,sdk,Ruby
+resend.com,setup,sdk,Rails
+resend.com,setup,sdk,Go
+resend.com,setup,sdk,Rust
+resend.com,setup,sdk,Elixir
+resend.com,setup,sdk,Java
+resend.com,setup,sdk,.NET
+resend.com,setup,sdk,CLI
+resend.com,setup,key_integration,Webhooks
+resend.com,setup,key_integration,MCP Server
+resend.com,setup,key_integration,CLI
+revolut.com,pricing,plan,name=Standard
+revolut.com,pricing,plan,"name=Plus | price_monthly=3.99 | currency=GBP | key_limits=Better limits for spending abroad, purchase insurance"
+revolut.com,pricing,plan,"name=Premium | price_monthly=7.99 | currency=GBP | key_limits=Exclusive subscriptions, better savings rates, unlimited money exchange"
+revolut.com,pricing,plan,"name=Metal | price_monthly=14.99 | currency=GBP | key_limits=Travel insurance, enhanced limits, subscriptions worth £2,200 annually"
+revolut.com,pricing,plan,"name=Ultra | price_monthly=55 | currency=GBP | key_limits=Unlimited airport lounge access, monthly global data, partner subscriptions, cancellation cover"
+revolut.com,pricing,free_plan,True
+revolut.com,pricing,pricing_model_notes,Standard plan is free. Ultra plan price noted as introductory offer.
+revolut.com,features,main_feature,Bank account with salary management and auto-sorting
+revolut.com,features,main_feature,Instant Access Savings up to 4% AER variable interest
+revolut.com,features,main_feature,Debit cards earning RevPoints redeemable for Airline Miles
+revolut.com,features,main_feature,AI assistant AIR available 24/7 in-app
+revolut.com,features,main_feature,Revolut Secure 24/7 account protection with specialists
+revolut.com,features,main_feature,"Commission-free investing in 5,000+ stocks and ETFs"
+revolut.com,features,main_feature,International money transfers
+revolut.com,features,main_feature,Virtual and physical debit cards
+revolut.com,features,main_feature,Currency exchange and conversion
+revolut.com,features,main_feature,Joint and professional accounts available
+revolut.com,features,main_feature,Crypto services
+revolut.com,features,main_feature,Mobile and data plans
+revolut.com,features,usage_limit,4% AER savings rate only on Ultra plan
+revolut.com,features,usage_limit,Commission-free trades within monthly allowance only
+revolut.com,features,usage_limit,Trades outside allowance: 0.25% (Standard/Plus/Premium/Metal)
+revolut.com,features,usage_limit,Trades outside allowance: 0.12% (Ultra/Trading Pro)
+revolut.com,features,usage_limit,"4% AER on balances below £200,000; 3.51% above"
+revolut.com,features,usage_limit,Better spending abroad limits on paid plans
+robinhood.com,pricing,plan,name=Robinhood Gold | price_monthly=5 | currency=USD | key_limits=Zero management fees on every dollar over $100K for expert-managed portfolio
+robinhood.com,pricing,free_plan,True
+robinhood.com,pricing,pricing_model_notes,"Base trading platform (Robinhood Legend) is free with no additional cost, though other fees apply to brokerage account. Minimum account opening is $1. Gold is optional subscription for premium services."
+robinhood.com,features,main_feature,"Trade stocks, ETFs, crypto, options, futures, prediction markets"
+robinhood.com,features,main_feature,Start investing with as little as $1
+robinhood.com,features,main_feature,Agentic Trading: dedicated account for AI agents to trade
+robinhood.com,features,main_feature,"Agentic Credit Card: virtual card for AI agents, 3% cash back"
+robinhood.com,features,main_feature,"Trade crypto 24/7 including BTC, ETH, XRP, SOL, DOGE"
+robinhood.com,features,main_feature,Expert-managed portfolio that proactively adjusts investments
+robinhood.com,features,main_feature,Robinhood Legend: intuitive trading tools and strategy building
+robinhood.com,features,main_feature,Multi-factor authentication and 24/7 account protection
+robinhood.com,features,main_feature,"IPO Access, retirement accounts, and staking available"
+robinhood.com,features,main_feature,Robinhood Learn: investor education content in-app
+robinhood.com,features,main_feature,Gold Card and Platinum Card banking products offered
+robinhood.com,features,main_feature,Portfolio management via SEC-registered investment advisor
+robinhood.com,features,usage_limit,Minimum investment as little as $1
+robinhood.com,features,usage_limit,Gold management fee waived only on dollars over $100K
+robinhood.com,setup,setup_step,Go to crypto account settings on Robinhood web classic to create credentials
+robinhood.com,setup,setup_step,"Generate an Ed25519 public/private key pair (e.g., using Python/pynacl)"
+robinhood.com,setup,setup_step,Submit your public key to create an API credential; receive your API key
+robinhood.com,setup,setup_step,Install the pynacl library: pip install pynacl
+robinhood.com,setup,setup_step,Create a script file and add your API key and private key to it
+robinhood.com,setup,setup_step,"Build request headers: x-api-key, x-signature, and x-timestamp"
+robinhood.com,setup,setup_step,"Sign each request using private key, API key, timestamp, path, method, and body"
+robinhood.com,setup,setup_step,Make API calls to trading.robinhood.com endpoints (v1 or v2)
+robinhood.com,setup,auth_method,"API key + Ed25519 signature (x-api-key, x-signature, x-timestamp headers)"
+robinhood.com,setup,has_public_api,True
+robinhood.com,setup,sdk,Python (pynacl-based example scripts provided)
+robinhood.com,setup,key_integration,Robinhood Crypto Trading API v1 (no fee tiers)
+robinhood.com,setup,key_integration,Robinhood Crypto Trading API v2 (with fee tiers)
+salesloft.com,pricing,plan,name=Contact Sales
+salesloft.com,pricing,pricing_model_notes,"Page indicates 'Packages designed for results' and 'For other pricing questions, please contact us.' No specific pricing tiers or prices are listed on the page."
+salesloft.com,features,main_feature,Revenue Orchestration Platform for sales teams
+salesloft.com,features,main_feature,Cadence: build and nurture sales pipeline
+salesloft.com,features,main_feature,Rhythm: prioritize and take right sales actions
+salesloft.com,features,main_feature,Conversation Intelligence: insights about buyers and sellers
+salesloft.com,features,main_feature,Deals: manage and close sales opportunities
+salesloft.com,features,main_feature,Analytics: turn revenue data into action
+salesloft.com,features,main_feature,Forecast: confidently call your sales number
+salesloft.com,features,main_feature,Chat Agents: turn website visitors into pipeline
+salesloft.com,features,main_feature,AI Email Agents for automated outreach
+salesloft.com,features,main_feature,Coaching tools for sales team performance
+salesloft.com,features,main_feature,Mobile app capability
+salesloft.com,features,main_feature,Automations and workflow optimization tools
+seranking.com,pricing,plan,"name=Core | price_monthly=129.0 | price_annual_per_month=103.2 | currency=USD | key_limits=10 projects, 1 manager seat, 2k keywords daily, 5 domains GEO, 250k pages/month audit, 25K API credits"
+seranking.com,pricing,plan,"name=Growth | price_monthly=279.0 | price_annual_per_month=223.2 | currency=USD | key_limits=30 projects, 3 manager seats, 5k keywords daily, 15 domains GEO, 2M pages/month audit, 100K API credits"
+seranking.com,pricing,plan,"name=Enterprise | key_limits=Custom limits and pricing, flexible terms, full API & advanced integrations"
+seranking.com,pricing,free_plan,False
+seranking.com,pricing,pricing_model_notes,"Annual billing saves 20%. Free migration with annual subscription. Monthly and annual options available. Add-ons available: Agency Pack ($69/mo annual only), AI Search ($71.20-89/mo), API ($45/mo annual only). Extra manager seats, keywords, locations, and articles available as add-ons."
+seranking.com,features,main_feature,Rank tracking across major search engines
+seranking.com,features,main_feature,"Unlimited keyword, competitor, and backlink research"
+seranking.com,features,main_feature,Website and on-page audit
+seranking.com,features,main_feature,GEO research for AI visibility tracking
+seranking.com,features,main_feature,"AI Search tracking across AI Overviews, AI Mode, Perplexity, ChatGPT"
+seranking.com,features,main_feature,Page changes monitoring
+seranking.com,features,main_feature,White-label reporting and client-facing agency tools
+seranking.com,features,main_feature,Historical data across project lifetime
+seranking.com,features,main_feature,Guest links for view-only collaboration
+seranking.com,features,main_feature,SEO API with MCP access for automation
+seranking.com,features,main_feature,"Data Studio, Matomo, GA, GSC integrations"
+seranking.com,features,main_feature,Social media management via Planable bundle
+seranking.com,features,usage_limit,"Core: 10 projects, 1 manager seat"
+seranking.com,features,usage_limit,Core: 2k keywords & 100 prompts tracked daily
+seranking.com,features,usage_limit,Core: 5 domains in GEO research
+seranking.com,features,usage_limit,"Core: 250k pages/month in audit, 25K API credits"
+seranking.com,features,usage_limit,"Growth: 30 projects, 3 manager seats"
+seranking.com,features,usage_limit,Growth: 5k keywords & 250 prompts tracked daily
+seranking.com,features,usage_limit,"Growth: 15 domains in GEO research, 2M pages/month"
+seranking.com,features,usage_limit,"Free trial: 10 projects, 750 keywords/day, 20 AI prompts/day"
+seranking.com,features,usage_limit,"Agency Pack add-on: 30 projects, 30 client seats"
+seranking.com,features,usage_limit,AI Search add-on: 200 prompts
+seranking.com,features,usage_limit,API add-on: 3M credits/month
+seranking.com,features,usage_limit,Enterprise: custom limits and pricing
+similarweb.com,pricing,plan,name=Contact sales
+similarweb.com,pricing,free_plan,False
+similarweb.com,pricing,pricing_model_notes,"Similarweb offers free tools and data on their website. Paid packages for businesses and enterprises require contacting sales for custom pricing. Self-service packages available for individuals, entrepreneurs, and small teams. Free trial available but specific duration not stated."
+similarweb.com,features,main_feature,AI Search Intelligence for brand visibility across AI engines
+similarweb.com,features,main_feature,Web Intelligence for competitive analysis and SEO tools
+similarweb.com,features,main_feature,App Intelligence to benchmark and grow app performance
+similarweb.com,features,main_feature,Sales Intelligence for prospecting and lead generation
+similarweb.com,features,main_feature,Retail Intelligence with full-funnel Amazon insights
+similarweb.com,features,main_feature,"AI Brand Visibility, Citation, and Sentiment Analysis"
+similarweb.com,features,main_feature,Keyword research and rank tracking tools
+similarweb.com,features,main_feature,Audience and competitor analysis capabilities
+similarweb.com,features,main_feature,Market research and demand analysis tools
+similarweb.com,features,main_feature,CRM enrichment and contact data
+similarweb.com,features,main_feature,Data-as-a-Service API for digital insights at scale
+similarweb.com,features,main_feature,AI Studio for natural language digital intelligence queries
+similarweb.com,setup,has_public_api,True
+similarweb.com,setup,key_integration,Claude Desktop
+similarweb.com,setup,key_integration,Microsoft Copilot
+similarweb.com,setup,key_integration,Cursor
+similarweb.com,setup,key_integration,Cloud & Data Visualization Tools
+similarweb.com,setup,key_integration,CRM & Sales Tools
+snowflake.com,pricing,plan,"name=Standard | key_limits=Entry-level offering with core platform functionality, fully managed elastic compute, security with automatic encryption, Snowpark, data sharing, optimized storage with compression and Time Travel"
+snowflake.com,pricing,plan,"name=Enterprise | key_limits=All Standard features plus multi-cluster compute, granular governance and privacy controls, extended Time Travel windows"
+snowflake.com,pricing,plan,"name=Business Critical | key_limits=All Enterprise features plus tri-secret secure access, private connectivity, failover and failback for backup and disaster recovery"
+snowflake.com,pricing,plan,"name=Virtual Private Snowflake | key_limits=All Business Critical features in completely separate, isolated Snowflake environment"
+snowflake.com,pricing,pricing_model_notes,Consumption-based pricing model. On-demand storage pricing available month-to-month with capacity storage discounts available. Monthly fee for data stored calculated using average amount of storage used per month after compression.
+snowflake.com,features,main_feature,"Fully managed data and AI platform, no infrastructure management"
+snowflake.com,features,main_feature,Cross-cloud and cross-region operations via Snowgrid
+snowflake.com,features,main_feature,"Built-in security: encryption, RBAC, MFA, data masking"
+snowflake.com,features,main_feature,Snowflake Horizon Catalog for unified governance and discovery
+snowflake.com,features,main_feature,Unified Cost Management Interface for FinOps optimization
+snowflake.com,features,main_feature,Snowflake Trail for built-in observability and telemetry
+snowflake.com,features,main_feature,Standard Warehouse Gen 2 with 2x faster analytics performance
+snowflake.com,features,main_feature,Snowflake Adaptive Compute for automatic right-sized resources
+snowflake.com,features,main_feature,Snowpark Container Services for running containers and AI/ML apps
+snowflake.com,features,main_feature,Snowflake Postgres and Unistore Hybrid Tables for transactional workloads
+snowflake.com,features,main_feature,Snowflake CoWork: personalized enterprise intelligence agent
+snowflake.com,features,main_feature,"Data pipelines, LLM/ML model deployment, and live data sharing"
+snowflake.com,features,usage_limit,30-day free trial with $400 in free credits
+sofi.com,pricing,free_plan,True
+sofi.com,features,main_feature,"Student loan refinancing including medical, parent, law options"
+sofi.com,features,main_feature,Private student loans for undergraduate and graduate programs
+sofi.com,features,main_feature,"Personal loans for home improvement, travel, weddings"
+sofi.com,features,main_feature,"Mortgage loans including purchase, refinance, FHA, VA, jumbo"
+sofi.com,features,main_feature,Home equity loans and HELOC
+sofi.com,features,main_feature,Checking and high-yield savings accounts
+sofi.com,features,main_feature,Self-directed and robo investing with IRAs and fractional shares
+sofi.com,features,main_feature,Credit cards with cash rewards options
+sofi.com,features,main_feature,Crypto trading available
+sofi.com,features,main_feature,SoFi Coach with credit monitoring and budget planner
+sofi.com,features,main_feature,"Insurance: auto, life, homeowners, renters"
+sofi.com,features,main_feature,SoFi Plus membership with exclusive perks and rewards
+sofi.com,features,usage_limit,Must be U.S. citizen or eligible status
+sofi.com,features,usage_limit,Must meet SoFi underwriting requirements
+sofi.com,features,usage_limit,Lowest rates reserved for most creditworthy borrowers
+studyfetch.com,features,main_feature,AI-generated notes from study materials
+studyfetch.com,features,main_feature,AI-generated flashcards
+studyfetch.com,features,main_feature,AI-powered quizzes
+studyfetch.com,features,main_feature,Sparky AI study assistant
+studyfetch.com,features,main_feature,Text Sparky AI tool
+studyfetch.com,features,main_feature,Sparky Visuals feature
+studyfetch.com,features,main_feature,Record live lecture functionality
+studyfetch.com,features,main_feature,Essay grader tool
+studyfetch.com,features,main_feature,Audio recap feature
+studyfetch.com,features,main_feature,Explainer video generation
+studyfetch.com,features,main_feature,PDF to game conversion
+studyfetch.com,features,main_feature,YouTube to notes conversion
+surveymonkey.com,pricing,plan,name=Basic | key_limits=Free plan with limited responses per survey
+surveymonkey.com,pricing,plan,name=Standard
+surveymonkey.com,pricing,plan,"name=Team Advantage | price_annual_per_month=85 | currency=ILS | key_limits=3+ users, Unlimited surveys, Unlimited questions, 50,000 responses per year, Shared brand assets, User roles and permissions, Premium themes, More logic features, Accept payments, Statistical significance, Multi-survey analysis, Analyze with AI, Thematic Analysis"
+surveymonkey.com,pricing,plan,"name=Team Premier | price_annual_per_month=220 | currency=ILS | key_limits=3+ users, Unlimited surveys, Unlimited questions, 100,000 responses per year, Everything in Team Advantage, White label branding, Advanced logic, Block randomization, Multilingual surveys, Crosstabs, Phone support"
+surveymonkey.com,pricing,plan,"name=Enterprise | key_limits=5+ users, Unlimited surveys, Unlimited questions, Custom response limit, Everything in Team Premier, User management and reports, Enhanced governance and security, Centralized billing, Data center options, Premium onboarding, Customer Success access, SSO, Smart notifications, Custom subdomain, Rule-based tagging, Zoom integration"
+surveymonkey.com,pricing,free_plan,True
+surveymonkey.com,pricing,pricing_model_notes,"Team plans billed annually per user per month. Minimum 3 users for Team plans, 5+ for Enterprise. Additional responses charged at ₪0.50 per response. Monthly billing available for Standard plan. Auto-renew enabled by default."
+surveymonkey.com,features,main_feature,AI-powered survey creation and insight spotting
+surveymonkey.com,features,main_feature,500+ expert survey and form templates
+surveymonkey.com,features,main_feature,200+ native integrations with business tools
+surveymonkey.com,features,main_feature,Research panel reaching 335M+ people in 130+ countries
+surveymonkey.com,features,main_feature,"Advanced logic: skip logic, branching, piping, randomization"
+surveymonkey.com,features,main_feature,"Multiple question types including NPS, matrix, file upload"
+surveymonkey.com,features,main_feature,"Real-time data trends, visualizations, and dashboards"
+surveymonkey.com,features,main_feature,Sentiment analysis and thematic analysis of responses
+surveymonkey.com,features,main_feature,"Email, web link, SMS, QR code, and kiosk collection modes"
+surveymonkey.com,features,main_feature,"Team collaboration with shared assets, roles, and permissions"
+surveymonkey.com,features,main_feature,"Export results as CSV, XLS, PPT, PDF, or SPSS"
+surveymonkey.com,features,main_feature,HIPAA-compliant features and SSO for enterprise
+surveymonkey.com,features,usage_limit,"Team Advantage: 50,000 responses per year"
+surveymonkey.com,features,usage_limit,"Team Premier: 100,000 responses per year"
+surveymonkey.com,features,usage_limit,Enterprise: custom response limits
+surveymonkey.com,features,usage_limit,Additional responses at ₪0.50 each
+surveymonkey.com,features,usage_limit,"Unlimited surveys, forms, and quizzes on team plans"
+surveymonkey.com,features,usage_limit,Unlimited questions per survey
+surveymonkey.com,features,usage_limit,Unlimited collectors
+surveymonkey.com,features,usage_limit,"AI analysis: 20 prompts/survey (Advantage), 50 (Premier), unlimited (Enterprise)"
+surveymonkey.com,setup,has_public_api,True
+telnyx.com,pricing,plan,name=Pay As You Go | price_monthly=0 | currency=USD
+telnyx.com,pricing,plan,name=Committed | price_monthly=500 | currency=USD
+telnyx.com,pricing,plan,name=Enterprise | price_monthly=5000 | currency=USD
+telnyx.com,pricing,free_plan,True
+telnyx.com,features,main_feature,"46 primitives across voice, messaging, identity, networking, compute"
+telnyx.com,features,main_feature,Voice AI agents with stateful call-path intelligence
+telnyx.com,features,main_feature,SIP trunking with elastic trunks and VXC pairing
+telnyx.com,features,main_feature,"SMS, MMS, RCS, WhatsApp, and email APIs"
+telnyx.com,features,main_feature,Deepfake detection with real-time synthetic voice scoring
+telnyx.com,features,main_feature,"Edge compute: functions, KV, SQLDB, object storage"
+telnyx.com,features,main_feature,OpenAI-compatible LLM inference on owned GPUs
+telnyx.com,features,main_feature,"Global numbers, porting, toll-free, and E911 support"
+telnyx.com,features,main_feature,Cloud VPN via WireGuard onto private backbone
+telnyx.com,features,main_feature,"IoT SIM, eSIM, and private wireless gateways"
+telnyx.com,features,main_feature,"Verify API: 2FA over SMS, voice, WhatsApp, flash call"
+telnyx.com,features,main_feature,200+ open-source deployable builds from examples repo
+telnyx.com,setup,has_public_api,True
+telnyx.com,setup,sdk,Node.js
+telnyx.com,setup,sdk,Python
+telnyx.com,setup,sdk,PHP
+telnyx.com,setup,sdk,Java
+telnyx.com,setup,sdk,Ruby
+telnyx.com,setup,sdk,Go
+telnyx.com,setup,key_integration,Postman
+telnyx.com,setup,key_integration,ngrok
+telnyx.com,setup,key_integration,Node-RED
+telnyx.com,setup,key_integration,Telnyx CLI
+telnyx.com,setup,key_integration,MCP Servers
+twilio.com,pricing,plan,name=Pay as you go | key_limits=Usage-based pricing with volume discounts as you scale
+twilio.com,pricing,free_plan,False
+twilio.com,pricing,pricing_model_notes,"Twilio uses usage-based pricing across multiple products. Individual products have different pricing structures (e.g., Conversation Orchestrator starts at $0.0002/1k characters, SMS starts at $0.0083 per message, Conversations API starts at $0.05 per active user per month). Free trial requires no credit card. Some products offer free tier limits (e.g., TaskRouter first 100 tasks/month free, Functions 10,000 free invocations, Twilio Video and Flex 5,000 hours free). Enterprise/custom pricing available via 'Contact sales' for certain products (Protocols, Unify, Engage, Segment CDP)."
+twilio.com,features,main_feature,Conversation Orchestrator: keep conversations connected across channels
+twilio.com,features,main_feature,Conversation Intelligence: extract context from real-time conversations
+twilio.com,features,main_feature,Conversation Memory: persistent memory of customer interactions
+twilio.com,features,main_feature,Enterprise Knowledge: embed policies and documents into Conversation Memory
+twilio.com,features,main_feature,Conversation Relay: integrate advanced voice AI for natural conversations
+twilio.com,features,main_feature,"SMS, RCS, WhatsApp, and cross-channel Conversations API"
+twilio.com,features,main_feature,SendGrid Email API: deliver email at scale
+twilio.com,features,main_feature,Voice APIs: embed reliable calling into any application
+twilio.com,features,main_feature,Twilio Flex: customizable cloud contact center platform
+twilio.com,features,main_feature,Verify and Lookup: user authentication and phone number validation
+twilio.com,features,main_feature,"Segment CDP, Unify, Connections, Engage: customer data platform suite"
+twilio.com,features,main_feature,"Studio, Functions, Assets: drag-and-drop and serverless builder tools"
+twilio.com,features,usage_limit,SendGrid Email API free tier: 100 emails/day
+twilio.com,features,usage_limit,"Twilio Flex free tier: 5,000 hours free"
+twilio.com,features,usage_limit,"Twilio Video free tier: 5,000 hours free"
+twilio.com,features,usage_limit,TaskRouter: first 100 tasks/month free
+twilio.com,features,usage_limit,"Functions: 10,000 free invocations included"
+twilio.com,features,usage_limit,Assets: free access to tools included
+twilio.com,features,usage_limit,Connections: 14-day free trial available
+twilio.com,features,usage_limit,Twilio for Salesforce: 30-day free trial
+twilio.com,features,usage_limit,99.95% uptime SLA with automated failover
+twilio.com,setup,has_public_api,True
+twilio.com,setup,sdk,server-side SDKs
+twilio.com,setup,sdk,front-end SDKs
+twilio.com,setup,sdk,mobile SDKs
+twilio.com,setup,key_integration,SMS
+twilio.com,setup,key_integration,WhatsApp
+twilio.com,setup,key_integration,Voice
+twilio.com,setup,key_integration,Email
+twilio.com,setup,key_integration,Video
+twilio.com,setup,key_integration,Segment
+twilio.com,setup,key_integration,Flex
+twilio.com,setup,key_integration,Verify
+twilio.com,setup,key_integration,Studio
+vultr.com,pricing,plan,"name=VX1 - 2 vCPUs 8 GB Memory | price_monthly=43.2 | currency=USD | key_limits=2 vCPUs, 8 GB Memory, 5.00 TB Bandwidth, Block Storage"
+vultr.com,pricing,plan,"name=VX1 - 4 vCPUs 16 GB Memory | price_monthly=86.4 | currency=USD | key_limits=4 vCPUs, 16 GB Memory, 6.00 TB Bandwidth, Block Storage"
+vultr.com,pricing,plan,"name=VX1 - 8 vCPUs 32 GB Memory | price_monthly=172.8 | currency=USD | key_limits=8 vCPUs, 32 GB Memory, 7.00 TB Bandwidth, Block Storage"
+vultr.com,pricing,plan,"name=Cloud Compute Regular Performance - 1 vCPU 0.5 GB | price_monthly=2.5 | currency=USD | key_limits=1 vCPU, 0.5 GB Memory, 0.50 TB Bandwidth, 10 GB Storage"
+vultr.com,pricing,plan,"name=Cloud Compute Regular Performance - 1 vCPU 1 GB | price_monthly=5 | currency=USD | key_limits=1 vCPU, 1 GB Memory, 1.00 TB Bandwidth, 25 GB Storage"
+vultr.com,pricing,plan,"name=Cloud Compute Regular Performance - 1 vCPU 2 GB | price_monthly=10 | currency=USD | key_limits=1 vCPU, 2 GB Memory, 2.00 TB Bandwidth, 55 GB Storage"
+vultr.com,pricing,plan,"name=Cloud Compute High Performance AMD - 1 vCPU 1 GB | price_monthly=6 | currency=USD | key_limits=1 vCPU, 1 GB Memory, 2.00 TB Bandwidth, 25 GB Storage, NVMe SSD"
+vultr.com,pricing,plan,"name=Cloud Compute High Frequency - 1 vCPU 1 GB | price_monthly=6 | currency=USD | key_limits=1 vCPU, 1 GB Memory, 1.00 TB Bandwidth, 32 GB Storage, NVMe SSD"
+vultr.com,pricing,plan,"name=Optimized Cloud Compute General Purpose - 1 vCPU 4 GB | price_monthly=30 | currency=USD | key_limits=1 vCPU, 4 GB Memory, 4.00 TB Bandwidth, 30 GB Storage, Dedicated vCPU"
+vultr.com,pricing,plan,"name=Optimized Cloud Compute CPU Optimized - 1 vCPU 2 GB | price_monthly=28 | currency=USD | key_limits=1 vCPU, 2 GB Memory, 4.00 TB Bandwidth, 25 GB Storage, Dedicated vCPU"
+vultr.com,pricing,plan,"name=Optimized Cloud Compute Memory Optimized - 1 vCPU 8 GB | price_monthly=40 | currency=USD | key_limits=1 vCPU, 8 GB Memory, 5.00 TB Bandwidth, 50 GB Storage, Dedicated vCPU"
+vultr.com,pricing,free_plan,False
+vultr.com,pricing,pricing_model_notes,"Vultr uses hourly billing with monthly pricing displayed. VX1 instances billed on actual hours used each month and not capped at 672 hours. Pricing shown is monthly equivalent (hourly rate × 730 hours). Multiple instance types available: VX1, Cloud Compute (Regular Performance, High Performance, High Frequency), and Optimized Cloud Compute (General Purpose, CPU Optimized, Memory Optimized). Bare Metal and other services also available."
+vultr.com,features,main_feature,NVIDIA and AMD Cloud GPUs for AI workloads
+vultr.com,features,main_feature,VX1 Cloud Compute powered by AMD EPYC CPUs
+vultr.com,features,main_feature,Optimized Cloud Compute VMs with NVMe SSD
+vultr.com,features,main_feature,Standard Cloud Compute affordable VMs
+vultr.com,features,main_feature,Fully automated Bare Metal dedicated servers
+vultr.com,features,main_feature,Managed Kubernetes container orchestration
+vultr.com,features,main_feature,"Object, Block, and File System storage options"
+vultr.com,features,main_feature,Managed Databases service
+vultr.com,features,main_feature,CDN and Load Balancers networking solutions
+vultr.com,features,main_feature,33 global data center regions
+vultr.com,features,main_feature,AI-powered Vultr Agent for cloud resource management
+vultr.com,features,main_feature,Marketplace with plug-and-play SaaS applications
+vultr.com,setup,has_public_api,True
+x.ai,pricing,plan,"name=Free | price_monthly=0 | key_limits=Get to know Grok and its capabilities for free within generous limits. Real-time web and X search, Voice mode, SOC 2 compliance (Type I & II), Connectors"
+x.ai,pricing,plan,"name=SuperGrok | price_monthly=30 | key_limits=Unleash the full power of Grok with higher rate limits and access to frontier models. Grok 4.5 model, Connectors, Higher rate limits across all features, Expert SOC 2 compliance (Type I & II), Image and video generation"
+x.ai,pricing,plan,name=SuperGrok Lite
+x.ai,pricing,plan,name=SuperGrok Heavy
+x.ai,pricing,plan,"name=Business | key_limits=Team seat management, Consolidated billing, Role-based access control, Custom RBAC, Domain verification, User analytics, SOC 2 compliance (Type I & II), No training, Custom data retention, SSO, Directory Sync (SCIM), Advanced audit controls, Customer-managed encryption keys, Dedicated data plane, Priority support, Dedicated onboarding"
+x.ai,pricing,plan,"name=Enterprise | key_limits=Custom rate limits, Tailored throughput, Dedicated support, Named account team and onboarding, SSO & SCIM, Data residency, Volume pricing"
+x.ai,pricing,free_plan,True
+x.ai,pricing,pricing_model_notes,"Individual, Team, and API tiers available. Enterprise requires contacting sales for custom rate limits, dedicated infrastructure, SSO, compliance requirements, and volume pricing."
+x.ai,features,main_feature,Real-time web and X search
+x.ai,features,main_feature,Voice mode
+x.ai,features,main_feature,SOC 2 compliance (Type I & II)
+x.ai,features,main_feature,Connectors for integrations
+x.ai,features,main_feature,Image generation (Imagine)
+x.ai,features,main_feature,Video generation
+x.ai,features,main_feature,Grok Build app creation tool
+x.ai,features,main_feature,Expert mode access
+x.ai,features,main_feature,Team seat management and admin controls
+x.ai,features,main_feature,Role-based access control (RBAC)
+x.ai,features,main_feature,Single Sign-On (SSO) and Directory Sync (SCIM)
+x.ai,features,main_feature,"Web, iOS, Android apps available"
+x.ai,features,usage_limit,Free plan has limited real-time web and X search
+x.ai,features,usage_limit,SuperGrok offers higher rate limits across all features
+x.ai,features,usage_limit,Enterprise offers custom rate limits
+x.ai,setup,setup_step,Create an API key via the API Console
+x.ai,setup,setup_step,Purchase credits for your account
+x.ai,setup,setup_step,Set the XAI_API_KEY environment variable
+x.ai,setup,setup_step,Make API calls to https://api.x.ai/v1/responses
+x.ai,setup,setup_step,"Choose a model (e.g., grok-4.5) for your use case"
+x.ai,setup,setup_step,Follow the Quickstart guide in the docs
+x.ai,setup,auth_method,Bearer token (API key via Authorization header)
+x.ai,setup,has_public_api,True
+x.ai,setup,sdk,xai_sdk (Python)
+x.ai,setup,sdk,OpenAI Python SDK (compatible)
+x.ai,setup,sdk,JavaScript
+x.ai,setup,sdk,cURL
+x.ai,setup,key_integration,Google Cloud Vertex AI
+x.ai,setup,key_integration,Microsoft Foundry
+x.ai,setup,key_integration,Remote MCP Tools
+x.ai,setup,key_integration,Docs MCP
+x.ai,setup,key_integration,OpenAI-compatible API
+zoominfo.com,setup,setup_step,Create an app in the ZoomInfo Developer Portal
+zoominfo.com,setup,setup_step,Choose app type: Standard App or Partner App
+zoominfo.com,setup,setup_step,Select OAuth flow: Authorization Code (PKCE) or Client Credentials
+zoominfo.com,setup,setup_step,Request appropriate ZoomInfo OAuth scopes for your use case
+zoominfo.com,setup,setup_step,Implement chosen OAuth 2.0 authentication flow in your app
+zoominfo.com,setup,setup_step,Make authenticated API requests to desired endpoints
+zoominfo.com,setup,setup_step,Optionally connect via MCP server or ZoomInfo CLI
+zoominfo.com,setup,auth_method,OAuth 2.0 (Authorization Code Flow with PKCE or Client Credentials Flow)
+zoominfo.com,setup,has_public_api,True
+zoominfo.com,setup,sdk,ZoomInfo CLI
+zoominfo.com,setup,sdk,ZoomInfo MCP server
+zoominfo.com,setup,key_integration,MCP-compatible AI agents
+zoominfo.com,setup,key_integration,Webhook/event subscriptions
+zoominfo.com,setup,key_integration,Bulk/batch data jobs

@@ -1,0 +1,6 @@
+point,models,memory_share_pct,tool_calls_per_run,n_runs,label
+gpt-4.1,gpt-4.1-2025-04-14,51.5,1.24,90,last non-reasoning flagship
+gpt-5 / 5.1 / 5.2,gpt-5-2025-08-07;gpt-5.1-2025-11-13;gpt-5.2-2025-12-11,36.8,4.9,270,reasoning models
+gpt-5.4 / 5.5,gpt-5.4-2026-03-05;gpt-5.5-2026-04-23,26.8,6.64,180,latest generation
+gpt-5.6,gpt-5.6-sol,13.9,9.4,90,latest generation
+this study,"claude + gpt agentic harnesses, 37,927 runs",7-10,,,"main-experiment endpoint (published): comp_memory_hi=7 / comp_memory_lo=10; see ../aggregates.json and ../README.md#reconciliation for this repo's 10% sample recomputation"
