@@ -20,5 +20,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This license applies to the code in this repository (scripts/). The dataset
-(data/, experiment/) is licensed separately under CC BY 4.0 — see data/LICENSE.
+This license applies to the code in this repository (each study's scripts/). The
+dataset (each study's data/) is licensed separately under CC BY 4.0 — see the
+data/LICENSE file in each study.
