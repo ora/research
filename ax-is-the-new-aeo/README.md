@@ -1,4 +1,4 @@
-# AX beats AEO: dataset
+# AX is the New AEO: dataset
 
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](data/LICENSE)
@@ -7,7 +7,7 @@
 [![Paper: ora research](https://img.shields.io/badge/paper-ora%20research-black.svg)](https://ora.ai/research)
 
 This directory is a data release, not the paper. It publishes a reproduction sample of the data
-behind the "AX beats AEO" study (whether AI agents ground their answers on a business's own
+behind the "AX is the New AEO" study (whether AI agents ground their answers on a business's own
 site vs. third-party sources, and whether that's driven by agent accessibility rather than
 answer-engine optimization) plus the scripts to recompute the study's aggregate numbers from it.
 
