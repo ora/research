@@ -41,7 +41,12 @@ not carried over.
     summarize are in `accuracy_facts.csv`.
 
   `group` = ax-high/ax-low (median split on the accessibility score). `stratum` = which
-  collection wave the run belongs to (`batch-00..03`).
+  collection wave the run belongs to (`batch-00..03`). `repeat` is the run's index within its
+  domain x arm x category cell; every cell holds exactly 3 journeys, and a `repeat` above 3
+  marks a replacement run for an attempt that failed to complete. The judge free-text fields
+  (`endorse_reason_*`, `antirec_reason`) are stored truncated to 80 characters. The two runs
+  with `acc_no_answer` = 1 produced no answer text, so every fact is `n_not_addressed` and
+  they have no rows in `accuracy_facts.csv`.
 
 - **`accuracy_facts.csv`** (19,422 rows) — one row per judged atomic fact: `run_id, domain, arm,
   category, fact_index, fact_text, verdict, evidence`. Long format because a single run can be

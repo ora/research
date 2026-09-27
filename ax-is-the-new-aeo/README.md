@@ -10,8 +10,8 @@ behind the "AX is the New AEO" study (whether AI agents ground their answers on 
 site vs. third-party sources, and whether that's driven by agent accessibility rather than
 answer-engine optimization) plus the scripts to recompute the study's aggregate numbers from it.
 
-**Paper:** *AX is the New AEO* — Ido Finder, Assaf Elovic, Gad Shalev; ora research (era labs),
-September 2026 — [ora.ai/research](https://ora.ai/research). `data/aggregates.json` and
+**Paper:** *AX is the New AEO* — ora research (era labs), September 2026 —
+[ora.ai/research](https://ora.ai/research). `data/aggregates.json` and
 `scripts/build_aggregates.py --check` recompute the paper's aggregate numbers from the sample
 published here (see [Reproducing the numbers](#reproducing-the-numbers)).
 
@@ -46,7 +46,7 @@ delta is measured and documented, not hidden.
 
 ## The experiment, in brief
 
-Round-independent definition of the study, needed to interpret `data/`. Per-domain metadata
+A short definition of the study, needed to interpret `data/`. Per-domain metadata
 and facts live in `data/domains.csv` and `data/ground_truth_facts.csv` (see
 [`data/README.md`](data/README.md)); this section describes the parts that aren't
 domain-indexed tables.
