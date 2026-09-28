@@ -20,7 +20,7 @@ This directory also includes a second, separate experiment in
 distinct figure ("how much of the answer comes from the model's training knowledge"), published
 as final aggregated verdicts only. See its own README.
 
-## What's in this directory, and what isn't
+## Published data
 
 The full study ran **37,927 agent journeys against 1,056 domains** (4 harnesses x 3 intents x
 repeats), producing about 3.25 GB of raw per-run traces. Neither the raw corpus nor the paper
