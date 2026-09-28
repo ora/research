@@ -105,4 +105,4 @@ only; the paper itself is published separately.
 
 Code (`scripts/`) is MIT, see [`LICENSE`](LICENSE). The dataset (`data/`, including
 `data/training-knowledge-probe/`) is CC BY 4.0, see
-[`data/LICENSE`](data/LICENSE). (c) 2026 era labs (ora.ai).
+[`data/LICENSE`](data/LICENSE). Copyright (c) 2026 era labs (ora.ai).
