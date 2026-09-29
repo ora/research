@@ -4,7 +4,6 @@
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](data/LICENSE)
 [![Python 3, stdlib only](https://img.shields.io/badge/python-3%20%C2%B7%20stdlib%20only-blue.svg)](scripts/build_aggregates.py)
 [![arXiv: 2609.34951](https://img.shields.io/badge/arXiv-2609.34951-b31b1b.svg)](https://arxiv.org/abs/2609.34951)
-[![Paper: ora research](https://img.shields.io/badge/paper-ora%20research-black.svg)](https://ora.ai/research)
 
 This directory is a data release, not the paper. It publishes a reproduction sample of the data
 behind the "AX is the New AEO" study (whether AI agents ground their answers on a business's own
