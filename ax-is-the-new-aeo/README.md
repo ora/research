@@ -3,6 +3,7 @@
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](data/LICENSE)
 [![Python 3, stdlib only](https://img.shields.io/badge/python-3%20%C2%B7%20stdlib%20only-blue.svg)](scripts/build_aggregates.py)
+[![arXiv: 2609.34951](https://img.shields.io/badge/arXiv-2609.34951-b31b1b.svg)](https://arxiv.org/abs/2609.34951)
 [![Paper: ora research](https://img.shields.io/badge/paper-ora%20research-black.svg)](https://ora.ai/research)
 
 This directory is a data release, not the paper. It publishes a reproduction sample of the data
@@ -11,7 +12,8 @@ site vs. third-party sources, and whether that's driven by agent accessibility r
 answer-engine optimization) plus the scripts to recompute the study's aggregate numbers from it.
 
 **Paper:** *AX is the New AEO* — ora research (era labs), September 2026 —
-[ora.ai/research](https://ora.ai/research). `data/aggregates.json` and
+[arXiv:2609.34951](https://arxiv.org/abs/2609.34951) · [ora.ai/research](https://ora.ai/research).
+`data/aggregates.json` and
 `scripts/build_aggregates.py --check` recompute the paper's aggregate numbers from the sample
 published here (see [Reproducing the numbers](#reproducing-the-numbers)).
 
@@ -86,18 +88,19 @@ each cell reproduces from a 10% sample.
 ## Status
 
 First public release, September 2026, accompanying the paper. Data and reproduction scripts
-only; the paper itself is published separately.
+only; the paper itself is published on arXiv ([2609.34951](https://arxiv.org/abs/2609.34951)).
 
 ## Citing
 
 ```bibtex
-@techreport{finder2026ax,
-  title       = {AX is the New AEO},
-  author      = {Finder, Ido and Elovic, Assaf and Shalev, Gad},
-  institution = {ora research (era labs)},
-  year        = {2026},
-  month       = sep,
-  url         = {https://ora.ai/research}
+@misc{finder2026axnewaeo,
+      title={AX is the New AEO},
+      author={Ido Finder and Assaf Elovic and Gad Shalev},
+      year={2026},
+      eprint={2609.34951},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.34951},
 }
 ```
 
