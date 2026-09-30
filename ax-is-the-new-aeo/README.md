@@ -94,7 +94,7 @@ only; the paper itself is published on arXiv ([2609.34951](https://arxiv.org/abs
 ```bibtex
 @misc{finder2026axnewaeo,
       title={AX is the New AEO},
-      author={Ido Finder and Assaf Elovic and Gad Shalev},
+      author={Ido Finder and Assaf Elovic and Gad Shalev and Liad Yosef},
       year={2026},
       eprint={2609.34951},
       archivePrefix={arXiv},
