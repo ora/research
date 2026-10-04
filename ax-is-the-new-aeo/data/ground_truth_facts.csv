@@ -101,6 +101,17 @@ airtable.com,features,usage_limit,Free: 500 AI credits/editor/month
 airtable.com,features,usage_limit,"Team: 15,000 AI credits/paid user/month"
 airtable.com,features,usage_limit,"Free: 1 GB attachments per base; Enterprise: 1,000 GB"
 airtable.com,features,usage_limit,"Free API: 1,000 calls/month; Team: 100,000 calls/month"
+anon.com,pricing,plan,name=Custom Enterprise
+anon.com,features,main_feature,Self-healing browser agents automating long-running enterprise workflows
+anon.com,features,main_feature,Computer-use agents that beat human team SLAs
+anon.com,features,main_feature,Managed hosted web agents running in secure cloud sandboxes
+anon.com,features,main_feature,Agents performing bespoke tasks spanning multiple systems
+anon.com,features,main_feature,Agent authentication toolkit for developer use
+anon.com,features,main_feature,Agents authenticate and act as users across hostile services
+anon.com,features,main_feature,Works without clean APIs on target services
+anon.com,features,main_feature,Deployed for SMBs to Fortune 500 companies
+anon.com,features,main_feature,Production-grade agents owning entire business functions
+anon.com,features,main_feature,End-to-end outcome ownership with customer-facing engineering
 asana.com,pricing,plan,"name=Personal | price_monthly=0 | price_annual_per_month=0 | currency=USD | key_limits=2 users, unlimited tasks and projects, list/board/calendar views, 100MB max per file"
 asana.com,pricing,plan,"name=Starter | price_monthly=13.49 | price_annual_per_month=10.99 | currency=USD | key_limits=Per user, no user seat limits, AI Studio Basic w/50K credits, timeline and Gantt views, reporting dashboards, unlimited automations"
 asana.com,pricing,plan,"name=Advanced | price_monthly=30.49 | price_annual_per_month=24.99 | currency=USD | key_limits=Per user, AI Studio Basic w/75K credits, unlimited portfolios, goals, workload management, approvals and proofing, Salesforce/Tableau/Power BI support"
@@ -172,11 +183,106 @@ attio.com,setup,sdk,App SDK (TypeScript/React)
 attio.com,setup,key_integration,Claude
 attio.com,setup,key_integration,ChatGPT
 attio.com,setup,key_integration,Webhooks
+autoreelapp.com,pricing,plan,name=ESSENTIAL | price_monthly=30 | price_annual_per_month=14 | currency=USD
+autoreelapp.com,pricing,plan,name=GROWTH | price_monthly=90 | price_annual_per_month=11 | currency=USD
+autoreelapp.com,pricing,plan,name=PRO | price_monthly=165 | price_annual_per_month=10 | currency=USD
+autoreelapp.com,pricing,plan,name=ENTERPRISE
+autoreelapp.com,pricing,free_plan,True
+autoreelapp.com,features,main_feature,AI converts property photos into cinematic videos in minutes
+autoreelapp.com,features,main_feature,Portrait and landscape video orientation support
+autoreelapp.com,features,main_feature,One-click import of photos from Realtor.com
+autoreelapp.com,features,main_feature,AI Virtual Staging to furnish empty rooms realistically
+autoreelapp.com,features,main_feature,"AI Photo Edits: twilights, lawn repairs, enhancements"
+autoreelapp.com,features,main_feature,Viral visual effects (VFX) including day-to-twilight transitions
+autoreelapp.com,features,main_feature,AI Voiceovers with voice cloning or library selection
+autoreelapp.com,features,main_feature,"Built-in Studio editor with templates, music, captions, branding"
+autoreelapp.com,features,main_feature,AI Avatars for professional video presentations
+autoreelapp.com,features,main_feature,Branded videos with logos and custom text
+autoreelapp.com,features,main_feature,Videos ready within 10–15 minutes
+autoreelapp.com,features,main_feature,"Each photo converted into a 3-second clip, up to 60 seconds"
+autoreelapp.com,features,usage_limit,Free plan: 2 videos per month with AutoReel watermark
+autoreelapp.com,features,usage_limit,Free plan: photos must be 10MB or smaller
+autoreelapp.com,features,usage_limit,Paid plans: photos up to 25MB
+autoreelapp.com,features,usage_limit,Photos per video: 15–20 depending on subscription plan
+autoreelapp.com,features,usage_limit,Paid plans include 7-day free trial before charging
+autoreelapp.com,setup,setup_step,Obtain an API key (via 'Get API Key' link in docs)
+autoreelapp.com,setup,setup_step,Authenticate requests using Bearer token in Authorization header
+autoreelapp.com,setup,setup_step,Create a project via POST /api/v1/create_project with a name field
+autoreelapp.com,setup,setup_step,Link videos to the project using the project field in create_video
+autoreelapp.com,setup,setup_step,Use returned project UUID to organize and retrieve videos
+autoreelapp.com,setup,auth_method,Bearer token (API key)
+autoreelapp.com,setup,has_public_api,True
+axonius.com,features,main_feature,Unified asset data and exposures into single verified model
+axonius.com,features,main_feature,Continuous asset discovery across all asset types
+axonius.com,features,main_feature,Cross-domain exposure management prioritized by business risk
+axonius.com,features,main_feature,In-depth asset profiles with business-ready context
+axonius.com,features,main_feature,Natural language interface to query technology footprint
+axonius.com,features,main_feature,Smart prioritization engine for actionable risk scores
+axonius.com,features,main_feature,AI-powered recommendations and real-time intelligence
+axonius.com,features,main_feature,Streamlined automated remediation workflows with ticket tracking
+axonius.com,features,main_feature,Bi-directional integrations enabling end-to-end automation
+axonius.com,features,main_feature,Verified policy checks to avoid configuration drift
+axonius.com,features,main_feature,Intuitive data visualization with custom tables and charts
+axonius.com,features,main_feature,"Covers devices, identities, SaaS, cloud, IoT, OT assets"
+bananaprompts.org,pricing,free_plan,True
+bananaprompts.org,features,main_feature,Curated collection of tested prompt templates
+bananaprompts.org,features,main_feature,One-click copy to clipboard
+bananaprompts.org,features,main_feature,"Smart search and filtering by category, style, keyword"
+bananaprompts.org,features,main_feature,"Multiple prompt libraries (public, Nano Banana Pro, curated, VIP)"
+bananaprompts.org,features,main_feature,GPT Image 2 prompt examples
+bananaprompts.org,features,main_feature,AI image generator tool
+bananaprompts.org,features,main_feature,Trend prompts discovery section
+bananaprompts.org,features,main_feature,"Prompts organized by category (portraits, landscapes, abstract)"
+bananaprompts.org,features,main_feature,Regular weekly updates with new templates
+bananaprompts.org,features,main_feature,VIP/premium early access to exclusive prompts
+bananaprompts.org,features,main_feature,1600+ quality prompts available
+bananaprompts.org,features,main_feature,Prompts optimized for Nano Banana AI workflows
+bananaprompts.org,features,usage_limit,Credits system exists (details not specified in text)
+bananaprompts.org,features,usage_limit,VIP prompts available free to VIP members
 basecamp.com,pricing,plan,"name=Free | key_limits=1 project, 1 GB storage, up to 20 users"
 basecamp.com,pricing,plan,"name=Pro | price_monthly=15 | currency=USD | key_limits=Unlimited projects, 500 GB storage, pay-per-user ($15/user/month), guests and clients free"
 basecamp.com,pricing,plan,"name=Pro Unlimited | price_annual_per_month=299 | currency=USD | key_limits=Unlimited projects, 5 TB storage, unlimited users, all features included, fixed price"
 basecamp.com,pricing,free_plan,True
 basecamp.com,pricing,pricing_model_notes,"Pro Unlimited offers 60-day free trial. Pro offers 30-day free trial. Free plan available with 1 project forever. No credit card required for free plan or trials. Pay-per-user model for Pro; all-inclusive fixed price for Pro Unlimited. Optional upgrades available: Timesheet ($50/month), Admin Pro Pack ($50/month), additional storage ($50/month per 1TB)."
+basedash.com,pricing,plan,name=Startup | price_monthly=1000 | currency=USD
+basedash.com,pricing,plan,name=Enterprise
+basedash.com,pricing,free_plan,False
+basedash.com,features,main_feature,AI analyst answers grounded in governed metric definitions
+basedash.com,features,main_feature,Shows SQL behind every AI-generated answer
+basedash.com,features,main_feature,Create dashboards from a text prompt in minutes
+basedash.com,features,main_feature,750+ data source integrations supported
+basedash.com,features,main_feature,"Governed metrics and segments defined once, reused everywhere"
+basedash.com,features,main_feature,Cloud or self-hosted deployment options
+basedash.com,features,main_feature,Role-based access control and row-level security
+basedash.com,features,main_feature,"SSO (SAML, OIDC) with SCIM provisioning"
+basedash.com,features,main_feature,Data encrypted in transit and at rest
+basedash.com,features,main_feature,Audit log with SIEM export support
+basedash.com,features,main_feature,AI never trains on customer data
+basedash.com,features,main_feature,Basedash Warehouse option for all-in-one data storage
+basedash.com,features,usage_limit,"14-day free trial, no credit card required"
+basedash.com,setup,setup_step,Sign up at basedash.com using your email
+basedash.com,setup,setup_step,Verify your email address
+basedash.com,setup,setup_step,Connect your data sources to Basedash
+basedash.com,setup,setup_step,Invite your team to collaborate
+basedash.com,setup,auth_method,email
+basedash.com,setup,has_public_api,True
+basedash.com,setup,sdk,React SDK
+basedash.com,setup,key_integration,Slack
+basedash.com,setup,key_integration,MCP server
+basedash.com,setup,key_integration,SCIM provisioning
+basedash.com,setup,key_integration,SSO
+bfore.ai,features,main_feature,Predictive brand protection platform using behavioral AI
+bfore.ai,features,main_feature,Detects malicious domains before phishing campaigns launch
+bfore.ai,features,main_feature,Automated takedown workflows for phishing and fraudulent domains
+bfore.ai,features,main_feature,Brand and executive impersonation detection
+bfore.ai,features,main_feature,Mobile app impersonation detection
+bfore.ai,features,main_feature,Social media fraudulent profile identification
+bfore.ai,features,main_feature,Subdomain exploitation monitoring
+bfore.ai,features,main_feature,Online platform and storefront abuse detection
+bfore.ai,features,main_feature,Credential theft campaign prevention
+bfore.ai,features,main_feature,"96% coverage across domains, websites, digital assets"
+bfore.ai,features,main_feature,93% automated takedowns reducing manual remediation
+bfore.ai,features,main_feature,Under 7-minute threat identification speed
 bill.com,pricing,plan,name=Essentials | price_monthly=49 | currency=USD | key_limits=Per user/month; manual integration via CSV; 6 standard user roles; AP and AR features with basic integrations
 bill.com,pricing,plan,name=Team | price_monthly=65 | currency=USD | key_limits=Per user/month; automatic 2-way sync with QuickBooks Online/Pro/Premier and Xero; custom user roles; AP and AR features
 bill.com,pricing,plan,"name=Corporate | price_monthly=89 | currency=USD | key_limits=Per user/month; automatic 2-way sync with QuickBooks Enterprise, Oracle NetSuite, Sage Intacct, Microsoft Dynamics; procurement features; custom approval policies; discounts for approver-only users"
@@ -294,6 +400,20 @@ builder.io,features,usage_limit,"Pro: 500 Agent Credits/user/month, up to 5 user
 builder.io,features,usage_limit,"Team: 500 Agent Credits/user/month, up to 20 users"
 builder.io,features,usage_limit,Add'l 500 Agent Credits for $25/month on Pro and Team
 builder.io,features,usage_limit,Enterprise: custom user seats and Agent Credits
+bynder.com,pricing,plan,name=Custom Package
+bynder.com,pricing,free_plan,False
+bynder.com,features,main_feature,AI-powered Digital Asset Management platform
+bynder.com,features,main_feature,Customizable context-aware AI agents for content workflows
+bynder.com,features,main_feature,Natural language search for finding assets easily
+bynder.com,features,main_feature,Face recognition to tag and find images of individuals
+bynder.com,features,main_feature,Duplicate Manager to find and remove duplicate assets
+bynder.com,features,main_feature,Search by image using URL or reference picture
+bynder.com,features,main_feature,Text-in-Image Search (OCR) to extract and tag text
+bynder.com,features,main_feature,Similarity Search to discover visually similar assets
+bynder.com,features,main_feature,Speech-to-Text Search via AI-generated transcripts
+bynder.com,features,main_feature,Asset Workflow for content approvals and alignment
+bynder.com,features,main_feature,Content Workflow for editorial content creation and approval
+bynder.com,features,main_feature,Analytics to turn data into strategic advantage
 chargebee.com,pricing,plan,"name=Starter | price_monthly=0 | currency=USD | key_limits=Free for the first USD 250K of cumulative billing, then 0.75% on billing"
 chargebee.com,pricing,plan,name=Performance | price_monthly=599 | price_annual_per_month=599 | currency=USD | key_limits=Annual commitment / Billed monthly for up to USD 100K billing/mo
 chargebee.com,pricing,plan,name=Enterprise | currency=USD | key_limits=Contact sales for quote
@@ -454,6 +574,32 @@ coinbase.com,setup,key_integration,Node
 coinbase.com,setup,key_integration,Paymaster
 coinbase.com,setup,key_integration,Exchange API
 coinbase.com,setup,key_integration,Prime API
+commenda.io,pricing,plan,name=Custom Enterprise
+commenda.io,features,main_feature,AI-native global compliance platform for entity management
+commenda.io,features,main_feature,Compliance calendar tracking all corporate filings and deadlines
+commenda.io,features,main_feature,Multi-entity corporate structure mapping and visualization
+commenda.io,features,main_feature,Incorporation services across 70+ countries
+commenda.io,features,main_feature,Corporate tax and accounting management
+commenda.io,features,main_feature,"Global VAT, GST, and sales tax compliance"
+commenda.io,features,main_feature,Transfer pricing documentation and management
+commenda.io,features,main_feature,Conversational AI interface to query and act on compliance
+commenda.io,features,main_feature,Document storage and formation document management
+commenda.io,features,main_feature,"Director, officer, and ownership change tracking"
+commenda.io,features,main_feature,Local expert network supporting 70+ countries
+commenda.io,features,main_feature,ERP and accounting system integration
+commenda.io,setup,setup_step,Read Key concepts to learn core platform terminology
+commenda.io,setup,setup_step,Review User roles to understand your access type
+commenda.io,setup,setup_step,Read platform overview for architecture and workflows
+commenda.io,setup,setup_step,Follow the Quickstart guide to get up and running
+commenda.io,setup,setup_step,Use Navigation guide to learn the Commenda interface
+commenda.io,setup,has_public_api,True
+commenda.io,setup,key_integration,Stripe
+commenda.io,setup,key_integration,Shopify
+commenda.io,setup,key_integration,Xero
+commenda.io,setup,key_integration,Zoho Books
+commenda.io,setup,key_integration,WooCommerce
+commenda.io,setup,key_integration,QuickBooks
+commenda.io,setup,key_integration,NetSuite
 confluent.io,pricing,plan,"name=Basic | price_monthly=0 | currency=USD | key_limits=250/750 MBps throughput, 1,500 partition limit, 5 TB storage limit, 99.5% uptime SLA"
 confluent.io,pricing,plan,"name=Standard | price_monthly=385 | currency=USD | key_limits=250/750 MBps throughput, 2,500 partition limit, infinite storage, 99.99% uptime SLA"
 confluent.io,pricing,plan,"name=Enterprise | price_monthly=895 | currency=USD | key_limits=1,920/5,760 MBps throughput, 96,000 partition limit, infinite storage, 99.99% uptime SLA, private networking"
@@ -490,6 +636,19 @@ confluent.io,setup,key_integration,Confluent for Kubernetes
 confluent.io,setup,key_integration,Ansible Playbooks
 confluent.io,setup,key_integration,Apache Iceberg
 confluent.io,setup,key_integration,Delta Lake
+creatorstoolbox.com,pricing,plan,name=Free Plan | price_monthly=0 | currency=USD
+creatorstoolbox.com,pricing,plan,name=Pro Plan | price_annual_per_month=3.75 | currency=USD
+creatorstoolbox.com,pricing,free_plan,True
+creatorstoolbox.com,features,main_feature,"Directory of free design tools, resources, and games"
+creatorstoolbox.com,features,main_feature,Curated launches feed for new tools
+creatorstoolbox.com,features,main_feature,Trending tools ranked by daily/weekly/monthly growth
+creatorstoolbox.com,features,main_feature,Most followed and most viewed tool rankings
+creatorstoolbox.com,features,main_feature,"Browse by role, type, and price filters"
+creatorstoolbox.com,features,main_feature,Job listings for creative/marketing roles
+creatorstoolbox.com,features,main_feature,Weekly newsletter of new tool launches
+creatorstoolbox.com,features,main_feature,Tool submission for creators to list products
+creatorstoolbox.com,features,main_feature,Advertising/sponsorship placement available
+creatorstoolbox.com,features,main_feature,"Categories: Tools, Apps, Resources, Courses, Games, Deals"
 datadoghq.com,pricing,plan,"name=AI Credits | price_monthly=500 | currency=USD | key_limits=Per 500 credits, per month. Billed annually or $1.30 per credit on-demand."
 datadoghq.com,pricing,plan,"name=Code Coverage | price_monthly=12 | price_annual_per_month=8 | currency=USD | key_limits=Per committer, per month. Billed annually or $12 on-demand."
 datadoghq.com,pricing,plan,"name=Log Management - Ingest | price_monthly=0.1 | price_annual_per_month=0.1 | currency=USD | key_limits=Per ingested or scanned GB, per month. Billed annually or $0.10 on-demand."
@@ -605,6 +764,26 @@ elevenlabs.io,setup,key_integration,Reception AI (AI phone receptionist)
 elevenlabs.io,setup,key_integration,Microsoft Entra SAML SSO
 elevenlabs.io,setup,key_integration,Okta SAML SSO
 elevenlabs.io,setup,key_integration,SCIM
+forexvps.net,pricing,plan,name=Core | price_monthly=25.6 | price_annual_per_month=25.6 | currency=USD
+forexvps.net,pricing,plan,name=Edge | price_monthly=38.4 | price_annual_per_month=38.4 | currency=USD
+forexvps.net,pricing,plan,name=Prime | price_monthly=51.2 | price_annual_per_month=51.2 | currency=USD
+forexvps.net,pricing,free_plan,False
+forexvps.net,features,main_feature,Latency as low as 1ms near broker servers
+forexvps.net,features,main_feature,100% uptime guarantee with SLA
+forexvps.net,features,main_feature,24/7 technical support available
+forexvps.net,features,main_feature,22 global financial data centre locations
+forexvps.net,features,main_feature,"Free trade copier included, ~0.6ms copy speed"
+forexvps.net,features,main_feature,Free trading analytics for all customers
+forexvps.net,features,main_feature,Automated backups with data replication
+forexvps.net,features,main_feature,Anti-DDoS cyber security protection
+forexvps.net,features,main_feature,Resource spike protection prevents platform freezes
+forexvps.net,features,main_feature,Browser-based VPS control panel access
+forexvps.net,features,main_feature,"Compatible with all EAs, algos, bots, platforms"
+forexvps.net,features,main_feature,Dedicated IP address included
+forexvps.net,features,usage_limit,"Core: 1–3 trading platforms, 2 CPU, 4GB RAM, 100GB storage"
+forexvps.net,features,usage_limit,"Edge: 3–6 trading platforms, 4 CPU, 6GB RAM, 150GB storage"
+forexvps.net,features,usage_limit,"Prime: 6+ trading platforms, 6 CPU, 8GB RAM, 200GB storage"
+forexvps.net,features,usage_limit,"Custom plans: 4–12GB RAM, 2–10 CPU, 100–250GB storage"
 forter.com,pricing,plan,name=Contact Sales
 forter.com,pricing,pricing_model_notes,No pricing information available on page; contact sales required
 forter.com,features,main_feature,Analytics Agent: query traffic data for instant insights
@@ -632,6 +811,51 @@ forter.com,setup,key_integration,Shopify
 forter.com,setup,key_integration,Salesforce Commerce Cloud
 forter.com,setup,key_integration,JavaScript snippet
 forter.com,setup,key_integration,PSP integrations
+freebeat.ai,pricing,plan,name=Basic | price_monthly=4.99 | currency=USD
+freebeat.ai,pricing,plan,name=Pro | price_monthly=26.99 | currency=USD
+freebeat.ai,pricing,plan,name=Ultimate | price_monthly=39.99 | currency=USD
+freebeat.ai,pricing,plan,name=Creator | price_monthly=199 | currency=USD
+freebeat.ai,pricing,free_plan,False
+freebeat.ai,features,main_feature,AI music video generation from music and ideas
+freebeat.ai,features,main_feature,Dance video creation synced to beat and tempo
+freebeat.ai,features,main_feature,Realtime music video generation
+freebeat.ai,features,main_feature,Photo Karaoke: single photo into singing video
+freebeat.ai,features,main_feature,AI Video Editor from track to final cut
+freebeat.ai,features,main_feature,Lyric video generator
+freebeat.ai,features,main_feature,Auto beat sync video creation
+freebeat.ai,features,main_feature,Music visualizer and animated visual effects
+freebeat.ai,features,main_feature,"Multiple aspect ratios: 16:9, 9:16, 1:1"
+freebeat.ai,features,main_feature,Upload own audio or link YouTube/TikTok/Suno/Udio
+freebeat.ai,features,main_feature,Videos up to ~6 minutes; short-form from 15 seconds
+freebeat.ai,features,main_feature,"Cloud-based, no software install required"
+freebeat.ai,features,usage_limit,Free plan includes essential features at no cost
+freebeat.ai,features,usage_limit,Video export in HD 720p and Full HD 1080p
+freebeat.ai,features,usage_limit,Unlimited free music generation with Suno v5.5 stated
+freemius.com,features,main_feature,Recurring billing and subscription management
+freemius.com,features,main_feature,Embedded or hosted secure checkout for software
+freemius.com,features,main_feature,Software licensing with activations and plan control
+freemius.com,features,main_feature,Sales tax and VAT compliance handled automatically
+freemius.com,features,main_feature,Self-serve customer portal for licenses and billing
+freemius.com,features,main_feature,Cart abandonment recovery via smart reminder emails
+freemius.com,features,main_feature,Affiliate platform with referral tracking and payouts
+freemius.com,features,main_feature,Fraud detection and dispute handling
+freemius.com,features,main_feature,"Developer dashboard for products, analytics, and payouts"
+freemius.com,features,main_feature,Webhooks for real-time subscription and license events
+freemius.com,features,main_feature,Global currency support out of the box
+freemius.com,features,main_feature,Founder-level human support from real makers
+freemius.com,setup,setup_step,Sign up for a Freemius account via the Developer Dashboard
+freemius.com,setup,setup_step,Add your first product in the Developer Dashboard
+freemius.com,setup,setup_step,Accept the Slack community invitation found in the dashboard
+freemius.com,setup,setup_step,Integrate the Freemius SDK into your software
+freemius.com,setup,setup_step,Make your first sale
+freemius.com,setup,has_public_api,True
+freemius.com,setup,sdk,SaaS SDK
+freemius.com,setup,sdk,WordPress SDK
+freemius.com,setup,sdk,PHP API Client
+freemius.com,setup,key_integration,WordPress plugins
+freemius.com,setup,key_integration,WordPress themes
+freemius.com,setup,key_integration,SaaS & Apps
+freemius.com,setup,key_integration,Templates
 front.com,pricing,plan,"name=Starter | price_monthly=25 | currency=USD | key_limits=Single channel type, up to 10 seats, up to 10 automation rules, basic analytics, no-code public knowledge base"
 front.com,pricing,plan,"name=Professional | price_monthly=65 | currency=USD | key_limits=Omnichannel support, up to 50 seats, up to 20 automation rules, advanced analytics, multiple workspaces, SSO, SCIM"
 front.com,pricing,plan,"name=Enterprise | price_monthly=105 | currency=USD | key_limits=Advanced AI tools, unlimited rules and macros, multi-language knowledge base, custom roles and permissions, AI Copilot/QA/CSAT included"
@@ -674,6 +898,18 @@ gamma.app,setup,key_integration,Zapier
 gamma.app,setup,key_integration,Make
 gamma.app,setup,key_integration,n8n
 gamma.app,setup,key_integration,MCP server (AI tools via OAuth with Dynamic Client Registration)
+getxeno.com,features,main_feature,"Unified loyalty, campaigns, and offers in one platform"
+getxeno.com,features,main_feature,Autonomous AI drives measurable repeat revenue
+getxeno.com,features,main_feature,CRM with personalised multi-channel communications
+getxeno.com,features,main_feature,Loyalty rewards and exclusive experiences for top customers
+getxeno.com,features,main_feature,Offers tailored to specific customer behaviors
+getxeno.com,features,main_feature,Reactivate dormant customers automatically
+getxeno.com,features,main_feature,AI-powered customer engagement purpose-built for retailers
+getxeno.com,features,main_feature,Customer segmentation and persona building
+getxeno.com,features,main_feature,60x ROI on marketing spends reported
+getxeno.com,features,main_feature,12% repeat sales improvement reported
+getxeno.com,features,main_feature,15% reduction in single-visit customers reported
+getxeno.com,features,main_feature,Robust security for data protection
 hashicorp.com,pricing,plan,name=HCP Terraform Essentials | price_monthly=0.1 | currency=USD | key_limits=Starting at $0.10 per month per resource
 hashicorp.com,pricing,plan,name=HCP Terraform Standard | price_monthly=0.47 | currency=USD | key_limits=Starting at $0.47 per month per resource
 hashicorp.com,pricing,plan,name=HCP Terraform Premium | price_monthly=0.99 | currency=USD | key_limits=Starting at $0.99 per month per resource
@@ -906,6 +1142,30 @@ miro.com,setup,sdk,Miro Live Embed (iFrame)
 miro.com,setup,key_integration,Miro Marketplace
 miro.com,setup,key_integration,oEmbed
 miro.com,setup,key_integration,third-party products via REST API
+moda.app,pricing,free_plan,True
+moda.app,features,main_feature,AI-generated fully-editable visual assets
+moda.app,features,main_feature,On-brand design creation on real canvas
+moda.app,features,main_feature,"Slides, social, documents, carousels, animations, websites"
+moda.app,features,main_feature,Remix existing templates and make them your own
+moda.app,features,main_feature,LinkedIn carousel creation
+moda.app,features,main_feature,Presentation and pitch deck generation
+moda.app,features,main_feature,Social post design creation
+moda.app,features,main_feature,One-pager and leave-behind document creation
+moda.app,features,main_feature,Instagram carousel creation
+moda.app,features,main_feature,Employee-facing document design
+moda.app,setup,setup_step,Sign up for an account at moda.app
+moda.app,setup,setup_step,Set up a brand kit by importing from a website URL or manually
+moda.app,setup,setup_step,Type a prompt describing your design or upload a file
+moda.app,setup,setup_step,AI agent builds your design on the canvas
+moda.app,setup,setup_step,"Edit, refine, and export your design"
+moda.app,setup,auth_method,account signup (moda.app)
+moda.app,setup,has_public_api,True
+moda.app,setup,key_integration,PDF import
+moda.app,setup,key_integration,PPTX import
+moda.app,setup,key_integration,Image import
+moda.app,setup,key_integration,Website URL (brand kit import)
+moda.app,setup,key_integration,Custom domains (websites)
+moda.app,setup,key_integration,MCP Server
 monday.com,pricing,plan,"name=Free | price_monthly=0 | price_annual_per_month=0 | currency=USD | key_limits=Up to 2 seats, Up to 3 boards, Up to 3 Docs, 200+ templates, 8 column types, iOS and Android apps"
 monday.com,pricing,plan,"name=Basic | price_monthly=9 | price_annual_per_month=9 | currency=USD | key_limits=1,000 AI credits/month, 3 tools, Unlimited free viewers, Unlimited items"
 monday.com,pricing,plan,"name=Standard | price_monthly=12 | price_annual_per_month=12 | currency=USD | key_limits=2,000 AI credits/month, 5 tools, Automations (250 actions/month), Integrations (250 actions/month), Timeline & Gantt views, Calendar view, Guest access, API calls (1,000/day)"
@@ -961,6 +1221,22 @@ monday.com,setup,key_integration,Telegram
 monday.com,setup,key_integration,Claude
 monday.com,setup,key_integration,ChatGPT
 monday.com,setup,key_integration,WhatsApp
+montecarlodata.com,pricing,plan,name=Start
+montecarlodata.com,pricing,plan,name=Scale
+montecarlodata.com,pricing,plan,name=Enterprise
+montecarlodata.com,pricing,plan,name=Business Critical
+montecarlodata.com,features,main_feature,AI-powered automated data quality monitoring and coverage
+montecarlodata.com,features,main_feature,"Automated baseline coverage for freshness, volume, and schema"
+montecarlodata.com,features,main_feature,Agentic monitoring recommendations scale coverage without manual work
+montecarlodata.com,features,main_feature,Field-level lineage and root cause context for actionable alerts
+montecarlodata.com,features,main_feature,Monitoring for structured and unstructured data
+montecarlodata.com,features,main_feature,"SQL, codeless UI, and observability agent workflows supported"
+montecarlodata.com,features,main_feature,End-to-end coverage from data ingestion to consumption
+montecarlodata.com,features,main_feature,Automatic data profiling and AI-powered quality rules
+montecarlodata.com,features,main_feature,"Cross-table, cross-system, cross-environment unified monitoring"
+montecarlodata.com,features,main_feature,Agent trust and AI agent observability extension
+montecarlodata.com,features,main_feature,Reduces data downtime by 80% year over year
+montecarlodata.com,features,main_feature,Deploy new monitors in seconds with auto-scaling
 namecheap.com,pricing,plan,"name=PremiumDNS | price_annual_per_month=0.41 | currency=USD | key_limits=2 million DNS queries per month per domain, 100% uptime guarantee, DNSSEC support, DDoS protection, ALIAS record support, global Anycast servers"
 namecheap.com,pricing,free_plan,False
 namecheap.com,pricing,pricing_model_notes,"One price per domain per year. Introductory price $4.88/yr, renewal price $9.98/yr. Service syncs with domain expiration date and prorates accordingly."
@@ -1124,6 +1400,32 @@ npmjs.com,setup,setup_step,Configure two-factor authentication (2FA)
 npmjs.com,setup,setup_step,Download and install Node.js and npm
 npmjs.com,setup,setup_step,Configure your local environment
 npmjs.com,setup,auth_method,Username/password with optional two-factor authentication (2FA)
+oec.world,features,main_feature,"Global trade data covering 5,000+ products and regions"
+oec.world,features,main_feature,"Interactive profiles for countries, companies, regions, products"
+oec.world,features,main_feature,Tariff Simulator to forecast trade policy impact
+oec.world,features,main_feature,Custom trade visualizations via Vizbuilder
+oec.world,features,main_feature,Economic Complexity rankings and analysis
+oec.world,features,main_feature,Bill of Lading records for US shipments
+oec.world,features,main_feature,Export Potential and Growth Prediction tools
+oec.world,features,main_feature,Bulk data download and OEC API access
+oec.world,features,main_feature,Custom tables and Data Explorer
+oec.world,features,main_feature,BotMarket data marketplace for AI agents
+oec.world,features,main_feature,Compare countries across development indicators
+oec.world,features,main_feature,Trade data insights and latest data updates
+oec.world,features,usage_limit,Companies and Regions profiles marked PRO (gated)
+oec.world,features,usage_limit,"7,400+ companies and 5,700+ regions require PRO access"
+openadblocker.com,features,main_feature,"Blocks banner, pop-up, pop-under, and video ads"
+openadblocker.com,features,main_feature,Blocks trackers and prevents advertiser cross-site following
+openadblocker.com,features,main_feature,Built-in cookie banner blocker removes cookie pop-ups
+openadblocker.com,features,main_feature,"YouTube ad blocker: pre-roll, mid-roll, unskippable ads"
+openadblocker.com,features,main_feature,"Twitch ad blocker: pre-rolls, mid-rolls, page promotions"
+openadblocker.com,features,main_feature,Social widget blocking reduces clutter and social tracking
+openadblocker.com,features,main_feature,Network-level ad request interception before page load
+openadblocker.com,features,main_feature,Allow ads on specific domains to support creators
+openadblocker.com,features,main_feature,"One-click activation, no extra settings required"
+openadblocker.com,features,main_feature,Open source codebase inspectable on GitHub
+openadblocker.com,features,main_feature,Built on Manifest V3
+openadblocker.com,features,main_feature,Speeds up page loading and reduces resource usage
 otter.ai,pricing,plan,"name=Basic | currency=USD | key_limits=300 monthly transcription minutes, 3 lifetime audio/video file imports, 30 mins max per meeting, 1 concurrent meeting, 25 conversation history"
 otter.ai,pricing,plan,"name=Pro | price_monthly=8.33 | price_annual_per_month=4.17 | currency=USD | key_limits=1200 in-app recording minutes, 10 monthly audio/video file imports, 90 mins max per meeting, 2 concurrent meetings, unlimited conversation history"
 otter.ai,pricing,plan,"name=Business | price_monthly=19.99 | currency=USD | key_limits=Unlimited meetings and in-app recordings, unlimited audio/video file imports, 4 hours max per meeting, 3 concurrent meetings, unlimited conversation history"
@@ -1145,6 +1447,25 @@ otter.ai,features,main_feature,Audio/video file import and transcription
 otter.ai,features,usage_limit,"Basic plan: unlimited meetings, free forever"
 otter.ai,features,usage_limit,"Business plan: 6,000 monthly transcription minutes"
 otter.ai,features,usage_limit,Business plan: 4 hours maximum per conversation
+pandectes.io,pricing,plan,name=Basic
+pandectes.io,pricing,plan,name=Plus | price_annual_per_month=7.5 | currency=USD
+pandectes.io,pricing,plan,name=Premium | price_annual_per_month=24.17 | currency=USD
+pandectes.io,pricing,plan,name=Enterprise | price_annual_per_month=40.83 | currency=USD
+pandectes.io,pricing,free_plan,True
+pandectes.io,features,main_feature,"Automated GDPR, CCPA, LGPD compliance management"
+pandectes.io,features,main_feature,Auto-blocker: blocks tracking until consent given
+pandectes.io,features,main_feature,Google Consent Mode integration for Analytics and Ads
+pandectes.io,features,main_feature,Store scanning and cookie policy generation
+pandectes.io,features,main_feature,Multi-region visitor detection with appropriate consent banners
+pandectes.io,features,main_feature,130+ language translations for banners and compliance pages
+pandectes.io,features,main_feature,"One-click setup, no coding required"
+pandectes.io,features,main_feature,Real-time automatic cookie policy updates
+pandectes.io,features,main_feature,Customizable consent banner with advanced styling
+pandectes.io,features,main_feature,TCF/IAB v2.3 banner support
+pandectes.io,features,main_feature,Javascript API access
+pandectes.io,features,main_feature,Bot and crawler blocking
+pandectes.io,features,usage_limit,"Free plan: forever, basic features only"
+pandectes.io,features,usage_limit,7-day free trial on all paid plans
 payoneer.com,pricing,free_plan,True
 payoneer.com,pricing,pricing_model_notes,"Transaction-based pricing model. No monthly subscription fee. Annual account fee of 29.95 USD applies only if account receives less than 6,000.00 USD or equivalent in any 12 consecutive months, not charged in first year. Fees vary by payment type, payment method, currency, and payment corridor. Receiving payments: free from Payoneer balance or marketplaces; 1% from credit card (up to 3.99% + 0.49 USD); 1% from ACH/EU/UK bank. Sending payments: up to 4.00 USD/EUR/GBP same country; up to 1% + 4.00 USD different country. Withdrawals: 1.50 USD same country local currency; 1.2-4% different country. Card annual fee: 29.95 USD. Card purchases: up to 1.8% without conversion, up to 3.5% with conversion. ATM withdrawals: 3.15 USD/2.50 EUR/1.95 GBP/3.15 CAD/470 JPY + up to 1.8-3.5%."
 payoneer.com,features,main_feature,Cross-border payments across 190+ countries and territories
@@ -1163,6 +1484,62 @@ payoneer.com,features,usage_limit,Sales over $50K USD monthly require contacting
 payoneer.com,features,usage_limit,ACH bank debit available US only
 payoneer.com,features,usage_limit,PayPal payments available US only
 payoneer.com,features,usage_limit,Product availability subject to customer eligibility and jurisdiction
+peopledatalabs.com,features,main_feature,"Person data: resume, contact info, compliant sourcing"
+peopledatalabs.com,features,main_feature,Company data: firmographics and unique headcount insights
+peopledatalabs.com,features,main_feature,Job posting data refreshed daily from career pages (Beta)
+peopledatalabs.com,features,main_feature,"Enrich, search, autocomplete, and clean datasets via APIs"
+peopledatalabs.com,features,main_feature,"License custom data feeds via AWS, GCP, or Snowflake"
+peopledatalabs.com,features,main_feature,Access PDL data directly in Snowflake workflows
+peopledatalabs.com,features,main_feature,Access PDL data via Databricks Delta Share
+peopledatalabs.com,features,main_feature,Zapier integration for existing workflow connectivity
+peopledatalabs.com,features,main_feature,Make no-code platform integration for PDL APIs
+peopledatalabs.com,features,main_feature,"HR Tech, Sales & Marketing, Investment Research use cases"
+peopledatalabs.com,features,main_feature,ISO 27001 and SOC 2 Type 2 compliant
+peopledatalabs.com,features,main_feature,"Ranked best-in-class across 60,000+ products on SourceForge"
+peopledatalabs.com,setup,setup_step,Sign up for a free account at dashboard.peopledatalabs.com
+peopledatalabs.com,setup,setup_step,Visit the API Quickstart to get started immediately
+peopledatalabs.com,setup,setup_step,Or use the API Playground in the PDL Dashboard to test without code
+peopledatalabs.com,setup,auth_method,"API key (referenced via Authentication section, not detailed here)"
+peopledatalabs.com,setup,has_public_api,True
+peopledatalabs.com,setup,sdk,Python
+peopledatalabs.com,setup,sdk,JavaScript
+peopledatalabs.com,setup,sdk,Ruby
+peopledatalabs.com,setup,sdk,Go
+peopledatalabs.com,setup,sdk,Rust
+peopledatalabs.com,setup,key_integration,Salesforce
+peopledatalabs.com,setup,key_integration,Make.com
+peopledatalabs.com,setup,key_integration,Zapier
+pillar.io,pricing,plan,name=Creator | price_monthly=29 | currency=USD
+pillar.io,pricing,plan,name=Entrepreneur | price_monthly=99 | currency=USD
+pillar.io,pricing,plan,name=Professional | price_monthly=399 | currency=USD
+pillar.io,pricing,free_plan,True
+pilotplans.com,pricing,plan,name=Pilot | price_monthly=0 | price_annual_per_month=0 | currency=USD
+pilotplans.com,pricing,free_plan,True
+pilotplans.com,features,main_feature,Collaborative trip planning with invite and idea sharing
+pilotplans.com,features,main_feature,AI-generated instant trips with 60+ discovery filters
+pilotplans.com,features,main_feature,Comprehensive itinerary builder with organized tabs and checklists
+pilotplans.com,features,main_feature,Map view for scenic routes and location visualization
+pilotplans.com,features,main_feature,"Book hotels, hostels, vacation rentals from 3.2M+ partners"
+pilotplans.com,features,main_feature,Insider/private hotel rates up to 50% off
+pilotplans.com,features,main_feature,"Import travel docs, PDFs; AI adds them to itinerary"
+pilotplans.com,features,main_feature,Integrated chat feature for group trip planning
+pilotplans.com,features,main_feature,Voting feature for activities and attractions
+pilotplans.com,features,main_feature,Export itinerary to PDF; offline access available
+pilotplans.com,features,main_feature,eVisa acquisition in 3 clicks
+pilotplans.com,features,main_feature,AI chat for personalized travel recommendations
+pilotplans.com,features,usage_limit,Free for groups and solo travelers
+pitcher.com,features,main_feature,AI-generated meeting agendas and pitch decks in seconds
+pitcher.com,features,main_feature,Next Best Action recommendations powered by AI
+pitcher.com,features,main_feature,Automated follow-ups from within pitch decks
+pitcher.com,features,main_feature,Order management directly from pitch deck
+pitcher.com,features,main_feature,Pitcher Pathways: dynamic live presentations from data and content
+pitcher.com,features,main_feature,Pitcher Catalyst: no-code AI app builder using natural language
+pitcher.com,features,main_feature,PIA intelligent agent for reps: coach and personal assistant
+pitcher.com,features,main_feature,"Pre-call planning with CRM, inventory, CPQ in one interface"
+pitcher.com,features,main_feature,Personalized presentations based on customer needs and activity
+pitcher.com,features,main_feature,On-brand content management with consent capture
+pitcher.com,features,main_feature,Pre-call roleplay and post-call feedback via PIA
+pitcher.com,features,main_feature,LMS and sales training content access for reps
 razorpay.com,pricing,plan,name=Standard | currency=INR | key_limits=2% platform fee + GST
 razorpay.com,pricing,plan,name=Enterprise Plan | key_limits=Contact Sales for customised pricing
 razorpay.com,pricing,free_plan,True
@@ -1405,6 +1782,29 @@ similarweb.com,setup,key_integration,Microsoft Copilot
 similarweb.com,setup,key_integration,Cursor
 similarweb.com,setup,key_integration,Cloud & Data Visualization Tools
 similarweb.com,setup,key_integration,CRM & Sales Tools
+smartosc.com,pricing,plan,name=Custom Digital Services
+smartosc.com,features,main_feature,Digital Commerce: creating digital platforms that outperform
+smartosc.com,features,main_feature,Digital Transformation: transforming business from the inside out
+smartosc.com,features,main_feature,Application Development: expanding capabilities through digital experiences
+smartosc.com,features,main_feature,Cloud: creating efficient and optimized architecture
+smartosc.com,features,main_feature,Digital Banking: revolutionizing the finance industry
+smartosc.com,features,main_feature,Cyber Security: building cyber and business resilience
+smartosc.com,features,main_feature,Blockchain: providing blockchain solutions that reshape the future
+smartosc.com,features,main_feature,"Data & AI solutions for bolder, faster growth"
+smartosc.com,features,main_feature,Strategy: bold business strategy consulting
+smartosc.com,features,main_feature,Experience: future-forward consumer connection solutions
+smartosc.com,features,main_feature,BPO: innovative solutions optimized for a digital world
+smartosc.com,features,main_feature,Launched 1000+ eCommerce websites with 100+ partners worldwide
+snapmagic.com,features,main_feature,AI-powered circuit board design auto-completion
+snapmagic.com,features,main_feature,Natural language chat interface for circuit design
+snapmagic.com,features,main_feature,BOM optimization for cost and power
+snapmagic.com,features,main_feature,Real-time supply chain data integration
+snapmagic.com,features,main_feature,Out-of-stock part alerts with alternatives suggested
+snapmagic.com,features,main_feature,One-click BOM purchasing
+snapmagic.com,features,main_feature,Component replacement suggestions during shortages
+snapmagic.com,features,main_feature,Massive CAD model database (originally SnapEDA)
+snapmagic.com,features,main_feature,Works within existing circuit board design tools
+snapmagic.com,features,main_feature,Recommendations to automate micro-decisions in design
 snowflake.com,pricing,plan,"name=Standard | key_limits=Entry-level offering with core platform functionality, fully managed elastic compute, security with automatic encryption, Snowpark, data sharing, optimized storage with compression and Time Travel"
 snowflake.com,pricing,plan,"name=Enterprise | key_limits=All Standard features plus multi-cluster compute, granular governance and privacy controls, extended Time Travel windows"
 snowflake.com,pricing,plan,"name=Business Critical | key_limits=All Enterprise features plus tri-secret secure access, private connectivity, failover and failback for backup and disaster recovery"
@@ -1451,6 +1851,25 @@ studyfetch.com,features,main_feature,Audio recap feature
 studyfetch.com,features,main_feature,Explainer video generation
 studyfetch.com,features,main_feature,PDF to game conversion
 studyfetch.com,features,main_feature,YouTube to notes conversion
+superwhisper.com,pricing,plan,name=Free | price_monthly=0 | currency=USD
+superwhisper.com,pricing,plan,name=Pro | price_monthly=8 | currency=USD
+superwhisper.com,pricing,plan,name=Enterprise
+superwhisper.com,pricing,free_plan,True
+superwhisper.com,features,main_feature,Voice to text working in any app or site
+superwhisper.com,features,main_feature,"Offline transcription, no Wi-Fi required"
+superwhisper.com,features,main_feature,"Custom vocabulary: names, abbreviations, specialized terms"
+superwhisper.com,features,main_feature,"Predefined and custom modes for tone, structure, formatting"
+superwhisper.com,features,main_feature,100+ languages and dialects supported
+superwhisper.com,features,main_feature,Automatic clipboard paste into active app
+superwhisper.com,features,main_feature,Meeting recording and automatic note-taking
+superwhisper.com,features,main_feature,Audio and video file transcription
+superwhisper.com,features,main_feature,Push-to-talk control
+superwhisper.com,features,main_feature,Custom keyboard shortcuts for dictation control
+superwhisper.com,features,main_feature,Super Mode: AI adapts to screen context
+superwhisper.com,features,main_feature,"Agentic coding workflow integration (Cursor, Claude Code, etc.)"
+superwhisper.com,features,usage_limit,"Free tier: 3,000 words of Pro features trial"
+superwhisper.com,features,usage_limit,Free tier available forever after trial exhausted
+superwhisper.com,features,usage_limit,Offline AI models run best on Apple Silicon Macs only
 surveymonkey.com,pricing,plan,name=Basic | key_limits=Free plan with limited responses per survey
 surveymonkey.com,pricing,plan,name=Standard
 surveymonkey.com,pricing,plan,"name=Team Advantage | price_annual_per_month=85 | currency=ILS | key_limits=3+ users, Unlimited surveys, Unlimited questions, 50,000 responses per year, Shared brand assets, User roles and permissions, Premium themes, More logic features, Accept payments, Statistical significance, Multi-survey analysis, Analyze with AI, Thematic Analysis"
@@ -1479,6 +1898,18 @@ surveymonkey.com,features,usage_limit,Unlimited questions per survey
 surveymonkey.com,features,usage_limit,Unlimited collectors
 surveymonkey.com,features,usage_limit,"AI analysis: 20 prompts/survey (Advantage), 50 (Premier), unlimited (Enterprise)"
 surveymonkey.com,setup,has_public_api,True
+tacto.ai,features,main_feature,AI agents automate supplier document requests and updates
+tacto.ai,features,main_feature,"Centralized supplier memory with documents, ratings, performance data"
+tacto.ai,features,main_feature,Order confirmation matching with deviation escalation to buyer
+tacto.ai,features,main_feature,"Supplier qualification, onboarding, and approval workflows"
+tacto.ai,features,main_feature,KPI dashboards and real-time price trend analysis
+tacto.ai,features,main_feature,Procurement radar with proactive AI savings alerts
+tacto.ai,features,main_feature,Drawing parts should-cost model generation via AI
+tacto.ai,features,main_feature,"Negotiation cockpit with 20,000+ indices and benchmarks"
+tacto.ai,features,main_feature,RFQ automation with AI bid evaluation and quote comparison
+tacto.ai,features,main_feature,Contract management with expiration and breach flagging
+tacto.ai,features,main_feature,ESG risk management LkSG/CSDDD-compliant automated assessments
+tacto.ai,features,main_feature,CO₂ tracking and CBAM-compliant reporting
 telnyx.com,pricing,plan,name=Pay As You Go | price_monthly=0 | currency=USD
 telnyx.com,pricing,plan,name=Committed | price_monthly=500 | currency=USD
 telnyx.com,pricing,plan,name=Enterprise | price_monthly=5000 | currency=USD
@@ -1507,6 +1938,43 @@ telnyx.com,setup,key_integration,ngrok
 telnyx.com,setup,key_integration,Node-RED
 telnyx.com,setup,key_integration,Telnyx CLI
 telnyx.com,setup,key_integration,MCP Servers
+tembo.io,pricing,plan,name=Free | price_monthly=0 | currency=USD
+tembo.io,pricing,plan,name=Pro | price_monthly=60 | currency=USD
+tembo.io,pricing,plan,name=Max | price_monthly=200 | currency=USD
+tembo.io,pricing,plan,name=Enterprise
+tembo.io,pricing,free_plan,True
+tembo.io,features,main_feature,Run any coding agent in parallel cloud environments
+tembo.io,features,main_feature,Automated code review on every pull request
+tembo.io,features,main_feature,Isolated sandboxed cloud environment for every agent session
+tembo.io,features,main_feature,"Foreground live sessions: pause, resume, share, or hand off"
+tembo.io,features,main_feature,"Background agents triggered from Slack, Linear, GitHub, webhooks"
+tembo.io,features,main_feature,Real-time monitoring of all agent sessions
+tembo.io,features,main_feature,Human review gates: nothing merges without approval
+tembo.io,features,main_feature,Parallel execution of dozens of agents across repos
+tembo.io,features,main_feature,"Session inspection: full command, file edit, tool call history"
+tembo.io,features,main_feature,"Intervention controls: step in, redirect, or cancel anytime"
+tembo.io,features,main_feature,Audit trail: every session centrally logged
+tembo.io,features,main_feature,Reusable agent templates for common workflows
+tembo.io,setup,key_integration,GitHub
+tembo.io,setup,key_integration,Linear
+tembo.io,setup,key_integration,Slack
+tembo.io,setup,key_integration,Sentry
+ticker.app,features,main_feature,UK company news and data platform
+ticker.app,features,main_feature,RNS regulatory announcements feed with timestamps
+ticker.app,features,main_feature,Live UK stock price ticker with percentage changes
+ticker.app,features,main_feature,Signals section for market signals
+ticker.app,features,main_feature,Macro section for macroeconomic data
+ticker.app,features,main_feature,Research section
+ticker.app,features,main_feature,Indices tracking
+ticker.app,features,main_feature,Ticker TV video market coverage
+ticker.app,features,main_feature,Events calendar with upcoming company results
+ticker.app,features,main_feature,"Commodities prices (Gold, Crude, Gas, Copper)"
+ticker.app,features,main_feature,Currencies exchange rates
+ticker.app,features,main_feature,Developer Portal API for market data and RNS filings
+ticker.app,setup,auth_method,API key (X-Api-Key header)
+ticker.app,setup,has_public_api,True
+ticker.app,setup,key_integration,REST API
+ticker.app,setup,key_integration,RNS (Regulatory News Service)
 twilio.com,pricing,plan,name=Pay as you go | key_limits=Usage-based pricing with volume discounts as you scale
 twilio.com,pricing,free_plan,False
 twilio.com,pricing,pricing_model_notes,"Twilio uses usage-based pricing across multiple products. Individual products have different pricing structures (e.g., Conversation Orchestrator starts at $0.0002/1k characters, SMS starts at $0.0083 per message, Conversations API starts at $0.05 per active user per month). Free trial requires no credit card. Some products offer free tier limits (e.g., TaskRouter first 100 tasks/month free, Functions 10,000 free invocations, Twilio Video and Flex 5,000 hours free). Enterprise/custom pricing available via 'Contact sales' for certain products (Protocols, Unify, Engage, Segment CDP)."
@@ -1544,6 +2012,60 @@ twilio.com,setup,key_integration,Segment
 twilio.com,setup,key_integration,Flex
 twilio.com,setup,key_integration,Verify
 twilio.com,setup,key_integration,Studio
+typo3.com,features,main_feature,Multilingual site management with translation workflows and integration
+typo3.com,features,main_feature,Supports unlimited websites and languages
+typo3.com,features,main_feature,Dedicated security teams and strict access controls
+typo3.com,features,main_feature,Predictable release cycles and long-term support
+typo3.com,features,main_feature,Enterprise-scale management of tens or hundreds of sites
+typo3.com,features,main_feature,High performance under load
+typo3.com,features,main_feature,Seamless integration with ERP/CRM systems
+typo3.com,features,main_feature,Backend supports keyboard navigation and screen reader use
+typo3.com,features,main_feature,Frontend projects can meet WCAG 2.1 and national standards
+typo3.com,features,main_feature,Scalable from small projects to global platforms
+typo3.com,features,main_feature,Dedicated vendor support for enterprise organisations
+typo3.com,features,main_feature,Extensions ecosystem available
+usehardal.com,pricing,plan,name=Basic | price_monthly=208 | price_annual_per_month=207.5 | currency=USD
+usehardal.com,pricing,plan,name=Professional | price_monthly=499 | price_annual_per_month=499.17 | currency=USD
+usehardal.com,pricing,plan,name=Premium | price_monthly=1333 | price_annual_per_month=1332.5 | currency=USD
+usehardal.com,pricing,plan,name=Enterprise | currency=USD
+usehardal.com,pricing,free_plan,False
+usehardal.com,features,main_feature,Web analytics capturing every visitor and sale
+usehardal.com,features,main_feature,Mobile analytics for app installs and purchases
+usehardal.com,features,main_feature,Server-side tracking hosted and managed by Hardal
+usehardal.com,features,main_feature,Destinations: send clean data to ad platforms
+usehardal.com,features,main_feature,"Data Hub combining web, app, and offline data"
+usehardal.com,features,main_feature,AI integration to query your data with any AI tool
+usehardal.com,features,main_feature,Single customer profile across all touchpoints
+usehardal.com,features,main_feature,"First-party data collection, no cookies required"
+usehardal.com,features,main_feature,"Conversion API maintenance for Meta, TikTok, Google"
+usehardal.com,features,main_feature,Incrementality reporting showing which channels drive results
+usehardal.com,features,main_feature,Cross-channel attribution from click to final sale
+usehardal.com,features,main_feature,"ISO 27001, ISO 27701, ISO 9001:2015 certified security"
+usehardal.com,setup,setup_step,Install hardal.js on your website to start tracking
+usehardal.com,setup,setup_step,Or install the Shopify app for automatic tracking
+usehardal.com,setup,setup_step,Or set up iOS/Android tracking for mobile apps
+usehardal.com,setup,setup_step,Send an event via the interactive API playground
+usehardal.com,setup,setup_step,"Connect data destinations (Meta CAPI, TikTok, GA4, etc.)"
+usehardal.com,setup,setup_step,Connect database or BI tool for data export
+usehardal.com,setup,has_public_api,True
+usehardal.com,setup,sdk,hardal.js
+usehardal.com,setup,sdk,iOS SDK
+usehardal.com,setup,sdk,Android SDK
+usehardal.com,setup,key_integration,Meta CAPI
+usehardal.com,setup,key_integration,TikTok Events API
+usehardal.com,setup,key_integration,Snapchat CAPI
+usehardal.com,setup,key_integration,Reddit CAPI
+usehardal.com,setup,key_integration,Pinterest CAPI
+usehardal.com,setup,key_integration,Google Analytics 4
+usehardal.com,setup,key_integration,LinkedIn CAPI
+usehardal.com,setup,key_integration,Spotify Conversions API
+usehardal.com,setup,key_integration,OpenAI Ads (ChatGPT)
+usehardal.com,setup,key_integration,Custom Webhook
+usehardal.com,setup,key_integration,Shopify
+usehardal.com,setup,key_integration,Looker Studio
+usehardal.com,setup,key_integration,Tableau
+usehardal.com,setup,key_integration,Hex
+usehardal.com,setup,key_integration,Power BI
 vultr.com,pricing,plan,"name=VX1 - 2 vCPUs 8 GB Memory | price_monthly=43.2 | currency=USD | key_limits=2 vCPUs, 8 GB Memory, 5.00 TB Bandwidth, Block Storage"
 vultr.com,pricing,plan,"name=VX1 - 4 vCPUs 16 GB Memory | price_monthly=86.4 | currency=USD | key_limits=4 vCPUs, 16 GB Memory, 6.00 TB Bandwidth, Block Storage"
 vultr.com,pricing,plan,"name=VX1 - 8 vCPUs 32 GB Memory | price_monthly=172.8 | currency=USD | key_limits=8 vCPUs, 32 GB Memory, 7.00 TB Bandwidth, Block Storage"

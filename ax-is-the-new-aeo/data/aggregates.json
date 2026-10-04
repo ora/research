@@ -1,538 +1,551 @@
 {
- "total_journeys": 3816,
- "total_journeys_round": 4000,
- "n_domains": 106,
+ "total_journeys": 7412,
+ "total_journeys_round": 7000,
+ "n_domains": 206,
  "n_arms": 4,
- "comp_pages_hi": 85,
+ "comp_pages_hi": 87,
  "comp_external_hi": 0,
- "comp_search_hi": 8,
- "comp_memory_hi": 7,
- "comp_pages_lo": 46,
- "comp_external_lo": 12,
- "comp_search_lo": 34,
- "comp_memory_lo": 8,
- "turns_hi": 5.9,
- "turns_lo": 6.8,
- "turns_lift_pct": 16,
- "dur_hi": 57,
- "dur_lo": 61,
- "dur_lift_pct": 7,
- "block_ratio": 2.3,
+ "comp_search_hi": 7,
+ "comp_memory_hi": 6,
+ "comp_pages_lo": 50,
+ "comp_external_lo": 8,
+ "comp_search_lo": 32,
+ "comp_memory_lo": 10,
+ "turns_hi": 5.7,
+ "turns_lo": 6.9,
+ "turns_lift_pct": 21,
+ "dur_hi": 51,
+ "dur_lo": 59,
+ "dur_lift_pct": 14,
+ "block_ratio": 2.4,
  "grounded_hi_pct": 78,
  "grounded_lo_pct": 51,
- "fp_share_hi": 0.772,
- "fp_share_lo": 0.498,
- "fp_share_ratio": 1.55,
- "cost_grounded_hi_claude-agent": 0.128,
- "cost_grounded_lo_claude-agent": 0.222,
- "cost_premium_pct_claude-agent": 73,
- "cost_grounded_hi_claude-code": 0.023,
- "cost_grounded_lo_claude-code": 0.039,
- "cost_premium_pct_claude-code": 75,
- "cost_grounded_hi_openclaw": 0.119,
- "cost_grounded_lo_openclaw": 0.231,
- "cost_premium_pct_openclaw": 95,
- "cost_grounded_hi_eve": 0.101,
- "cost_grounded_lo_eve": 0.105,
- "cost_premium_pct_eve": 4,
- "cost_mean_premium_pct": 62,
- "searches_hi_claude-agent": 0.4,
- "searches_lo_claude-agent": 0.8,
- "searches_ratio_claude-agent": 2.3,
+ "fp_share_hi": 0.787,
+ "fp_share_lo": 0.522,
+ "fp_share_ratio": 1.51,
+ "cost_grounded_hi_claude-agent": 0.119,
+ "cost_grounded_lo_claude-agent": 0.229,
+ "cost_premium_pct_claude-agent": 93,
+ "cost_grounded_hi_claude-code": 0.02,
+ "cost_grounded_lo_claude-code": 0.033,
+ "cost_premium_pct_claude-code": 61,
+ "cost_grounded_hi_openclaw": 0.128,
+ "cost_grounded_lo_openclaw": 0.288,
+ "cost_premium_pct_openclaw": 124,
+ "cost_grounded_hi_eve": 0.093,
+ "cost_grounded_lo_eve": 0.107,
+ "cost_premium_pct_eve": 15,
+ "cost_mean_premium_pct": 73,
+ "searches_hi_claude-agent": 0.3,
+ "searches_lo_claude-agent": 0.9,
+ "searches_ratio_claude-agent": 2.5,
  "searches_hi_claude-code": 0.1,
  "searches_lo_claude-code": 0.4,
- "searches_ratio_claude-code": 2.9,
- "searches_hi_openclaw": 7.0,
- "searches_lo_openclaw": 11.4,
+ "searches_ratio_claude-code": 3.3,
+ "searches_hi_openclaw": 6.9,
+ "searches_lo_openclaw": 11.1,
  "searches_ratio_openclaw": 1.6,
- "searches_hi_eve": 1.5,
+ "searches_hi_eve": 1.2,
  "searches_lo_eve": 1.9,
- "searches_ratio_eve": 1.3,
+ "searches_ratio_eve": 1.5,
  "searches_by_industry": [
   {
    "industry": "Analytics",
-   "n_domains": 8,
-   "searches_hi": 2.2,
-   "searches_lo": 3.0,
-   "ratio": 1.35
+   "n_domains": 18,
+   "searches_hi": 2.1,
+   "searches_lo": 3.4,
+   "ratio": 1.6
   },
   {
    "industry": "Artificial Intelligence",
-   "n_domains": 12,
-   "searches_hi": 1.6,
-   "searches_lo": 3.8,
-   "ratio": 2.37
+   "n_domains": 30,
+   "searches_hi": 1.8,
+   "searches_lo": 3.4,
+   "ratio": 1.88
   },
   {
    "industry": "Collaboration & Productivity",
-   "n_domains": 14,
-   "searches_hi": 2.7,
-   "searches_lo": 2.8,
-   "ratio": 1.07
+   "n_domains": 22,
+   "searches_hi": 2.6,
+   "searches_lo": 3.0,
+   "ratio": 1.19
+  },
+  {
+   "industry": "Commerce",
+   "n_domains": 4,
+   "searches_hi": 1.5,
+   "searches_lo": 2.6,
+   "ratio": 1.73
   },
   {
    "industry": "Consumer",
-   "n_domains": 7,
-   "searches_hi": 2.1,
+   "n_domains": 17,
+   "searches_hi": 1.8,
    "searches_lo": 3.5,
-   "ratio": 1.64
+   "ratio": 1.9
   },
   {
    "industry": "Customer Service",
-   "n_domains": 8,
-   "searches_hi": 2.3,
-   "searches_lo": 2.3,
-   "ratio": 1.01
+   "n_domains": 10,
+   "searches_hi": 2.2,
+   "searches_lo": 2.5,
+   "ratio": 1.14
   },
   {
    "industry": "Development",
-   "n_domains": 8,
-   "searches_hi": 1.3,
-   "searches_lo": 4.3,
-   "ratio": 3.43
+   "n_domains": 16,
+   "searches_hi": 1.4,
+   "searches_lo": 3.6,
+   "ratio": 2.52
   },
   {
    "industry": "Fintech & Payments",
-   "n_domains": 17,
-   "searches_hi": 2.5,
-   "searches_lo": 4.4,
-   "ratio": 1.75
-  },
-  {
-   "industry": "HR & Legal",
-   "n_domains": 3,
-   "searches_hi": 2.6,
-   "searches_lo": 3.0,
-   "ratio": 1.17
-  },
-  {
-   "industry": "IT Infrastructure",
-   "n_domains": 10,
-   "searches_hi": 1.8,
-   "searches_lo": 3.4,
-   "ratio": 1.96
-  },
-  {
-   "industry": "Sales & Marketing",
-   "n_domains": 13,
-   "searches_hi": 2.5,
-   "searches_lo": 4.3,
+   "n_domains": 30,
+   "searches_hi": 2.4,
+   "searches_lo": 4.2,
    "ratio": 1.74
   },
   {
+   "industry": "HR & Legal",
+   "n_domains": 8,
+   "searches_hi": 2.8,
+   "searches_lo": 3.4,
+   "ratio": 1.19
+  },
+  {
+   "industry": "IT Infrastructure",
+   "n_domains": 16,
+   "searches_hi": 1.7,
+   "searches_lo": 3.4,
+   "ratio": 2.0
+  },
+  {
+   "industry": "Sales & Marketing",
+   "n_domains": 19,
+   "searches_hi": 2.5,
+   "searches_lo": 3.9,
+   "ratio": 1.52
+  },
+  {
    "industry": "Security",
-   "n_domains": 6,
-   "searches_hi": 2.7,
-   "searches_lo": 4.7,
-   "ratio": 1.71
+   "n_domains": 16,
+   "searches_hi": 2.4,
+   "searches_lo": 3.8,
+   "ratio": 1.58
   }
  ],
  "grounding_bins": [
   {
    "lo": 0.0,
    "hi": 0.28,
-   "n_domains": 15,
-   "n_runs": 540,
-   "mean_searches": 4.9
+   "n_domains": 35,
+   "n_runs": 1256,
+   "mean_searches": 4.3
   },
   {
    "lo": 0.28,
    "hi": 0.5,
-   "n_domains": 38,
-   "n_runs": 1368,
-   "mean_searches": 3.1
+   "n_domains": 70,
+   "n_runs": 2520,
+   "mean_searches": 3.2
   },
   {
    "lo": 0.65,
    "hi": 0.8,
-   "n_domains": 39,
-   "n_runs": 1404,
-   "mean_searches": 2.3
+   "n_domains": 75,
+   "n_runs": 2700,
+   "mean_searches": 2.1
   },
   {
    "lo": 0.8,
    "hi": 1.01,
-   "n_domains": 14,
-   "n_runs": 504,
-   "mean_searches": 2.0
+   "n_domains": 26,
+   "n_runs": 936,
+   "mean_searches": 2.2
   }
  ],
- "searches_bin_ratio": 2.5,
+ "searches_bin_ratio": 2.0,
  "endorse_hi_pct": 22,
- "endorse_lo_pct": 14,
- "endorse_ratio": 1.5,
- "endorse_weak_ratio": 2.3,
- "endorse_ratio_pricing": 1.6,
- "endorse_ratio_features": 1.5,
- "endorse_ratio_setup": 1.9,
- "endorse_hi_claude-agent": 17,
- "endorse_lo_claude-agent": 9,
- "endorse_ratio_arm_claude-agent": 1.9,
- "endorse_hi_claude-code": 5,
- "endorse_lo_claude-code": 5,
- "endorse_ratio_arm_claude-code": 1.1,
+ "endorse_lo_pct": 11,
+ "endorse_ratio": 2.0,
+ "endorse_weak_ratio": 2.4,
+ "endorse_ratio_pricing": 2.2,
+ "endorse_ratio_features": 1.8,
+ "endorse_ratio_setup": 1.6,
+ "endorse_hi_claude-agent": 16,
+ "endorse_lo_claude-agent": 6,
+ "endorse_ratio_arm_claude-agent": 2.5,
+ "endorse_hi_claude-code": 6,
+ "endorse_lo_claude-code": 3,
+ "endorse_ratio_arm_claude-code": 2.0,
  "endorse_hi_openclaw": 29,
- "endorse_lo_openclaw": 19,
- "endorse_ratio_arm_openclaw": 1.6,
- "endorse_hi_eve": 37,
- "endorse_lo_eve": 25,
- "endorse_ratio_arm_eve": 1.5,
+ "endorse_lo_openclaw": 14,
+ "endorse_ratio_arm_openclaw": 2.0,
+ "endorse_hi_eve": 38,
+ "endorse_lo_eve": 21,
+ "endorse_ratio_arm_eve": 1.8,
  "endorsement_by_industry": [
   {
    "industry": "Analytics",
-   "hi_pct": 28,
-   "lo_pct": 15,
-   "ratio": 1.9
+   "hi_pct": 24,
+   "lo_pct": 12,
+   "ratio": 2.0
   },
   {
    "industry": "Artificial Intelligence",
-   "hi_pct": 35,
-   "lo_pct": 8,
-   "ratio": 4.17
+   "hi_pct": 29,
+   "lo_pct": 9,
+   "ratio": 3.17
   },
   {
    "industry": "Collaboration & Productivity",
    "hi_pct": 26,
-   "lo_pct": 23,
-   "ratio": 1.13
+   "lo_pct": 18,
+   "ratio": 1.44
+  },
+  {
+   "industry": "Commerce",
+   "hi_pct": 12,
+   "lo_pct": 4,
+   "ratio": 3.0
   },
   {
    "industry": "Consumer",
-   "hi_pct": 25,
-   "lo_pct": 17,
-   "ratio": 1.5
+   "hi_pct": 28,
+   "lo_pct": 13,
+   "ratio": 2.2
   },
   {
    "industry": "Customer Service",
-   "hi_pct": 23,
-   "lo_pct": 37,
-   "ratio": 0.63
+   "hi_pct": 22,
+   "lo_pct": 31,
+   "ratio": 0.73
   },
   {
    "industry": "Development",
    "hi_pct": 30,
-   "lo_pct": 15,
-   "ratio": 2.05
+   "lo_pct": 11,
+   "ratio": 2.61
   },
   {
    "industry": "Fintech & Payments",
    "hi_pct": 10,
-   "lo_pct": 6,
-   "ratio": 1.83
+   "lo_pct": 7,
+   "ratio": 1.49
   },
   {
    "industry": "HR & Legal",
-   "hi_pct": 17,
-   "lo_pct": 19,
-   "ratio": 0.86
+   "hi_pct": 12,
+   "lo_pct": 9,
+   "ratio": 1.32
   },
   {
    "industry": "IT Infrastructure",
-   "hi_pct": 24,
+   "hi_pct": 26,
    "lo_pct": 9,
-   "ratio": 2.76
+   "ratio": 2.94
   },
   {
    "industry": "Sales & Marketing",
    "hi_pct": 20,
-   "lo_pct": 13,
-   "ratio": 1.51
+   "lo_pct": 9,
+   "ratio": 2.32
   },
   {
    "industry": "Security",
-   "hi_pct": 14,
-   "lo_pct": 6,
-   "ratio": 2.6
+   "hi_pct": 12,
+   "lo_pct": 9,
+   "ratio": 1.33
   }
  ],
- "hedge_hi_access_disclaimer": 3,
+ "hedge_hi_access_disclaimer": 4,
  "hedge_lo_access_disclaimer": 17,
- "hedge_lift_access_disclaimer": 5.0,
- "hedge_hi_outside_sourced": 7,
- "hedge_lo_outside_sourced": 19,
- "hedge_lift_outside_sourced": 2.8,
- "hedge_hi_vague_noncommittal": 4,
- "hedge_lo_vague_noncommittal": 7,
- "hedge_lift_vague_noncommittal": 1.7,
- "hedge_hi_punts_to_source": 12,
- "hedge_lo_punts_to_source": 14,
- "hedge_lift_punts_to_source": 1.2,
+ "hedge_lift_access_disclaimer": 4.3,
+ "hedge_hi_outside_sourced": 5,
+ "hedge_lo_outside_sourced": 17,
+ "hedge_lift_outside_sourced": 3.2,
+ "hedge_hi_vague_noncommittal": 6,
+ "hedge_lo_vague_noncommittal": 11,
+ "hedge_lift_vague_noncommittal": 1.8,
+ "hedge_hi_punts_to_source": 13,
+ "hedge_lo_punts_to_source": 20,
+ "hedge_lift_punts_to_source": 1.6,
  "hedge_hi_staleness_memory": 1,
- "hedge_lo_staleness_memory": 4,
- "hedge_lift_staleness_memory": 3.1,
+ "hedge_lo_staleness_memory": 3,
+ "hedge_lift_staleness_memory": 3.5,
  "answered_anyway_pct": 100,
- "acc_answers": 1522,
- "acc_facts": 19422,
- "acc_domains": 59,
- "acc_site_pct": 53,
- "acc_web_pct": 34,
- "acc_source_lift_pct": 54,
- "acc_empty_site_pct": 6,
- "acc_empty_web_pct": 32,
- "acc_empty_ratio": 5.4,
+ "acc_answers": 1916,
+ "acc_facts": 24051,
+ "acc_domains": 89,
+ "acc_site_pct": 54,
+ "acc_web_pct": 36,
+ "acc_source_lift_pct": 51,
+ "acc_empty_site_pct": 5,
+ "acc_empty_web_pct": 27,
+ "acc_empty_ratio": 5.9,
  "verdict_site_correct": 35,
  "verdict_site_partial": 29,
  "verdict_site_incorrect": 2,
  "verdict_site_not_addressed": 34,
- "verdict_web_correct": 22,
- "verdict_web_partial": 22,
+ "verdict_web_correct": 23,
+ "verdict_web_partial": 23,
  "verdict_web_incorrect": 3,
- "verdict_web_not_addressed": 53,
- "acc_site_pricing": 68,
- "acc_web_pricing": 42,
- "acc_lift_pricing": 61,
- "acc_site_features": 47,
- "acc_web_features": 37,
- "acc_lift_features": 30,
+ "verdict_web_not_addressed": 51,
+ "acc_site_pricing": 67,
+ "acc_web_pricing": 41,
+ "acc_lift_pricing": 62,
+ "acc_site_features": 49,
+ "acc_web_features": 38,
+ "acc_lift_features": 27,
  "acc_site_setup": 21,
- "acc_web_setup": 18,
- "acc_lift_setup": 20,
+ "acc_web_setup": 19,
+ "acc_lift_setup": 9,
  "dose_rows": [
   {
    "lo": 0.0,
    "hi": 0.2,
-   "n_answers": 280,
-   "acc_pct": 43
+   "n_answers": 321,
+   "acc_pct": 41
   },
   {
    "lo": 0.2,
    "hi": 0.4,
-   "n_answers": 113,
-   "acc_pct": 40
+   "n_answers": 150,
+   "acc_pct": 41
   },
   {
    "lo": 0.4,
    "hi": 0.6,
-   "n_answers": 120,
-   "acc_pct": 45
+   "n_answers": 163,
+   "acc_pct": 46
   },
   {
    "lo": 0.6,
    "hi": 0.8,
-   "n_answers": 142,
+   "n_answers": 178,
    "acc_pct": 48
   },
   {
    "lo": 0.8,
    "hi": 1.01,
-   "n_answers": 816,
-   "acc_pct": 56
+   "n_answers": 1043,
+   "acc_pct": 57
   }
  ],
  "accuracy_empty_by_arm": [
   {
    "arm": "claude-agent",
    "site_pct": 2,
-   "web_pct": 22,
-   "ratio": 8.9
+   "web_pct": 19,
+   "ratio": 9.0
   },
   {
    "arm": "claude-code",
-   "site_pct": 7,
-   "web_pct": 55,
-   "ratio": 7.8
+   "site_pct": 6,
+   "web_pct": 56,
+   "ratio": 9.4
   },
   {
    "arm": "openclaw",
-   "site_pct": 7,
-   "web_pct": 16,
-   "ratio": 2.3
+   "site_pct": 6,
+   "web_pct": 11,
+   "ratio": 1.8
   },
   {
    "arm": "eve",
-   "site_pct": 4,
-   "web_pct": 14,
-   "ratio": 3.6
+   "site_pct": 3,
+   "web_pct": 12,
+   "ratio": 4.2
   }
  ],
- "acc_paired_site_pct": 46.4,
- "acc_paired_web_pct": 32.9,
- "acc_paired_diff_pp": 13.5,
- "acc_paired_lift_pct": 41,
- "acc_paired_cells": 119,
- "acc_paired_domains": 51,
- "acc_paired_empty_site_pct": 11.3,
- "acc_paired_empty_web_pct": 29.7,
- "acc_paired_empty_diff_pp": -18.4,
- "acc_paired_diff_pp_pricing": 24.7,
- "acc_paired_diff_pp_features": 1.4,
- "acc_paired_diff_pp_setup": 1.1,
- "acc_paired_diff_pp_claude-agent": 2.9,
- "acc_paired_diff_pp_claude-code": 33.3,
- "acc_paired_diff_pp_openclaw": 3.6,
- "acc_paired_diff_pp_eve": -3.2,
- "factfate_site_correct": 40,
+ "acc_paired_site_pct": 47.7,
+ "acc_paired_web_pct": 35.1,
+ "acc_paired_diff_pp": 12.7,
+ "acc_paired_lift_pct": 36,
+ "acc_paired_cells": 159,
+ "acc_paired_domains": 70,
+ "acc_paired_empty_site_pct": 8.6,
+ "acc_paired_empty_web_pct": 25.6,
+ "acc_paired_empty_diff_pp": -17.0,
+ "acc_paired_diff_pp_pricing": 23.7,
+ "acc_paired_diff_pp_features": 3.4,
+ "acc_paired_diff_pp_setup": 0.8,
+ "acc_paired_diff_pp_claude-agent": 7.2,
+ "acc_paired_diff_pp_claude-code": 36.0,
+ "acc_paired_diff_pp_openclaw": 3.4,
+ "acc_paired_diff_pp_eve": -3.4,
+ "factfate_site_correct": 41,
  "factfate_site_partial": 26,
  "factfate_site_incorrect": 3,
- "factfate_site_not_addressed": 31,
+ "factfate_site_not_addressed": 30,
  "factfate_web_correct": 26,
- "factfate_web_partial": 17,
- "factfate_web_incorrect": 3,
- "factfate_web_not_addressed": 54,
+ "factfate_web_partial": 20,
+ "factfate_web_incorrect": 5,
+ "factfate_web_not_addressed": 50,
  "grounding_composition": [
   {
    "group": "ax-high",
-   "pages_pct": 85,
+   "pages_pct": 87,
    "external_pct": 0,
-   "search_pct": 8,
-   "memory_pct": 7
+   "search_pct": 7,
+   "memory_pct": 6
   },
   {
    "group": "ax-low",
-   "pages_pct": 46,
-   "external_pct": 12,
-   "search_pct": 34,
-   "memory_pct": 8
+   "pages_pct": 50,
+   "external_pct": 8,
+   "search_pct": 32,
+   "memory_pct": 10
   }
  ],
  "cost_by_arm": [
   {
    "arm": "claude-agent",
-   "cost_grounded_hi": 0.128,
-   "cost_grounded_lo": 0.222,
-   "premium_pct": 73
+   "cost_grounded_hi": 0.119,
+   "cost_grounded_lo": 0.229,
+   "premium_pct": 93
   },
   {
    "arm": "claude-code",
-   "cost_grounded_hi": 0.023,
-   "cost_grounded_lo": 0.039,
-   "premium_pct": 75
+   "cost_grounded_hi": 0.02,
+   "cost_grounded_lo": 0.033,
+   "premium_pct": 61
   },
   {
    "arm": "openclaw",
-   "cost_grounded_hi": 0.119,
-   "cost_grounded_lo": 0.231,
-   "premium_pct": 95
+   "cost_grounded_hi": 0.128,
+   "cost_grounded_lo": 0.288,
+   "premium_pct": 124
   },
   {
    "arm": "eve",
-   "cost_grounded_hi": 0.101,
-   "cost_grounded_lo": 0.105,
-   "premium_pct": 4
+   "cost_grounded_hi": 0.093,
+   "cost_grounded_lo": 0.107,
+   "premium_pct": 15
   }
  ],
  "searches_by_arm": [
   {
    "arm": "claude-agent",
-   "searches_hi": 0.4,
-   "searches_lo": 0.8,
-   "ratio": 2.3
+   "searches_hi": 0.3,
+   "searches_lo": 0.9,
+   "ratio": 2.5
   },
   {
    "arm": "claude-code",
    "searches_hi": 0.1,
    "searches_lo": 0.4,
-   "ratio": 2.9
+   "ratio": 3.3
   },
   {
    "arm": "openclaw",
-   "searches_hi": 7.0,
-   "searches_lo": 11.4,
+   "searches_hi": 6.9,
+   "searches_lo": 11.1,
    "ratio": 1.6
   },
   {
    "arm": "eve",
-   "searches_hi": 1.5,
+   "searches_hi": 1.2,
    "searches_lo": 1.9,
-   "ratio": 1.3
+   "ratio": 1.5
   }
  ],
  "endorsement_by_category": [
   {
    "category": "pricing",
    "hi_pct": 33,
-   "lo_pct": 21,
-   "ratio": 1.6
+   "lo_pct": 15,
+   "ratio": 2.2
   },
   {
    "category": "features",
    "hi_pct": 29,
-   "lo_pct": 20,
-   "ratio": 1.5
+   "lo_pct": 16,
+   "ratio": 1.8
   },
   {
    "category": "setup",
    "hi_pct": 4,
    "lo_pct": 2,
-   "ratio": 1.9
+   "ratio": 1.6
   }
  ],
  "endorsement_by_arm": [
   {
    "arm": "claude-agent",
-   "hi_pct": 17,
-   "lo_pct": 9,
-   "ratio": 1.9
+   "hi_pct": 16,
+   "lo_pct": 6,
+   "ratio": 2.5
   },
   {
    "arm": "claude-code",
-   "hi_pct": 5,
-   "lo_pct": 5,
-   "ratio": 1.1
+   "hi_pct": 6,
+   "lo_pct": 3,
+   "ratio": 2.0
   },
   {
    "arm": "openclaw",
    "hi_pct": 29,
-   "lo_pct": 19,
-   "ratio": 1.6
+   "lo_pct": 14,
+   "ratio": 2.0
   },
   {
    "arm": "eve",
-   "hi_pct": 37,
-   "lo_pct": 25,
-   "ratio": 1.5
+   "hi_pct": 38,
+   "lo_pct": 21,
+   "ratio": 1.8
   }
  ],
  "hedge_anatomy": [
   {
    "pattern": "access_disclaimer",
-   "hi_pct": 3,
+   "hi_pct": 4,
    "lo_pct": 17,
-   "lift": 5.0
+   "lift": 4.3
   },
   {
    "pattern": "outside_sourced",
-   "hi_pct": 7,
-   "lo_pct": 19,
-   "lift": 2.8
+   "hi_pct": 5,
+   "lo_pct": 17,
+   "lift": 3.2
   },
   {
    "pattern": "vague_noncommittal",
-   "hi_pct": 4,
-   "lo_pct": 7,
-   "lift": 1.7
+   "hi_pct": 6,
+   "lo_pct": 11,
+   "lift": 1.8
   },
   {
    "pattern": "punts_to_source",
-   "hi_pct": 12,
-   "lo_pct": 14,
-   "lift": 1.2
+   "hi_pct": 13,
+   "lo_pct": 20,
+   "lift": 1.6
   },
   {
    "pattern": "staleness_memory",
    "hi_pct": 1,
-   "lo_pct": 4,
-   "lift": 3.1
+   "lo_pct": 3,
+   "lift": 3.5
   }
  ],
  "accuracy_by_intent": [
   {
    "category": "pricing",
-   "site_pct": 68,
-   "web_pct": 42,
-   "lift_pct": 61
+   "site_pct": 67,
+   "web_pct": 41,
+   "lift_pct": 62
   },
   {
    "category": "features",
-   "site_pct": 47,
-   "web_pct": 37,
-   "lift_pct": 30
+   "site_pct": 49,
+   "web_pct": 38,
+   "lift_pct": 27
   },
   {
    "category": "setup",
    "site_pct": 21,
-   "web_pct": 18,
-   "lift_pct": 20
+   "web_pct": 19,
+   "lift_pct": 9
   }
  ],
  "accuracy_verdicts_by_source": {
@@ -543,91 +556,91 @@
    "not_addressed": 34
   },
   "web": {
-   "correct": 22,
-   "partial": 22,
+   "correct": 23,
+   "partial": 23,
    "incorrect": 3,
-   "not_addressed": 53
+   "not_addressed": 51
   }
  },
  "accuracy_paired_by_intent": [
   {
    "category": "pricing",
-   "n_domains": 37,
-   "n_cells": 53,
-   "site_pct": 62.8,
-   "web_pct": 38.1,
-   "diff_pp": 24.7,
-   "lift_pct": 65
+   "n_domains": 47,
+   "n_cells": 68,
+   "site_pct": 62.6,
+   "web_pct": 38.9,
+   "diff_pp": 23.7,
+   "lift_pct": 61
   },
   {
    "category": "features",
-   "n_domains": 26,
-   "n_cells": 35,
-   "site_pct": 39.9,
-   "web_pct": 38.5,
-   "diff_pp": 1.4,
-   "lift_pct": 4
+   "n_domains": 40,
+   "n_cells": 54,
+   "site_pct": 42.6,
+   "web_pct": 39.2,
+   "diff_pp": 3.4,
+   "lift_pct": 9
   },
   {
    "category": "setup",
-   "n_domains": 16,
-   "n_cells": 31,
-   "site_pct": 17.4,
-   "web_pct": 16.3,
-   "diff_pp": 1.1,
-   "lift_pct": 7
+   "n_domains": 19,
+   "n_cells": 37,
+   "site_pct": 18.9,
+   "web_pct": 18.2,
+   "diff_pp": 0.8,
+   "lift_pct": 4
   }
  ],
  "accuracy_paired_by_arm": [
   {
    "arm": "claude-agent",
-   "n_domains": 11,
-   "n_cells": 12,
-   "site_pct": 42.1,
-   "web_pct": 39.2,
-   "diff_pp": 2.9,
-   "lift_pct": 7
+   "n_domains": 24,
+   "n_cells": 25,
+   "site_pct": 45.6,
+   "web_pct": 38.4,
+   "diff_pp": 7.2,
+   "lift_pct": 19
   },
   {
    "arm": "claude-code",
-   "n_domains": 28,
-   "n_cells": 37,
-   "site_pct": 45.4,
-   "web_pct": 12.0,
-   "diff_pp": 33.3,
-   "lift_pct": 278
+   "n_domains": 33,
+   "n_cells": 43,
+   "site_pct": 47.5,
+   "web_pct": 11.5,
+   "diff_pp": 36.0,
+   "lift_pct": 314
   },
   {
    "arm": "openclaw",
-   "n_domains": 30,
-   "n_cells": 37,
-   "site_pct": 41.3,
-   "web_pct": 37.7,
-   "diff_pp": 3.6,
+   "n_domains": 43,
+   "n_cells": 52,
+   "site_pct": 42.7,
+   "web_pct": 39.3,
+   "diff_pp": 3.4,
    "lift_pct": 9
   },
   {
    "arm": "eve",
-   "n_domains": 28,
-   "n_cells": 33,
-   "site_pct": 47.1,
-   "web_pct": 50.3,
-   "diff_pp": -3.2,
-   "lift_pct": -6
+   "n_domains": 32,
+   "n_cells": 39,
+   "site_pct": 46.8,
+   "web_pct": 50.2,
+   "diff_pp": -3.4,
+   "lift_pct": -7
   }
  ],
  "fact_fate_by_source": {
   "site": {
-   "correct": 40,
+   "correct": 41,
    "partial": 26,
    "incorrect": 3,
-   "not_addressed": 31
+   "not_addressed": 30
   },
   "web": {
    "correct": 26,
-   "partial": 17,
-   "incorrect": 3,
-   "not_addressed": 54
+   "partial": 20,
+   "incorrect": 5,
+   "not_addressed": 50
   }
  }
 }

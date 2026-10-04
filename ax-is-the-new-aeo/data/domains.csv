@@ -1,107 +1,207 @@
 domain,brand,group,industry,fine_vertical,ax_ratio,discovery,tranco_rank,training_presence,citation_breadth,has_ground_truth
+ace.ai,Ace,ax-low,Artificial Intelligence,ai,0.3774,0.2727,31483,0.0,0.975,0
 acquirepad.com,Acquirepad,ax-high,Fintech & Payments,payments-fintech,0.6522,0.3333,974596,0.0,0.0,0
 affinity.co,Affinity,ax-high,Sales & Marketing,martech-sales,0.68,0.769,30432,0.3,0.25,1
 affirm.com,Affirm,ax-low,Fintech & Payments,payments-fintech,0.41,0.6667,2849,0.75,0.5,1
 ahrefs.com,Ahrefs,ax-high,Analytics,data-analytics,0.67,0.688,2062,1.0,0.7,1
 airtable.com,Airtable,ax-low,Collaboration & Productivity,productivity,0.48,0.875,2908,1.0,0.65,1
+anon.com,Anon,ax-low,Security,security-identity,0.3443,0.2941,935635,0.0,0.25,1
+anzenna.ai,Anzenna,ax-high,Security,security-identity,0.7742,0.2222,433045,0.0,0.225,0
 aptible.com,Aptible,ax-high,IT Infrastructure,infra-cloud,0.6842,0.2941,677018,0.75,0.425,0
+array.com,Array,ax-low,Fintech & Payments,payments-fintech,0.4211,0.3077,378099,0.0,0.25,0
 asana.com,Asana,ax-high,Collaboration & Productivity,productivity,0.65,0.882,2186,1.0,0.725,1
+askattest.com,Attest,ax-high,Analytics,data-analytics,0.6719,0.0556,187116,0.0,0.175,0
+asksurf.ai,Surf,ax-high,Artificial Intelligence,ai,0.8361,0.0769,429734,0.0,0.35,0
+asteroid.ai,Asteroid,ax-high,Artificial Intelligence,ai,0.8889,0.1765,303450,0.0,1.0,0
+atratopago.com,Atrato Pago,ax-low,Fintech & Payments,payments-fintech,0.4746,0.25,481745,0.0,0.4,0
 attio.com,Attio,ax-high,Sales & Marketing,martech-sales,0.86,0.385,56515,0.75,0.35,1
+autoreelapp.com,AutoReelApp,ax-high,Consumer,consumer-sub,0.8197,0.2353,714540,0.0,0.35,1
+axonius.com,Axonius,ax-low,Security,security-identity,0.2909,0.5333,155771,0.75,0.35,1
+bananaprompts.org,Banana Prompts,ax-low,Artificial Intelligence,ai,0.4483,0.2941,764711,0.0,0.4,1
 basecamp.com,Basecamp,ax-low,Collaboration & Productivity,productivity,0.37,0.438,5867,1.0,0.9,1
+basedash.com,Basedash,ax-high,Development,dev-tools,0.7302,0.2941,953039,0.3,0.0,1
 bear.app,Bear,ax-low,Collaboration & Productivity,productivity,0.3509,0.3846,175411,0.3,0.275,0
+bfore.ai,bfore,ax-high,Security,security-identity,0.6949,0.1538,938829,0.0,0.075,1
 bill.com,BILL,ax-high,Fintech & Payments,payments-fintech,0.67,0.375,6954,0.45,0.65,1
+billecta.com,Billecta,ax-low,Fintech & Payments,payments-fintech,0.4286,0.4615,767087,0.45,0.1,0
+bisquit.host,Bisquit,ax-high,IT Infrastructure,infra-cloud,0.7458,0.3846,544080,0.0,0.0,0
+bizzabo.com,Bizzabo,ax-high,Collaboration & Productivity,productivity,0.8254,0.1765,24662,0.75,0.2,0
 bland.ai,Bland,ax-high,Artificial Intelligence,ai,0.7869,0.5385,254161,0.0,1.0,0
 box.com,Box,ax-high,Collaboration & Productivity,productivity,0.7,0.6154,708,0.75,0.575,1
 brevo.com,Brevo,ax-low,Sales & Marketing,martech-sales,0.24,0.812,2751,0.75,0.95,1
 browserbase.com,Browserbase,ax-high,Development,dev-tools,0.7097,0.5385,101965,0.6,0.45,0
+browseros.com,BrowserOS,ax-high,Artificial Intelligence,ai,0.8254,0.1765,200744,0.0,0.525,0
 builder.io,Builder.io,ax-low,Development,dev-tools,0.44,0.231,17933,0.75,0.7,1
+buildertrend.com,BuilderTrend,ax-low,Collaboration & Productivity,productivity,0.0339,0.3333,133145,0.75,0.0,0
+bukuwarung.com,BukuWarung,ax-low,Fintech & Payments,payments-fintech,0.4035,0.0909,382210,0.0,0.25,0
+bynder.com,Bynder,ax-low,Sales & Marketing,martech-sales,0.0678,0.4706,7516,0.75,0.175,1
+cerebrium.ai,Cerebrium,ax-high,IT Infrastructure,infra-cloud,0.8955,0.2222,667384,0.3,0.45,0
+certificates.dev,Certificates,ax-low,Development,dev-tools,0.4286,0,939224,0.0,0.275,0
 chargebee.com,Chargebee,ax-high,Fintech & Payments,payments-fintech,0.75,1.0,13906,1.0,0.325,1
+chatlyai.app,ChatlyAI,ax-low,Artificial Intelligence,ai,0.3519,0.125,226811,0.0,0.5,0
 chime.com,Chime,ax-low,Fintech & Payments,payments-fintech,0.28,0.438,14169,0.75,0.3,1
+circle.com,Circle,ax-high,Fintech & Payments,payments-fintech,0.6833,0.4667,8317,0.45,0.325,0
 circleci.com,CircleCI,ax-high,Development,dev-tools,0.71,0.875,10607,0.75,0.625,1
 clickup.com,ClickUp,ax-high,Collaboration & Productivity,productivity,0.7,0.706,2367,1.0,0.775,1
 close.com,Close CRM,ax-high,Sales & Marketing,martech-sales,0.85,0.692,26259,0.6,0.525,1
 coda.io,Coda,ax-low,Collaboration & Productivity,productivity,0.3,0.5,12479,0.875,0.575,1
 codeberg.org,Codeberg,ax-low,Development,dev-tools,0.3704,0.5294,3858,0.75,0.425,0
+codecombat.com,CodeCombat,ax-low,Consumer,consumer-sub,0.2414,0.5,98579,0.75,0.325,0
 coinbase.com,Coinbase,ax-low,Fintech & Payments,payments-fintech,0.09,0.8333,2078,0.75,0.325,1
 coincodex.com,CoinCodex,ax-low,Analytics,data-analytics,0.4138,0.1765,38127,0.6,0.325,0
+commenda.io,Commenda,ax-high,HR & Legal,hr-legal-ops,0.8167,0.3846,986863,0.0,0.275,1
 conduktor.io,Conduktor,ax-high,Development,dev-tools,0.8906,0.6842,586476,0.75,0.25,0
 confidentlims.com,ConfidentLIMS,ax-low,Collaboration & Productivity,productivity,0.4737,0.5833,148727,0.0,0.075,0
 confluent.io,Confluent,ax-high,IT Infrastructure,infra-cloud,0.79,0.4167,18858,0.75,0.25,1
+creatorstoolbox.com,Creators Toolbox,ax-high,Consumer,consumer-sub,0.6552,0.375,774776,0.0,0.025,1
+crossup.ai,CrossUp,ax-high,Artificial Intelligence,ai,0.6949,0.0588,244283,0.0,0.6,0
 datadoghq.com,Datadog,ax-high,IT Infrastructure,infra-cloud,0.68,0.75,320,0.75,0.275,1
+delta.app,Delta,ax-low,Fintech & Payments,payments-fintech,0.1633,0.2143,101936,0.0,0.25,0
+dicey.com,Dicey,ax-low,Consumer,consumer-sub,0.1864,0.1765,136202,0.0,0.4,0
+disqo.com,Disqo,ax-high,Analytics,data-analytics,0.6719,0.0556,529940,0.75,0.3,0
+diversion.dev,Diversion,ax-high,Development,dev-tools,0.7143,0.0588,210260,0.0,0.25,0
 docusign.com,DocuSign,ax-low,HR & Legal,hr-legal-ops,0.46,0.647,3252,0.75,0.7,1
 dolby.com,Dolby,ax-low,Development,dev-tools,0.3962,0.4286,19980,0.75,0.325,0
 doordash.com,DoorDash,ax-low,Consumer,consumer-sub,0.2,0.75,2407,0.75,0.525,1
+drata.com,Drata,ax-low,Security,security-identity,0.2321,0.5556,69470,0.75,0.05,0
+dynatrace.com,Dynatrace,ax-high,IT Infrastructure,infra-cloud,0.7778,0.4762,528,0.75,0.425,0
+edge.network,Edge Network,ax-high,IT Infrastructure,infra-cloud,0.9206,0.3077,76489,0.0,0.25,0
 elevenlabs.io,ElevenLabs,ax-high,Artificial Intelligence,ai,0.83,0.875,3980,0.75,0.4,1
 exonet.nl,Exonet,ax-low,IT Infrastructure,infra-cloud,0.4468,0.1429,32981,0.0,0.025,0
+f1laps.com,F1Laps,ax-high,Consumer,consumer-sub,0.6667,0.4,283754,0.0,0.05,0
 featureupvote.com,FeatureUpvote,ax-low,Collaboration & Productivity,productivity,0.0526,0.1667,405408,0.3,0.0,0
 figure.com,Figure,ax-high,Fintech & Payments,payments-fintech,0.7258,0.1765,90606,0.45,0.35,0
 firezone.dev,Firezone,ax-high,Security,security-identity,0.8136,0.6154,181167,0.7,0.35,0
+forexvps.net,ForexVPS,ax-high,IT Infrastructure,infra-cloud,0.9024,0,499594,0.0,0.325,1
 forter.com,Forter,ax-high,Security,security-identity,0.93,0.824,271,0.75,0.4,1
+freebeat.ai,Freebeat,ax-low,Consumer,consumer-sub,0,0.2353,193990,0.0,0.2,1
+freemius.com,Freemius,ax-high,Commerce,commerce,0.7705,0.1538,47113,0.75,0.25,1
 front.com,Front,ax-low,Customer Service,comms-support,0.46,0.5,109979,0.45,0.925,1
 gameguardian.net,GameGuardian,ax-low,Consumer,consumer-sub,0.1667,0.25,59591,0.6,0.125,0
 gamma.app,Gamma,ax-low,Collaboration & Productivity,productivity,0.29,0.538,4061,0.4,0.7,1
 getcollate.io,Collate,ax-high,Analytics,data-analytics,0.6615,0.1176,593519,0.0,0.175,0
+getxeno.com,Xeno,ax-low,Sales & Marketing,martech-sales,0.45,0.1176,667919,0.0,0.1,1
 gojiberry.ai,Gojiberry,ax-low,Artificial Intelligence,ai,0.4,0.2727,477048,0.0,0.725,0
+greenhouse.io,Greenhouse,ax-high,HR & Legal,hr-legal-ops,0.6667,0.3571,4541,0.45,0.3,0
 hashicorp.com,HashiCorp,ax-low,IT Infrastructure,infra-cloud,0.31,0.812,4679,0.75,0.325,1
+headset.io,Headset,ax-low,Analytics,data-analytics,0.4561,0,416859,0.0,0.25,0
 helpscout.com,Help Scout,ax-low,Customer Service,comms-support,0.46,0.8333,20508,0.75,0.25,1
+hirehi.ru,HireHi,ax-low,HR & Legal,hr-legal-ops,0.2326,0.4,436505,0.0,0.05,0
 hubspot.com,HubSpot,ax-high,Sales & Marketing,martech-sales,0.66,0.647,249,1.0,0.3,1
 inet-web.com,inet-web,ax-low,IT Infrastructure,infra-cloud,0.4643,0.25,272815,0.0,0.05,0
+inference.net,Inference,ax-high,Artificial Intelligence,ai,0.6875,0.0556,582716,0.0,1.0,0
 insightly.com,Insightly,ax-low,Sales & Marketing,martech-sales,0.0357,0.4762,64011,0.75,0.5,0
 intercom.com,Intercom,ax-high,Customer Service,comms-support,0.67,0.692,1889,1.0,0.7,1
 kaltura.com,Kaltura,ax-high,Customer Service,comms-support,0.6552,0.5294,4746,0.75,0.375,0
 kapa.ai,Kapa,ax-high,Artificial Intelligence,ai,0.6984,0.2353,125238,0.3,1.0,0
+kive.ai,Kive,ax-high,Artificial Intelligence,ai,0.6667,0.1667,390143,0.0,0.85,0
 klarna.com,Klarna,ax-low,Fintech & Payments,payments-fintech,0.46,0.6667,2187,1.0,0.45,1
 klaviyo.com,Klaviyo,ax-high,Sales & Marketing,martech-sales,0.82,0.8235,601,0.75,0.35,1
+kuraplan.com,Kura Plan,ax-low,Collaboration & Productivity,productivity,0,0.0625,639425,0.0,0.05,0
 langchain.com,LangChain,ax-high,Artificial Intelligence,ai,0.68,0.625,15392,0.85,0.65,1
+liblib.tv,Liblib,ax-low,Artificial Intelligence,ai,0.4419,0.3333,120179,0.0,0.65,0
+lofty.ai,Lofty,ax-low,Sales & Marketing,martech-sales,0.1923,0.2727,746280,0.0,0.45,0
 looker.com,Looker,ax-low,Analytics,data-analytics,0.39,0.083,10950,1.0,0.6,1
+loro.dev,Loro,ax-low,Development,dev-tools,0.1455,0.0588,268705,0.0,0.275,0
 makemycv.com,MakeMyCV,ax-low,Consumer,consumer-sub,0.4634,0.3,369982,0.0,0.075,0
 marketbetter.ai,MarketBetter,ax-high,Sales & Marketing,martech-sales,0.7813,0.1429,652723,0.0,0.125,0
 materialize.com,Materialize,ax-low,IT Infrastructure,infra-cloud,0.4211,0.2,621205,0.45,0.325,0
+merchize.com,Merchize,ax-high,Commerce,commerce,0.6607,0.3077,366142,0.0,0.1,0
 midjourney.com,Midjourney,ax-low,Consumer,consumer-sub,0.02,0.412,4959,0.95,0.875,1
 miro.com,Miro,ax-low,Collaboration & Productivity,productivity,0.42,0.9231,2397,0.75,0.4,1
+moda.app,Moda,ax-high,Consumer,consumer-sub,0.7969,0.2941,435104,0.0,0.25,1
 monday.com,monday.com,ax-high,Collaboration & Productivity,productivity,0.88,0.941,3296,1.0,0.875,1
+montecarlodata.com,Monte Carlo Data,ax-low,Analytics,data-analytics,0.3621,0.1667,353015,0.75,0.35,1
+mulesoft.com,MuleSoft,ax-low,Development,dev-tools,0.4516,0.619,19741,0.75,0.45,0
+myjar.app,MyJar,ax-high,Fintech & Payments,payments-fintech,0.7556,0.1667,171419,0.0,0.025,0
 namecheap.com,Namecheap,ax-low,IT Infrastructure,infra-cloud,0.02,0.562,977,1.0,0.875,1
 neon.tech,Neon,ax-high,IT Infrastructure,infra-cloud,0.73,0.5385,4674,0.45,0.35,1
 netlify.com,Netlify,ax-high,Development,dev-tools,0.86,0.875,4339,0.75,0.95,1
+noah.com,Noah,ax-low,Fintech & Payments,payments-fintech,0.4688,0.2353,725826,0.0,0.3,0
 nobitex.ir,Nobitex,ax-low,Fintech & Payments,payments-fintech,0.3966,0.1538,23364,0.75,0.3,0
 nordvpn.com,NordVPN,ax-low,Security,security-identity,0.1698,0.0625,2514,0.75,0.525,0
 notion.com,Notion,ax-high,Collaboration & Productivity,productivity,0.65,0.4375,1912,1.0,0.85,1
 npmjs.com,npm,ax-low,Development,dev-tools,0.2,0.6,2076,0.85,1.0,1
 nugu.jp,NUGU,ax-low,Artificial Intelligence,ai,0.3684,0.4286,523570,0.0,0.75,0
+numeral.com,Numeral,ax-high,HR & Legal,hr-legal-ops,0.7813,0.1765,416373,0.0,0.275,0
 nursa.com,Nursa,ax-high,HR & Legal,hr-legal-ops,0.661,0.3077,139997,0.75,0.05,1
+oec.world,OEC,ax-low,Analytics,data-analytics,0.0556,0.4118,28509,0.3,0.275,1
+openadblocker.com,OpenAdBlocker,ax-low,Consumer,consumer-sub,0.434,0.2727,704781,0.0,0.0,1
+orangeslices.ai,OrangeSlices,ax-low,Artificial Intelligence,ai,0.325,0.1,487637,0.0,0.425,0
 ory.com,Ory,ax-high,Security,security-identity,0.8095,0.2308,257803,0.7,0.6,0
 otter.ai,Otter,ax-low,Consumer,consumer-sub,0.32,0.4615,9309,0.45,0.975,1
+outset.ai,Outset,ax-high,Analytics,data-analytics,0.65,0.25,408215,0.3,0.325,0
 outskill.com,Outskill,ax-low,Consumer,consumer-sub,0.1552,0.2353,174698,0.0,0.075,0
 pandadoc.com,PandaDoc,ax-low,Sales & Marketing,martech-sales,0.3077,0.8421,14452,0.75,0.475,0
+pandectes.io,Pandectes,ax-low,Security,security-identity,0.4038,0.1667,644750,0.0,0.05,1
 payoneer.com,Payoneer,ax-high,Fintech & Payments,payments-fintech,0.67,0.688,15144,0.75,0.525,1
+peopledatalabs.com,People Data Labs,ax-high,Analytics,data-analytics,0.6875,0.5294,393217,0.75,0.65,1
+phygitals.com,Phygitals,ax-low,Artificial Intelligence,ai,0.2759,0.1875,531229,0.0,0.8,0
+pillar.io,Pillar,ax-low,Fintech & Payments,payments-fintech,0.3889,0.0625,303954,0.0,0.275,1
+pilotplans.com,Pilot Plans,ax-high,Collaboration & Productivity,productivity,0.7143,0.0625,957693,0.0,0.175,1
+pitcher.com,Pitcher,ax-low,Sales & Marketing,martech-sales,0.3793,0.25,616441,0.0,0.275,1
 pleo.io,Pleo,ax-high,Fintech & Payments,payments-fintech,0.6825,0.1667,26398,0.75,0.35,0
 razorpay.com,Razorpay,ax-high,Fintech & Payments,payments-fintech,0.88,0.706,3627,0.75,0.55,1
 replicate.com,Replicate,ax-high,Artificial Intelligence,ai,0.72,0.4706,29605,0.75,0.975,1
 resend.com,Resend,ax-high,Customer Service,comms-support,0.86,1.0,19111,0.75,0.775,1
+resumly.ai,Resumly,ax-high,Consumer,consumer-sub,0.8421,0.3333,870538,0.0,0.1,0
 revolut.com,Revolut,ax-low,Fintech & Payments,payments-fintech,0.05,0.688,5443,0.75,0.4,1
 robinhood.com,Robinhood,ax-low,Fintech & Payments,payments-fintech,0.43,0.562,3034,1.0,0.4,1
+routine.co,Routine,ax-high,Collaboration & Productivity,productivity,0.6774,0.1176,915965,0.0,0.3,0
+runzero.com,runZero,ax-low,Security,security-identity,0.2787,0.4118,412051,0.75,0.4,0
 salesloft.com,Salesloft,ax-low,Sales & Marketing,martech-sales,0.46,0.6471,11810,0.75,0.275,1
+salvy.com.br,Salvy,ax-high,Fintech & Payments,payments-fintech,0.6885,0.0769,985177,0.0,0.25,0
+scandit.com,Scandit,ax-high,Development,dev-tools,0.7258,0.4737,28666,0.75,0.375,0
+scanova.io,Scanova,ax-high,Sales & Marketing,martech-sales,0.8621,0.2143,362404,0.3,0.1,0
+secrets.ai,Secrets,ax-low,Security,security-identity,0.2881,0.2353,23552,0.0,0.325,0
 seranking.com,SE Ranking,ax-low,Analytics,data-analytics,0.46,0.667,20689,0.875,0.7,1
 shapr3d.com,Shapr3D,ax-high,Consumer,consumer-sub,0.7442,0.5714,53978,0.75,0.3,0
 sider.ai,Sider,ax-low,Artificial Intelligence,ai,0.0851,0.2353,17490,0.3,0.925,0
 similarweb.com,Similarweb,ax-high,Analytics,data-analytics,0.7,0.5882,4192,0.75,0.675,1
 sitespeak.ai,SiteSpeak,ax-high,Artificial Intelligence,ai,0.8226,0.5,364561,0.0,0.7,0
+slidesai.io,SlidesAI,ax-high,Artificial Intelligence,ai,0.6538,0.3636,130152,0.0,0.7,0
+smartosc.com,SmartOSC,ax-low,Commerce,commerce,0.434,0.1538,605215,0.3,0.35,1
+snapmagic.com,Snapmagic,ax-low,Sales & Marketing,martech-sales,0.2083,0.2727,979429,0.0,0.15,1
 snowflake.com,Snowflake,ax-low,Analytics,data-analytics,0.46,0.75,2491,0.75,0.375,1
 sofi.com,SoFi,ax-low,Fintech & Payments,payments-fintech,0.27,0.3636,7087,0.75,0.4,1
 solana.com,Solana,ax-high,Fintech & Payments,payments-fintech,0.6667,0.45,14881,0.75,0.325,0
 solanatracker.io,SolanaTracker,ax-high,Analytics,data-analytics,0.7692,0.2353,182063,0.0,0.15,0
+solcom.de,Solcom,ax-low,HR & Legal,hr-legal-ops,0.0962,0.0625,532748,0.3,0.1,0
+sortly.com,Sortly,ax-high,Collaboration & Productivity,productivity,0.6842,0.3846,175852,0.75,0.0,0
 spark.re,Spark,ax-low,Sales & Marketing,martech-sales,0.3051,0.1765,618864,0.0,0.35,0
+spatial.chat,Spatial,ax-high,Customer Service,comms-support,0.7627,0.2308,450306,0.3,0.325,0
+sphere.com,Sphere,ax-low,Development,dev-tools,0,0,568258,0.0,0.35,0
+stability.ai,Stability AI,ax-low,Artificial Intelligence,ai,0.4407,0.5263,18777,1.0,1.0,0
 studyfetch.com,StudyFetch,ax-low,Artificial Intelligence,ai,0.1,0.3529,198237,0.0,0.7,1
+superwhisper.com,Superwhisper,ax-high,Consumer,consumer-sub,0.7258,0.2353,155769,0.0,0.3,1
 surveymonkey.com,SurveyMonkey,ax-high,Collaboration & Productivity,productivity,0.66,0.6471,597,0.75,0.275,1
+swetrix.com,Swetrix,ax-high,Analytics,data-analytics,0.678,0.6154,367701,0.6,0.525,0
+tacto.ai,Tacto,ax-low,Artificial Intelligence,ai,0.4524,0.5,860935,0.0,0.8,1
+tangocard.com,Tango Card,ax-high,Fintech & Payments,payments-fintech,0.8281,0.2941,31248,0.75,0.125,0
 telnyx.com,Telnyx,ax-high,Customer Service,comms-support,0.97,1.0,29105,0.75,0.55,1
+tembo.io,Tembo,ax-high,IT Infrastructure,infra-cloud,0.7705,0.2308,712131,0.3,0.55,1
+ticker.app,Ticker,ax-low,Fintech & Payments,payments-fintech,0.3103,0.0588,864799,0.0,0.25,1
+tidyhq.com,TidyHQ,ax-high,Collaboration & Productivity,productivity,0.7353,0.2222,371066,0.6,0.25,0
 tremendous.com,Tremendous,ax-high,Fintech & Payments,payments-fintech,0.6774,0.3158,62629,0.45,0.325,0
+truora.com,Truora,ax-low,Security,security-identity,0.4655,0.4706,379273,0.75,0.275,0
 twentythree.com,TwentyThree,ax-high,Sales & Marketing,martech-sales,0.6885,0.1667,133348,0.15,0.25,0
 twilio.com,Twilio,ax-high,Customer Service,comms-support,0.68,0.875,1791,1.0,0.625,1
+typo3.com,TYPO3,ax-low,Commerce,commerce,0.3448,0.2353,51331,0.45,0.375,1
+udio.com,Udio,ax-low,Artificial Intelligence,ai,0.1754,0.4375,36746,0.7,0.9,0
 undermind.ai,UnderMind,ax-low,Artificial Intelligence,ai,0.44,0.5,547168,0.0,0.825,0
+usehardal.com,Hardal,ax-high,Analytics,data-analytics,0.7619,0.1176,185281,0.0,0.225,1
+userback.io,Userback,ax-high,Collaboration & Productivity,productivity,0.7656,0.2778,30584,0.6,0.275,0
 vanta.com,Vanta,ax-high,Security,security-identity,0.7097,0.5294,18106,0.75,0.575,0
+viewcy.com,Viewcy,ax-low,Customer Service,comms-support,0.4643,0.0769,916545,0.0,0.125,0
+vizard.ai,Vizard,ax-high,Artificial Intelligence,ai,0.6719,0.0556,54446,0.3,1.0,0
 vultr.com,Vultr,ax-low,IT Infrastructure,infra-cloud,0.39,0.625,6046,0.75,0.4,1
+wallarm.com,Wallarm,ax-low,Security,security-identity,0.1667,0.7059,83724,0.75,0.375,0
 whereby.com,Whereby,ax-low,Customer Service,comms-support,0.4746,0.4,38570,0.75,0.025,0
 wizehire.com,Wizehire,ax-high,HR & Legal,hr-legal-ops,0.7458,0.3333,258305,0.0,0.05,0
+woodpecker-ci.org,Woodpecker CI,ax-low,Development,dev-tools,0.2407,0.75,513435,0.65,0.3,0
 x.ai,xAI,ax-low,Artificial Intelligence,ai,0.46,0.167,4682,1.0,0.95,1
 xbow.com,XBOW,ax-high,Security,security-identity,0.75,0.2353,260495,0.15,0.425,0
+xoswap.com,Xoswap,ax-low,Fintech & Payments,payments-fintech,0.4464,0.2308,516312,0.0,0.075,0
+youlearn.ai,Youlearn,ax-low,Artificial Intelligence,ai,0.3208,0.2727,455217,0.0,0.7,0
+zencity.io,Zencity,ax-low,Analytics,data-analytics,0.4754,0.125,377426,0.75,0.25,0
 zoominfo.com,ZoomInfo,ax-low,Sales & Marketing,martech-sales,0.32,0.8235,4193,0.75,0.35,1

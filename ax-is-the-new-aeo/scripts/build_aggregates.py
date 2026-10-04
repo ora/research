@@ -155,9 +155,9 @@ for ind in sorted(inds):
 put("searches_by_industry", search_ind_rows)
 
 # ================================================================ 5. grounding line chart: mean searches by accessibility bin
-# The paper's figure uses 9 bins over 1,056 domains. On a 106-domain sample the narrow bins
-# hold as few as 5 domains each and the curve gets noisy (one search-heavy domain bends a
-# bin), so this repo publishes the same dose-response over 4 coarse bins, 2 per group.
+# The paper's figure uses 9 bins over 1,056 domains. On a 206-domain sample the narrow bins
+# get thin and the curve gets noisy (one search-heavy domain bends a bin), so this repo
+# publishes the same dose-response over 4 coarse bins, 2 per group.
 BIN_EDGES = [(0.0,0.28),(0.28,0.50),(0.65,0.80),(0.80,1.01)]   # middle .50-.65 excluded by design
 bin_rows = []
 for lo,hi in BIN_EDGES:
@@ -443,7 +443,7 @@ if "--check" in sys.argv:
       "factfate_site_correct":40,"factfate_site_partial":27,"factfate_site_incorrect":4,"factfate_site_not_addressed":29,
       "factfate_web_correct":28,"factfate_web_partial":21,"factfate_web_incorrect":6,"factfate_web_not_addressed":45,
     }
-    # Size tokens describe the corpus, not a rate: on a 10% domain sample they cannot match
+    # Size tokens describe the corpus, not a rate: on a ~20% domain sample they cannot match
     # the full-corpus value and are printed for information only.
     SIZE_TOKENS = {"total_journeys_round","n_domains","acc_answers","acc_facts","acc_domains"}
     print(f"\n  reconciliation: this sample ({M['n_domains']} domains, {M['total_journeys']} journeys)"
@@ -463,7 +463,7 @@ if "--check" in sys.argv:
             ok+=within; diff+=(not within)
         print(f"  {k:40s} {str(cv):>8}  {str(bv):>9}  {delta:>7}   {status}")
     print(f"\n  {ok} of {ok+diff} rate tokens match the published value within +/-1 (or +/-0.1 for")
-    print(f"  decimals); {diff} differ. Differences are expected on a 10% domain sample: every")
+    print(f"  decimals); {diff} differ. Differences are expected on a ~20% domain sample: every")
     print("  direction and every large effect reproduces, absolute values move by a few points,")
     print("  and narrow slices (one hedge pattern within one harness, one arm x one intent) move")
     print("  more. See data/README.md#reconciliation for the headline-by-headline comparison.")
