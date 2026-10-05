@@ -27,14 +27,14 @@ The full study ran **37,927 agent journeys against 1,056 domains** (4 harnesses 
 repeats), producing about 3.25 GB of raw per-run traces. Neither the raw corpus nor the paper
 itself is in this directory.
 
-What is published in [`data/`](data/) is a **stratified ~10% domain sample** (106 domains,
-3,816 journeys) of the normalized, per-journey data, consolidated into 4 flat CSVs, plus the
+What is published in [`data/`](data/) is a **stratified ~20% domain sample** (206 domains,
+7,412 journeys) of the normalized, per-journey data, consolidated into 4 flat CSVs, plus the
 script to recompute every aggregate number from it. See
 [`data/README.md`](data/README.md) for the exact sampling method and a full reconciliation table
 (published numbers vs. numbers recomputed from the sample).
 
-This means: numbers recomputed here from the 10% sample reproduce the study's published numbers
-to within a reasonable delta, not byte-for-byte, because they run on ~10% of the domains. That
+This means: numbers recomputed here from the ~20% sample reproduce the study's published numbers
+to within a reasonable delta, not byte-for-byte, because they run on ~20% of the domains. That
 delta is measured and documented, not hidden.
 
 ## Repository layout
@@ -82,7 +82,7 @@ by-source-x-arm breakdowns as named tables. No dependencies beyond Python 3's st
 `--check` prints a reconciliation against the study's published numbers (baked into the script).
 Accuracy comes in both the paper's stratified paired estimator (`acc_paired_*`) and a simpler
 pooled split; see [`data/README.md`](data/README.md) for the two estimators and for how closely
-each cell reproduces from a 10% sample.
+each cell reproduces from a ~20% sample.
 
 ## Status
 
